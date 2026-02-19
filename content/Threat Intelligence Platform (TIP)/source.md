@@ -18,6 +18,7 @@ draft: false
 - Cybersecurity vendors article
 - Cybersecurity news
 - https://www.cfr.org/global-conflict-tracker
+- https://www.cfr.org/cyber-operations/
 - https://thestraitsintelligence.com/
 - https://globalthreatmap.up.railway.app/
 
