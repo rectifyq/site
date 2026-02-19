@@ -1,5 +1,6 @@
 ---
 title: Threat Intelligence focusing on Malaysia 🇲🇾
+description: Rectifyq provides the most comprehensive Threat Intelligence in Malaysia. Access localized MISP feeds, APT profiles, and real-time cyber threat tracking for the 🇲🇾 ecosystem.
 ---
 
 <link
