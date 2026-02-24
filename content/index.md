@@ -17,7 +17,7 @@ description: Rectifyq provides the most comprehensive Threat Intelligence in Mal
 
 ### 🛡️ The Mission
 > [!ABSTRACT] **A Personal Initiative for National Resilience**
-> Rectifyq is a self-funded, personal project dedicated to refining the Malaysian cybersecurity ecosystem. It’s a space for continuous learning, data sharing, and collective defense—bridging the gap between global intelligence and local reality.
+> Threat Intelligence Malaysia | Rectifyq is a self-funded, personal project dedicated to refining the Malaysian cybersecurity ecosystem. It’s a space for continuous learning, data sharing, and collective defense—bridging the gap between global intelligence and local reality.
 
 ---
 
