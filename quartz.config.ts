@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Rectifyq",
-    pageTitleSuffix: "",
+    pageTitle: "Rectifyq Threat Intelligence Malaysia",
+    pageTitleSuffix: "Threat Intelligence Malaysia",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
