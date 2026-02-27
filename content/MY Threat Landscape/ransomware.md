@@ -11,8 +11,8 @@ tags:
   - [category: e.g., RAT / Scanner / Exfil]
 draft: false
 ---
-
-# Timeline of MY organizations in alleged Ransomware cases
+# Ransomware Tracker
+## Timeline of MY organizations in alleged Ransomware cases
 ```mermaid
 timeline
     title Alleged Ransomware cases on Malaysian organizations
@@ -122,8 +122,21 @@ timeline
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
-
-# Top 10 sectors affected by Ransomware
+## Top 10 Ransomware Group impacting Malaysian Organziations
+```mermaid
+pie title Ransomware Victim (by sector)
+    "Lockbit3" : 21
+    "Qilin" : 13
+    "Ransomhub" : 7
+    "Direwolf" : 7
+    "Akira" : 5
+    "The Gentlemen" : 5
+    "BlackCat" : 4
+    "Hunters" : 4
+    "Babuk" : 4
+    "Lockbit" : 3
+```
+## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Manufacturing" : 11
@@ -137,7 +150,7 @@ pie title Ransomware Victim (by sector)
     "IT" : 4
     "Construction" : 4
 ```
-# Full breakdown Ransomware victim by sector:
+## Full breakdown Ransomware victim by sector:
 | Sector | Count |
 | -- | -- |
 | Manufacturing | 11 |
