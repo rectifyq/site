@@ -118,6 +118,7 @@ timeline
          : Kon**** Nas***** Ber*** (Logistic)
          : PLU* Mal***** Ber*** (Infrastructure)
          : WCT Hol***** Ber*** (Construction)
+         : Mal***** Air***** (Civil Aviation)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -130,8 +131,8 @@ pie title Ransomware Victim (by sector)
     "Logistic" : 6
     "Engineering" : 5
     "Automotive" : 5
+    "Civil Aviation" : 5
     "Pharmacy" : 4
-    "Civil Aviation" : 4
     "Multi-sector" : 4
     "IT" : 4
     "Construction" : 4
@@ -144,8 +145,8 @@ pie title Ransomware Victim (by sector)
 | Logistic | 6 |
 | Engineering | 5 |
 | Automotive | 5 |
+| Civil Aviation | 5 |
 | Pharmacy | 4 |
-| Civil Aviation | 4 |
 | Multi-sector | 4 |
 | IT | 4 |
 | Construction | 4 |
