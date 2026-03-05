@@ -53,11 +53,11 @@ export default (() => {
         fileData.dates?.published?.toISOString() || fileData.dates?.created?.toISOString(),
       author: {
         "@type": "Person",
-        name: cfg.pageTitle.replace("'s Notes", "").replace(" Notes", ""),
+        name: "Rectifyq",
       },
       publisher: {
         "@type": "Person",
-        name: cfg.pageTitle.replace("'s Notes", "").replace(" Notes", ""),
+        name: "Rectifyq",
       },
       mainEntityOfPage: {
         "@type": "WebPage",
@@ -77,12 +77,9 @@ export default (() => {
         {/* Canonical URL */}
         <link rel="canonical" href={canonicalUrl} />
 
-        {/* AMP HTML link */}
-        <link rel="amphtml" href={`${canonicalUrl}/amp`} />
-
         {/* Basic SEO meta tags */}
         <meta name="description" content={description} />
-        <meta name="author" content={cfg.pageTitle.replace("'s Notes", "").replace(" Notes", "")} />
+        <meta name="author" content="Rectifyq" />
         <meta name="generator" content="Quartz" />
 
         {/* Language and region */}
