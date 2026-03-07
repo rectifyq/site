@@ -119,6 +119,7 @@ timeline
          : PLU* Mal***** Ber*** (Infrastructure)
          : WCT Hol***** Ber*** (Construction)
          : Mal***** Air***** (Civil Aviation)
+         : Gol*** Cla* Ind******* Sdn Bhd (Manufacturing)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -126,7 +127,7 @@ p.s. This is based on Ransomware Group claims or news, unless the organization c
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Lockbit3" : 21
-    "Qilin" : 13
+    "Qilin" : 14
     "Ransomhub" : 7
     "Direwolf" : 7
     "Akira" : 5
@@ -139,7 +140,7 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 11
+    "Manufacturing" : 12
     "Government, Administration" : 7
     "Logistic" : 6
     "Engineering" : 5
@@ -153,7 +154,7 @@ pie title Ransomware Victim (by sector)
 ## Full breakdown Ransomware victim by sector:
 | Sector | Count |
 | -- | -- |
-| Manufacturing | 11 |
+| Manufacturing | 12 |
 | Government, Administration | 7 |
 | Logistic | 6 |
 | Engineering | 5 |

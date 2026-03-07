@@ -73,7 +73,7 @@ let index = new FlexSearch.Document<Item>({
       },
       {
         field: "content",
-        tokenize: "forward",
+        tokenize: "full",
       },
       {
         field: "tags",

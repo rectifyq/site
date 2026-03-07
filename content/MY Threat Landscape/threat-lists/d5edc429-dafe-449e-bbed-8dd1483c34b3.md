@@ -4,8 +4,8 @@ date: 2022-11-16
 ---
 📃Title: MA-888.112022: MyCERT Alert - Suspicious Fraudulent Telephone Calls Asking for Users NRIC Number\
 📅Date: 2022-11-16\
-🔗References: \
-https://www.mycert.org.my/portal/advisory?id=MA-888.112022
+🔗References: 
+- https://www.mycert.org.my/portal/advisory?id=MA-888.112022
 
 🔖Rectifyq Taxonomies:
 - relevancy: 🔴 Highly Relevant
@@ -22,3 +22,7 @@ https://www.mycert.org.my/portal/advisory?id=MA-888.112022
 
 
 MISP event uuid: [d5edc429-dafe-449e-bbed-8dd1483c34b3](https://mispmy.rectifyq.com/events/view/d5edc429-dafe-449e-bbed-8dd1483c34b3)
+## Indicator of Compromise (IoCs)
+```
+type,value,comment
+```

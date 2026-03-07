@@ -38,36 +38,7 @@ export default (() => {
     // Canonical URL for current page
     const canonicalUrl = socialUrl
 
-    // Generate structured data (JSON-LD)
-    const structuredData = {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": canonicalUrl,
-      url: canonicalUrl,
-      name: title,
-      description: description,
-      headline: title,
-      inLanguage: cfg.locale,
-      dateModified: fileData.dates?.modified?.toISOString(),
-      datePublished:
-        fileData.dates?.published?.toISOString() || fileData.dates?.created?.toISOString(),
-      author: {
-        "@type": "Person",
-        name: "Rectifyq",
-      },
-      publisher: {
-        "@type": "Person",
-        name: "Rectifyq",
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": canonicalUrl,
-      },
-      ...(fileData.frontmatter?.tags &&
-        fileData.frontmatter.tags.length > 0 && {
-          keywords: fileData.frontmatter.tags.join(", "),
-        }),
-    }
+    
     return (
       <head>
         <title>{title}</title>
@@ -99,9 +70,6 @@ export default (() => {
         {fileData.dates?.modified && (
           <meta name="revised" content={fileData.dates.modified.toISOString()} />
         )}
-
-        {/* Structured Data (JSON-LD) */}
-        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
 
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
