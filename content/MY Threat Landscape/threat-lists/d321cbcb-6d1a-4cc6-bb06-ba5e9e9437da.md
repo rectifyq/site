@@ -32,4 +32,5 @@ url, https://api.cutlink.site/api/s/3PU970/, 'iOS exploit chain'
 url, https://imjustarandomsite.3utilities.com, 'exploit delivery server'
 hostname, www.sufficeconfigure.com, 'landing page and exploit delivery'
 hostname, www.anglesyen.org, 'malware C2'
-```
+
+Full IOCs available in Rectifyq's MISP```

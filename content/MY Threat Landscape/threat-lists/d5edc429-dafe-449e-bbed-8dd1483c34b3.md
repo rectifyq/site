@@ -25,4 +25,5 @@ MISP event uuid: [d5edc429-dafe-449e-bbed-8dd1483c34b3](https://mispmy.rectifyq.
 ## Indicator of Compromise (IoCs)
 ```
 type,value,comment
-```
+
+Full IOCs available in Rectifyq's MISP```

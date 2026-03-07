@@ -35,9 +35,6 @@ MISP event uuid: [f0dae99d-cc52-47ed-9db9-f8b09d2a05de](https://mispmy.rectifyq.
 ## Indicator of Compromise (IoCs)
 ```
 type,value,comment
-md5, 3c7316012cba3bbfa8a95d7277cda873, 'VIRTUALGATE DROPPER'
-sha1, d6a57b9aaa20fe4f3330f5979979081af09a4232, 'VIRTUALGATE DROPPER'
-sha256, 1893523f2a4d4e7905f1b688c5a81b069f06b3c3d8c0ff9d16620468d117edbb, 'VIRTUALGATE DROPPER'
 md5, 381b7a2a6d581e3482c829bfb542a7de, 'UTILITY No sample in VT\r\nLast check:12/02/2026'
 md5, 876787f76867ecf654019bd19409c5b8, 'INSTALLER No sample in VT\r\nLast check:12/02/2026'
 md5, 827d8ae502e3a4d56e6c3a238ba855a7, 'ARCHIVE No sample in VT\r\nLast check:12/02/2026'
@@ -120,4 +117,5 @@ ip-dst, 123.58.196.34, ''
 ip-dst, 118.193.63.40, ''
 ip-dst, 118.193.61.71, ''
 ip-dst, 118.193.61.178, ''
-```
+
+Full IOCs available in Rectifyq's MISP```
