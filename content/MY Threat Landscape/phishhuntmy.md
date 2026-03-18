@@ -37,7 +37,7 @@ Rule: To keep the rewards distributed, one participant cannot win both. If the t
 ### 2 champions - Mohd Fazri & Ahmad Nazif
 
 > [!abstract] **Updates**
-> After another round of review and recalculation, the previously announced winner lost 1 point which resulted to a draw between Mohd Fazri & Ahmad Nazif. Therefore, decision has been made to announce both as champion for this challenge with the accumulatin of same score points. So, both won the duit raya!
+> After another round of review and recalculation, the previously announced winner lost 1 point which resulted to a draw between Mohd Fazri & Ahmad Nazif. Therefore, decision has been made to announce both as champion for this challenge with the accumulating of same score points. So, both won the duit raya!
 
 ### Below are the top 5:
 
