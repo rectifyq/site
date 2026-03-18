@@ -1,8 +1,10 @@
 ---
 title: Get access to Rectifyq's MISP
 ---
+Application to get access to Rectifyq's TIP (MISP) is now open.
+https://forms.gle/b57aaQixjdS5CPTEA
 
-Courses and application form to be released soon.🙏
+Courses to be released soon.🙏
 
 ## Role: Cybervigilantes
 
