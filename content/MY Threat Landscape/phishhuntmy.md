@@ -5,7 +5,7 @@ description: "Phish Hunting - hunting active phishing campaigns targeting Malays
 draft: false
 ---
 ## Background
-Phishing scams—like Telegram takeovers, fake APK wedding invites, and Sumbangan Rahmah fakesite—have been around for ages. Most IT pros and cybersecurity experts tend to ignore them, thinking they’re "uninteresting" or wondering how anyone could still fall for them. But the fact that these scams are still happening means they work. Even if they don't catch everyone, they only need to hit the right victim for the financial impact to be devastating.
+Phishing scams—like Telegram takeovers, fake APK wedding invites, and Bantuan Kerajaan fakesite—have been around for ages. Most IT pros and cybersecurity experts tend to ignore them, thinking they’re "uninteresting" or wondering how anyone could still fall for them. But the fact that these scams are still happening means they work. Even if they don't catch everyone, they only need to hit the right victim for the financial impact to be devastating.
 
 A few things triggered me to organize this challenge. One was an article by Foxy about recent phishing campaigns, which reminded me of my own previous writing. Then, a "threat actor" actually had the nerve to post a phishing link right in the OWASP Malaysia WhatsApp group!😂 When KDJebat called for an advisory, it gave me an idea: why not create a challenge to push pros and students to actually analyze these campaigns?
 
