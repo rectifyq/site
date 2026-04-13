@@ -29,7 +29,7 @@ To move from "collecting data" to "producing intelligence," you need the right t
 ### 🌏Global MISP events
 - MISP 2024 - [https://feeds.rectifyq.com/MISP2024](https://feeds.rectifyq.com/MISP2024)
 - MISP 2025 - [https://feeds.rectifyq.com/MISP2025](https://feeds.rectifyq.com/MISP2025)
-- MISP 2026 - soon
+- MISP 2026 - [https://feeds.rectifyq.com/MISP2026](https://feeds.rectifyq.com/MISP2026)
 
 ### 🇲🇾 MISP MY
 - MISP MY - soon
@@ -64,6 +64,7 @@ flowchart TB
         M4[ISC2]
         M5[OWASP KL]
         M6[MyOPECS]
+        M7[MOC]
     end
     subgraph Conferences
         direction RL
@@ -81,6 +82,7 @@ flowchart TB
     click M4 "https://www.isc2chapter.my/" _blank
     click M5 "https://owasp.org/www-chapter-kuala-lumpur/" _blank
     click M6 "https://t.me/+HZLe3mJs9MxlNzRl" _blank
+    click M7 "https://www.linkedin.com/company/malaysiaosintcommunity/" _blank
 
     click C1 "https://wargames.my" _blank
     click C2 "https://girls-in-ctf.online/" _blank
