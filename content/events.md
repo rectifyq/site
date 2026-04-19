@@ -15,10 +15,11 @@ What is the latest upcoming cybersecurity events in Malaysia or nearby? (Meetups
 
 Don't let a great event slip under your radar. Use our auto-updating calendar to keep your schedule in sync with the community. Sync it to your phone:
 - 🤖Android (Google Calendar): https://calendar.google.com/calendar/u/2?cid=ZXZlbnRzQHJlY3RpZnlxLmNvbQ
-- 🍎Apple (Apple Calendar): ```https://calendar.google.com/calendar/ical/events%40rectifyq.com/public/basic.ics```
+- 🍎Apple (Apple Calendar): 
   - In Calendar, tap the Calendars button📅. 
   - Tap Add Calendar, then tap Add Subscription Calendar.
   - Enter the calendar’s web address, then tap Find.
+  ```https://calendar.google.com/calendar/ical/events%40rectifyq.com/public/basic.ics```
 
 <iframe src="https://calendar.google.com/calendar/embed?src=events%40rectifyq.com&ctz=Asia%2FKuala_Lumpur" style="border: 1" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
