@@ -46,7 +46,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       globalGraph: {
-        removeTags: ["⚔Threat","relevant"]
+        removeTags: ["⚔Threat","relevant", "targeted", "broad-based"]
       }
     }),
     Component.DesktopOnly(Component.TableOfContents()),

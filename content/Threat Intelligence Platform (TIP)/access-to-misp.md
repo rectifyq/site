@@ -6,6 +6,30 @@ https://forms.gle/b57aaQixjdS5CPTEA
 
 Courses to be released soon.🙏
 
+## Roles Comparison
+| Feature | Cyberscout | Cybervigilantes | Cyberheroes |
+| --- | --- | --- | --- |  
+|Trust Level|Introductory|Established|Elite / Vetted|
+|Access Rights|Read-Only|Read & Contribute|Read & Contribute & Other perks*|
+|Data Scope|TLP:CLEAR|TLP:CLEAR & TLP:GREEN|All (inc. TLP:AMBER)|
+|Primary Action|Observation & Learning|Reporting & Publishing|Deep Analysis & Vetting|
+|Yearly KPI|None|Completed course + Publish at least 1 original articles on local threats.|Publish at least 1 original articles on local threats, Vetted|
+
+## Role: Cyberscout
+```mermaid
+flowchart LR
+    B2[Apply via Google Form]
+    B2 --> B4[Post min 1 Article on Malaysia Threat Landscape on any platform]
+    B4 -- Checked Quarterly--> B5{Inline with T&C?}
+
+    B5 -- Yes --> B6[Access MISP202X & MISPMY]
+    B7 --> B4
+    B6 --> B7(TLP:CLEAR)
+
+    B5 -- No --> B8[Account Disabled]
+    B8 --> B2
+```
+
 ## Role: Cybervigilantes
 
 ```mermaid
