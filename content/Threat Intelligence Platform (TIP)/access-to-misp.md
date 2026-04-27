@@ -13,7 +13,7 @@ Courses to be released soon.🙏
 |Access Rights|Read-Only|Read & Contribute|Read & Contribute & Other perks*|
 |Data Scope|TLP:CLEAR|TLP:CLEAR & TLP:GREEN|All (inc. TLP:AMBER)|
 |Primary Action|Observation & Learning|Reporting & Publishing|Deep Analysis & Vetting|
-|Yearly KPI|None|Completed course + Publish at least 1 original articles on local threats.|Publish at least 1 original articles on local threats, Vetted|
+|Yearly KPI|None|Completed course + Publish at least 1 original articles on local threats.|Publish at least 4 original articles on local threats, Vetted/well known national contribution|
 
 ## Role: Cyberscout
 ```mermaid
