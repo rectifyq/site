@@ -21,6 +21,9 @@ draft: false
 - https://www.cfr.org/cyber-operations/
 - https://thestraitsintelligence.com/
 - https://globalthreatmap.up.railway.app/
+- Daily Darkweb X - https://x.com/search?q=from%3ADailyDarkWeb%20%F0%9F%87%B2%F0%9F%87%BE&src=typed_query&f=live
+- Ransomware.live - https://www.ransomware.live/map/MY
+- Hendryadrian tool - https://www.hendryadrian.com/dashboard/query.php?x=malaysia&itemsn=50&from=&to=&sort=date&categories%5B%5D=44&categories%5B%5D=1&categories%5B%5D=304&categories%5B%5D=253
 
 ## Local cyberheroes
 - https://blog.xanda.org/
@@ -35,5 +38,5 @@ draft: false
 - https://thestraitsintelligence.com/
 
 ## Private sources
-- HS - Malaysia Spamtrap Project
+- Heimdall - Malaysian Spamtrap Project
 - Rectifyq's MISPs Project
