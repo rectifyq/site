@@ -33,3 +33,5 @@ By promoting your event here, you help fellow pros and enthusiasts stay connecte
 Note: Submitted events will be reviewed and added to the public calendar if it is relevant.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdb6qfjAbX40UoDkfptlx21pNXHrZRq04ZjBbYffEtsW4xz7g/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+[webcal://calendar.google.com/calendar/ical/events%40rectifyq.com/public/basic.ics](webcal://calendar.google.com/calendar/ical/events%40rectifyq.com/public/basic.ics)

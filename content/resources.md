@@ -35,7 +35,7 @@ To move from "collecting data" to "producing intelligence," you need the right t
 - MISP MY - soon
 
 ### 📦Miscelleanous
-- MISP CTFs - soon
+- MISP ICS-OT - [https://feeds.rectifyq.com/MISP-ICS-OT](https://feeds.rectifyq.com/MISP-ICS-OT)
 
 ---
 # Malaysia Cybersecurity Ecosystem
