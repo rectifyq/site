@@ -7,15 +7,16 @@ https://forms.gle/b57aaQixjdS5CPTEA
 Courses to be released soon.🙏
 
 ## Roles Comparison
-| Feature | Lvl1:Cybervigilantes | Lvl2:Cybervigilantes | Lvl3:Cyberheroes |
+| Feature | Level 1 | Level 2 | Level 3 |
 | --- | --- | --- | --- |  
+|Organization|Cybervigilantes|Cybervigilantes|Cyberheroes|
 |Access Rights|Read-only|Publisher|Vetted User|
 |Data Scope|TLP:CLEAR & TLP:GREEN|TLP:CLEAR & TLP:GREEN|All (inc. TLP:AMBER)|
 |Data Masking|Masked data|Masked data|Unmasked data|
 |Primary Action|Observation & Learning|Reporting & Publishing|Deep Analysis & Vetting|
 |Yearly KPI|None|Completed course + Publish at least 1 original articles on local threats.|Publish at least 4 original articles on local threats, Vetted/well known national contribution or sponsored for the project|
 
-## Role: Lvl1:Cybervigilantes 
+## Role: Level 1:Cybervigilantes 
 ```mermaid
 flowchart LR
     B2[Apply via Google Form]
@@ -30,7 +31,7 @@ flowchart LR
     B8 --> B2
 ```
 
-## Role: Lvl2:Cybervigilantes
+## Role: Level 2:Cybervigilantes
 
 ```mermaid
 flowchart LR
@@ -45,7 +46,7 @@ flowchart LR
     B5 -- No --> B8[Account Disabled]
     B8 --> B2
 ```
-## Role: Lvl3:Cyberheroes
+## Role: Level 3:Cyberheroes
 ```mermaid
 flowchart LR
     C0[Currently Cybervigilantes Role] --> C1[Continuous Contribution] 
