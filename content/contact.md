@@ -1,6 +1,8 @@
 ---
 title: Contact Us
 description: Get in touch with the Rectifyq team for local intel, API support, or incident collaboration.
+date: 1999-01-01
+modified: 1999-01-01
 ---
 
 # Connect with Rectifyq

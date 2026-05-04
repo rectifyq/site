@@ -1,6 +1,7 @@
 ---
 title: 2024-06-19 Cloaked and Covert Uncovering UNC3886 Espionage Operations
 date: 2024-06-19
+modified: 2024-06-19
 ---
 📃Title: Cloaked and Covert: Uncovering UNC3886 Espionage Operations\
 📅Date: 2024-06-19\
@@ -22,8 +23,8 @@ date: 2024-06-19
 - action-taken: #diamond-model
 
 🔖MISP Galaxies:
-- producer #Mandiant
-- threat-actor #UNC3886
+- producer= #Mandiant
+- threat-actor= #UNC3886
 - region="021 - Northern America"
 - region="035 - South-eastern Asia"
 - malpedia="VIRTUALGATE"
@@ -35,6 +36,7 @@ MISP event uuid: [f0dae99d-cc52-47ed-9db9-f8b09d2a05de](https://mispmy.rectifyq.
 ## Indicator of Compromise (IoCs)
 ```
 type,value,comment
+md5, 3c7316012cba3bbfa8a95d7277cda873, 'VIRTUALGATE DROPPER'
 md5, 381b7a2a6d581e3482c829bfb542a7de, 'UTILITY No sample in VT\r\nLast check:12/02/2026'
 md5, 876787f76867ecf654019bd19409c5b8, 'INSTALLER No sample in VT\r\nLast check:12/02/2026'
 md5, 827d8ae502e3a4d56e6c3a238ba855a7, 'ARCHIVE No sample in VT\r\nLast check:12/02/2026'
@@ -118,4 +120,7 @@ ip-dst, 118.193.63.40, ''
 ip-dst, 118.193.61.71, ''
 ip-dst, 118.193.61.178, ''
 
-Full IOCs available in Rectifyq's MISP```
+```
+
+
+Full IOCs available in Rectifyq's [MISP](https://mispmy.rectifyq.com/events/view/f0dae99d-cc52-47ed-9db9-f8b09d2a05de)

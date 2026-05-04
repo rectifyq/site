@@ -1,6 +1,7 @@
 ---
 title: 2025-03-31 The Espionage Toolkit A Closer Look at its Advanced Techniques
 date: 2025-03-31
+modified: 2025-03-31
 ---
 📃Title: The Espionage Toolkit: A Closer Look at its Advanced Techniques\
 📅Date: 2025-03-31\
@@ -25,7 +26,7 @@ date: 2025-03-31
 - action-taken: #diamond-model
 
 🔖MISP Galaxies:
-- producer #Trend-Micro
+- producer= #Trend-Micro
 - target-information="Brazil"
 - target-information="Malaysia"
 - target-information="Philippines"
@@ -40,7 +41,7 @@ date: 2025-03-31
 - sector="Retail"
 - sector="Technology"
 - sector="Telecoms"
-- threat-actor #Earth-Alux
+- threat-actor= #Earth-Alux
 - mitre-attack-pattern=['T1053.005', 'T1119', 'T1082', 'T1190', 'T1055', 'T1070.006', 'T1505.003', 'T1016', 'T1087', 'T1020', 'T1083', 'T1057', 'T1027', 'T1059.003', 'T1574.002', 'T1105', 'T1071', 'T1087.002', 'T1567.002', 'T1036', 'T1036.003', 'T1071.001']
 
 
@@ -48,6 +49,32 @@ MISP event uuid: [d98383af-37bf-41b2-b15e-cbaffdc5ecdf](https://mispmy.rectifyq.
 ## Indicator of Compromise (IoCs)
 ```
 type,value,comment
+md5, 6351e7f4c55484423154abe318a706ec, ''
+md5, 635a18a9f153c8853b5f9dd2d27a0892, ''
+md5, b07d35c7c74df623829da5be1d76068a, ''
+md5, 10a309d6789c7763ec207961ac088689, ''
+md5, 32a1e497b981dbbf78a6a6b6efe353a7, ''
+md5, e2865d480ab49b6b7e25cf19310509c9, ''
+md5, 6937c923ca4946748694179f1e39433b, ''
+md5, b821f9d2364b4c457a097f11042212c6, ''
+md5, 3fecff305be731c8e4a82ee427a244e6, ''
+md5, 27d878799cd23d43e93f44d4a2ce6792, ''
+md5, 61d72565e936eb04b734914e26223865, ''
+md5, 6e1fd4b0bd83c99ddba761b9d9ba2891, ''
+md5, ce3078820889e28e497b43c6f6103689, ''
+md5, 63032105c83f2b904aba1926a05c7353, ''
+md5, d65a43c6c6ae3281ea8ff301743d7251, ''
+md5, d0394b2f7ae865397f3ce73d8b60db23, ''
+md5, 7e18911b416a928fe64574468c5dee98, ''
+md5, ef2016bd438ad1026733ad00e047c385, ''
+md5, 7a7bc7b5187d3b0f05986567027d29b3, ''
+md5, 9e3f14717e8dcf9745c3083d1ac3952d, ''
+md5, 3f73109e24a3d8fbebb8be5b4eafc2c2, ''
+md5, 1fc97fdc9d87a4c6352d5dd1a27b2bea, ''
+md5, 1cffc6f22f9837062f499570bcc393d3, ''
+md5, e849bf3328b1a0a7834d420cb5d79df7, ''
+md5, 0214e37107c84a580288c5ffc5706d01, ''
+md5, f3f02c5adea6974c421080c19d0bf34f, ''
 sha256, 00a41c8272d405ba85ae9d0e435e3030033e8a032f3d762367d0a57d41524f3a, 'No sample in VT\r\nLast check:11/04/2025'
 sha256, 0d3ec88b0bfa5530e45dec75dfbea7ae683bdea91105b5f90a787beaabd1ef27, 'No sample in VT\r\nLast check:11/04/2025'
 sha256, 0f6fe5d0ee754d581d4a8d989e83272b121d0125bd3c77e57a6b14db23f425ab, 'No sample in VT\r\nLast check:11/04/2025'
@@ -112,4 +139,7 @@ hostname, www.upload-microsoft.com, 'COBEACON C&C'
 hostname, google.otp.us.kg, 'COBEACON C&C'
 ip-dst, 8.218.222.216, 'Download IP'
 
-Full IOCs available in Rectifyq's MISP```
+```
+
+
+Full IOCs available in Rectifyq's [MISP](https://mispmy.rectifyq.com/events/view/d98383af-37bf-41b2-b15e-cbaffdc5ecdf)

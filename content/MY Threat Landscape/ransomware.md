@@ -1,6 +1,7 @@
 ---
 title: "Ransomware Tracker"
 date: 2026-01-29
+modified: 2020-01-01
 description: "Capability profile for [Tool Name], utilized by [Actor Name/s] fodfdr [Phase]."
 aliases:
   - "[Alternative Name / Internal ID]"
@@ -108,7 +109,7 @@ timeline
          : PJS* Con******** Sdn Bhd (Consulting)
          : Ori***** Cas*** Sdn Bhd (Manufacturing)
          : Ber**** Air Sdn* Bhd* (Civil Aviation)
-    2026 : Sun*** Gro** Ber*** (Manufacturer)
+    2026 : Sun*** Gro** Ber*** (Manufacturing)
          : Bin* Dar****** Ber*** (Construction)
          : PTS Gol***** Ind******* Sdn Bhd (Manufacturing)
          : RED**** Dig**** Ber*** (Telecoms)
@@ -120,6 +121,14 @@ timeline
          : WCT Hol***** Ber*** (Construction)
          : Mal***** Air***** (Civil Aviation)
          : Gol*** Cla* Ind******* Sdn Bhd (Manufacturing)
+         : Ker**** Pro**** Gro** (Construction)
+         : Int********** Ass******* Sdn (Health)
+         : fav************* (Manufacturing)
+         : Jat* Tin*** (Engineering)
+         : Jes** Gro** (Development)
+         : Mal****** NP* Fer******* Sdn* Bhd (Agriculture)
+         : olp********* (Engineering)
+         : whe*********** (Manufacturing)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -127,11 +136,11 @@ p.s. This is based on Ransomware Group claims or news, unless the organization c
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Lockbit3" : 21
-    "Qilin" : 14
+    "Qilin" : 15
     "Ransomhub" : 7
     "Direwolf" : 7
     "Akira" : 5
-    "The Gentlemen" : 5
+    "The Gentlemen" : 6
     "BlackCat" : 4
     "Hunters" : 4
     "Babuk" : 4
@@ -140,31 +149,31 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 12
+    "Manufacturing" : 15
     "Government, Administration" : 7
+    "Engineering" : 7
     "Logistic" : 6
-    "Engineering" : 5
     "Automotive" : 5
     "Civil Aviation" : 5
+    "Construction" : 5
     "Pharmacy" : 4
     "Multi-sector" : 4
     "IT" : 4
-    "Construction" : 4
 ```
 ## Full breakdown Ransomware victim by sector:
 | Sector | Count |
 | -- | -- |
-| Manufacturing | 12 |
+| Manufacturing | 15 |
 | Government, Administration | 7 |
+| Engineering | 7 |
 | Logistic | 6 |
-| Engineering | 5 |
 | Automotive | 5 |
 | Civil Aviation | 5 |
+| Construction | 5 |
 | Pharmacy | 4 |
 | Multi-sector | 4 |
 | IT | 4 |
-| Construction | 4 |
-| Agriculture | 3 |
+| Agriculture | 4 |
 | Retail | 3 |
 | Electronic | 3 |
 | Academia - University | 3 |
@@ -176,15 +185,14 @@ pie title Ransomware Victim (by sector)
 | eCommerce | 2 |
 | Consulting | 2 |
 | Transport | 2 |
+| Health | 2 |
+| Development | 2 |
 | Bank | 1 |
 | Railway | 1 |
 | Online marketplace | 1 |
 | Finance | 1 |
-| Health | 1 |
 | Television Broadcast | 1 |
 | Marketing | 1 |
-| Manufacturer | 1 |
-| Development | 1 |
 | Energy | 1 |
 | Insurance | 1 |
 | Employment | 1 |

@@ -1,6 +1,7 @@
 ---
 title: 2022-08-30 Rising Tide Chasing the Currents of Espionage in the South China Sea
 date: 2022-08-30
+modified: 2022-08-30
 ---
 📃Title: Rising Tide: Chasing the Currents of Espionage in the South China Sea\
 📅Date: 2022-08-30\
@@ -19,13 +20,13 @@ date: 2022-08-30
 - topic: #geopolitical
 
 🔖MISP Galaxies:
-- producer #Proofpoint
+- producer= #Proofpoint
 - target-information="United States"
 - target-information="Malaysia"
 - target-information="Australia"
 - target-information="Japan"
 - target-information="Cambodia"
-- threat-actor #APT40
+- threat-actor= #APT40
 - sector="Defense"
 - sector="Education"
 - sector="Energy"
@@ -41,6 +42,19 @@ MISP event uuid: [83f31bcf-cf2e-4ebb-b8c2-7ef9e6925c9e](https://mispmy.rectifyq.
 ## Indicator of Compromise (IoCs)
 ```
 type,value,comment
+md5, 3d2cd2ddb95f2dec74375e7475dfe743, 'ScanBox Sample'
+md5, 6f8688d0691985e43261408c50764c40, 'ScanBox Sample'
+md5, 33094e2d6878eb6faab9fbdb2a4a4ebe, 'ScanBox Sample'
+md5, d6704f0eccb1802dc931422224923843, 'ScanBox Sample'
+md5, f87602542673e7dde30075b2e340a47f, 'ScanBox Sample'
+md5, f542bd63c685840dfb42136c2669bd6b, 'ScanBox Sample'
+md5, 21e087f31c02bf417d958d356a13f315, 'ScanBox Sample'
+md5, b46e92ace23a026e3d1772fecb1b6b3d, 'ScanBox Sample'
+md5, 88675e058531c8ac4440a1fb4f55d54f, 'ScanBox Sample'
+md5, 3e179ef0442be6dcaedbff9446eaf82a, 'ScanBox Sample'
+md5, 3c2ec71dbec0629c92ee081fa5523190, 'Legitimate PE used in DLL Sideloading'
+md5, c5c600f5bcc25805dc42e791a543fdd5, 'Legitimate PE used in DLL Sideloading'
+md5, 9f5f2f0fb0a7f5aa9f16b9a7b6dad89f, 'Legitimate PE used in DLL Sideloading'
 email-src, visitable.daishaju@gmail.com, 'Phishing Email Sender Address'
 email-src, goodlandteactuator@gmail.com, 'Phishing Email Sender Address'
 email-src, claire3bluntxq@gmail.com, 'Phishing Email Sender Address'
@@ -110,4 +124,7 @@ sha256, e1f34cb031bac517796c363c2b31366509bf1367599fd5583c6bc2b0314758bb, 'Paylo
 sha256, 55a5871b36109a38eed8aef943ccddf1ae9945f27f21b1c62210a810bb0f7196, 'Payload No sample in VT\r\nLast check:23/02/2025'
 sha256, 7e1ab1b08eb4b69df11955c3dfe3050be467a374adb704a917ee1a69abcc58a5, 'Payload No sample in VT\r\nLast check:23/02/2025'
 
-Full IOCs available in Rectifyq's MISP```
+```
+
+
+Full IOCs available in Rectifyq's [MISP](https://mispmy.rectifyq.com/events/view/83f31bcf-cf2e-4ebb-b8c2-7ef9e6925c9e)

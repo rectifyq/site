@@ -1,7 +1,15 @@
 ---
 title: Threat Actor Tracker
-date: 2000-01-01
+date: 1999-01-01
+modified: 1999-01-01
 ---
+
+> [!abstract] Disclaimer: The Attribution Nuance
+> Actor clustering and naming are interpretations by specific researchers or vendors. For most organizations, prioritizing generic detection of **TTPs (Tactics, Techniques, and Procedures)** offers higher defensive value than definitive attribution. Formal attribution is primarily the domain of Law Enforcement and Government entities with the authority to pursue legal or physical recourse.\
+> \
+> **TL;DR:** Attribution is subjective. Focus on detecting TTPs to protect your network; leave identifying the "who" to Law Enforcement.
+
+
 ```mermaid
 flowchart LR
     M["🇲🇾 Malaysia"] --o C["🇨🇳 China"]

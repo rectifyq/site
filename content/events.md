@@ -7,7 +7,8 @@ tags:
   - cti
   - malaysia
   - events
-date: 2026-04-18
+date: 1999-01-01
+modified: 1999-01-01
 ---
 
 ## 📅 List of Malaysia Cybersecurity Events

@@ -1,6 +1,7 @@
 ---
 title: "TTPs"
 date: 2000-01-29
+modified: 2020-01-01
 description: "Tactic Technique Procedures."
 aliases:
   - "[Alternative Name / Internal ID]"

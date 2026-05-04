@@ -1,5 +1,7 @@
 ---
 title: Installing MISP + MISP Module
+date: 1999-01-01
+modified: 1999-01-01
 ---
 # Installing MISP + MISP Module
 

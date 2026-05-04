@@ -1,6 +1,8 @@
 ---
 title: Threat Intelligence focusing on Malaysia 🇲🇾
 description: Rectifyq provides the most comprehensive Threat Intelligence in Malaysia.
+date: 1999-01-01
+modified: 1999-01-01
 ---
 
 <link
@@ -40,6 +42,7 @@ Our intelligence flows through several specialized channels. Click any node belo
 flowchart LR
     A@{ shape: lean-r, label: "Sources" } ==> B[fa:fa-comment MISP202x]
     B ==> C[fa:fa-comment MISPMY]
+    B ==> Y[fa:fa-comment MISP-ICS-OT]
 
     subgraph Global
     E@{ shape: lean-r, label: "fab:fa-telegram Telegram" }
@@ -78,10 +81,12 @@ flowchart LR
     click J "https://rectifyq.notion.site/Rectifyq-7ece6db87cd44ad4b7503e238191b801" _blank
     click K "https://www.tiktok.com/@rectifyq" _blank
     click L "https://www.virustotal.com/gui/user/rectifyq" _blank
+    click Y "https://feeds.rectifyq.com/MISP-ICS-OT/" _blank
 
     style A stroke:#0f0
     style B stroke:#00f
     style C stroke:#00f
+    style Y stroke:#00f
 ``` 
 
 

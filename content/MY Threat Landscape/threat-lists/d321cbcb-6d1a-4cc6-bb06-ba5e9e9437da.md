@@ -1,6 +1,7 @@
 ---
 title: 2023-03-29 Spyware vendors use 0-days and n-days against popular platforms
 date: 2023-03-29
+modified: 2023-03-29
 ---
 📃Title: Spyware vendors use 0-days and n-days against popular platforms\
 📅Date: 2023-03-29\
@@ -15,7 +16,7 @@ date: 2023-03-29
 - MY-relevancy: #relevant
 
 🔖MISP Galaxies:
-- producer #Google-Cloud-Blog
+- producer= #Google-Cloud-Blog
 - target-information="Kazakhstan"
 - target-information="Malaysia"
 - target-information="United Arab Emirates"
@@ -33,4 +34,7 @@ url, https://imjustarandomsite.3utilities.com, 'exploit delivery server'
 hostname, www.sufficeconfigure.com, 'landing page and exploit delivery'
 hostname, www.anglesyen.org, 'malware C2'
 
-Full IOCs available in Rectifyq's MISP```
+```
+
+
+Full IOCs available in Rectifyq's [MISP](https://mispmy.rectifyq.com/events/view/d321cbcb-6d1a-4cc6-bb06-ba5e9e9437da)

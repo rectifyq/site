@@ -1,6 +1,7 @@
 ---
 title: "MISP Style Guide"
 date: 2026-01-29
+modified: 2020-01-01
 description: "Capability profile for [Tool Name], utilized by [Actor Name/s] fodfdr [Phase]."
 aliases:
   - "[Alternative Name / Internal ID]"
