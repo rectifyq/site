@@ -126,17 +126,17 @@ export default (() => {
           }
         })}
         {/* Link to Web App Manifest */}
-          <link rel="manifest" href="/manifest.json" />
+          <link rel="manifest" href="/static/manifest.json" />
           <meta name="theme-color" content="#1e1e2e" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-          <link rel="apple-touch-icon" href="/icon-192.png" />
+          <link rel="apple-touch-icon" href="/static/icon-192.png" />
           {/* Service Worker Registration */}
           <script dangerouslySetInnerHTML={{__html: `
             if ('serviceWorker' in navigator) {
               window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js');
+                navigator.serviceWorker.register('/static/sw.js');
               });
             }
           `}} />

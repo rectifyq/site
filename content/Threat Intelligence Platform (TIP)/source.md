@@ -11,20 +11,20 @@ draft: false
 ---
 
 ## General sources
-- Alienvault OTX (LevelBlue Inc)
 - X (twitter)
 - URLScan.io
 - Triage
-- MyCERT advisories
 - Cybersecurity vendors article
 - Cybersecurity news
-- https://www.cfr.org/global-conflict-tracker
-- https://www.cfr.org/cyber-operations/
-- https://thestraitsintelligence.com/
-- https://globalthreatmap.up.railway.app/
-- Daily Darkweb X - https://x.com/search?q=from%3ADailyDarkWeb%20%F0%9F%87%B2%F0%9F%87%BE&src=typed_query&f=live
-- Ransomware.live - https://www.ransomware.live/map/MY
-- Hendryadrian tool - https://www.hendryadrian.com/dashboard/query.php?x=malaysia&itemsn=50&from=&to=&sort=date&categories%5B%5D=44&categories%5B%5D=1&categories%5B%5D=304&categories%5B%5D=253
+- [Alienvault OTX (LevelBlue Inc)](https://otx.alienvault.com/user/AlienVault/pulses)
+- [MyCERT advisories](https://www.mycert.org.my/portal/advisories?id=431fab9c-d24c-4a27-ba93-e92edafdefa5)
+- [CFR Global Conflict Tracker](https://www.cfr.org/global-conflict-tracker)
+- [CFR Cyber Operations](https://www.cfr.org/cyber-operations/)
+- [The Straits Intelligence](https://thestraitsintelligence.com/)
+- [Global Threat Map](https://globalthreatmap.up.railway.app/)
+- [Daily Darkweb in X(filtered)](https://x.com/search?q=from%3ADailyDarkWeb%20%F0%9F%87%B2%F0%9F%87%BE&src=typed_query&f=live)
+- [Ransomware.live(filtered)](https://www.ransomware.live/map/MY)
+- [Hendryadrian tool(filtered)](https://www.hendryadrian.com/dashboard/query.php?x=malaysia&itemsn=50&from=&to=&sort=date&categories%5B%5D=44&categories%5B%5D=1&categories%5B%5D=304&categories%5B%5D=253)
 
 ## Local cyberheroes
 - https://blog.xanda.org/
