@@ -41,15 +41,49 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 
 ## Sub-category
 
-<table><thead><tr><th width="174">Sub-category</th><th>Description</th></tr></thead><tbody><tr><td><font style="color:red;">Threat Actor Profile</font></td><td>A detailed report on a specific Threat Actor (who they are), how they attack, what tools they use, and all the past campaigns we think they are responsible for.</td></tr><tr><td><font style="color:red;">Tool Profile</font></td><td>A report that focuses on a single hacking <strong>tool</strong> (or a normal tool that hackers abuse). It explains how it works, which hacker groups use it, and how you can detect and block it.</td></tr><tr><td><font style="color:red;">Malware Analysis</font></td><td>Deep dive analysis of malware either <strong>static, dynamic or reverse engineer</strong> the malware sample(s) to understand how it works, capabilities, potential attributions and other intelligence requirements.</td></tr><tr><td><font style="color:red;">Intrusion Analysis (Incident Analysis)</font></td><td>A close-up look at one single successful attack on <strong>only against specific target (usually one)</strong>. It maps out the entire story, from how the hacker first got in until they achieved their final goal (like stealing data).</td></tr><tr><td><font style="color:red;">Campaign Analysis</font></td><td>A report that looks at several related attacks against <em>multiple</em> targets. It helps connect the dots to see a bigger picture of what a hacker group is trying to achieve strategically.</td></tr><tr><td><font style="color:orange;">Leaks Forum</font></td><td>Reports focused on illegal underground forums where hackers post and try to sell or share data they claim to have stolen from a company.</td></tr><tr><td><font style="color:orange;">Leaks Infostealer</font></td><td>An analysis focused on finding stolen data logs (like passwords) from "Infostealer" malware that are linked to a specific company or organization.</td></tr><tr><td><font style="color:blue;">Zero-day</font></td><td>Unpatched Exploits: High-priority indicators for vulnerabilities that have no official patch or were exploited before public awareness.</td></tr><tr><td><font style="color:blue;">Branded Vulnerability</font></td><td>High-Profile Bugs: Vulnerabilities with marketing names/logos (e.g., Heartbleed, PwnKit) that often see rapid, mass exploitation."</td></tr><tr><td><font style="color:blue;">Critical Vulnerability</font></td><td>High-Severity Flaws: Standard vulnerabilities that carry a high CVSS/EPSS score but may not have a brand name</td></tr><tr><td>Report</td><td>Other related cybersecurity or intelligence reports that is relevant.</td></tr></tbody></table>
+<table>
+<thead>
+<tr><th width="174">Sub-category</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><font style="color:red;">Threat Actor Profile<br>([[tags/ta-profile]])</font></td><td>A detailed report on a specific Threat Actor (who they are), how they attack, what tools they use, and all the past campaigns we think they are responsible for.</td></tr>
+<tr><td><font style="color:red;">Tool Profile<br>([[tags/tool-profile]])</font></td><td>A report that focuses on a single hacking <strong>tool</strong> (or a normal tool that hackers abuse). It explains how it works, which hacker groups use it, and how you can detect and block it.</td></tr>
+<tr><td><font style="color:red;">Malware Analysis<br>([[tags/malware-analysis]])</font></td><td>Deep dive analysis of malware either <strong>static, dynamic or reverse engineer</strong> the malware sample(s) to understand how it works, capabilities, potential attributions and other intelligence requirements.</td></tr>
+<tr><td><font style="color:red;">Intrusion Analysis (Incident Analysis)<br>([[tags/intrusion-analysis]])</font></td><td>A close-up look at one single successful attack on <strong>only against specific target (usually one)</strong>. It maps out the entire story, from how the hacker first got in until they achieved their final goal (like stealing data).</td></tr>
+<tr><td><font style="color:red;">Campaign Analysis<br>([[tags/campaign-analysis]])</font></td><td>A report that looks at several related attacks against <em>multiple</em> targets. It helps connect the dots to see a bigger picture of what a hacker group is trying to achieve strategically.</td></tr>
+<tr><td><font style="color:orange;">Leaks Forum<br>([[tags/leaks-forum]])</font></td><td>Reports focused on illegal underground forums where hackers post and try to sell or share data they claim to have stolen from a company.</td></tr>
+<tr><td><font style="color:orange;">Leaks Infostealer<br>([[tags/leaks-infostealer]])</font></td><td>An analysis focused on finding stolen data logs (like passwords) from "Infostealer" malware that are linked to a specific company or organization.</td></tr>
+<tr><td><font style="color:blue;">Zero-day<br>([[tags/zero-day]])</font></td><td>Unpatched Exploits: High-priority indicators for vulnerabilities that have no official patch or were exploited before public awareness.</td></tr>
+<tr><td><font style="color:blue;">Branded Vulnerability<br>([[tags/branded-vuln]])</font></td><td>High-Profile Bugs: Vulnerabilities with marketing names/logos (e.g., Heartbleed, PwnKit) that often see rapid, mass exploitation."</td></tr>
+<tr><td><font style="color:blue;">Critical Vulnerability<br>([[tags/critical-vuln]])</font></td><td>High-Severity Flaws: Standard vulnerabilities that carry a high CVSS/EPSS score but may not have a brand name</td></tr>
+<tr><td>Report<br>([[tags/report]])</td><td>Other related cybersecurity or intelligence reports that is relevant.</td></tr>
+</tbody>
+</table>
 
 ## Threat Actor Category
 
-<table><thead><tr><th width="178">TA Category</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td>APT</td><td>Highly sophisticated, long-term clandestine campaigns. These actors have significant resources and focus on stealth to maintain persistent access to a network for espionage or data theft. Can be State sponsored, can be cybercrime.</td><td>Dark Basin, Lazarus, FIN7</td></tr><tr><td>State Sponsored</td><td>Highly-skilled hackers funded and directed by a government of certain nation.</td><td>APT28 (Fancy Bear), APT34 (OilRig), Lazarus Group</td></tr><tr><td>Cybercrime</td><td>Individuals or organized groups (Cybercriminals) whose primary motivation is financial gain.</td><td>FIN7</td></tr><tr><td>Ransomware</td><td>An organized collective of cybercriminals that develops, distributes, and operates sophisticated ransomware strains, often employing the Ransomware-as-a-Service (RaaS) model and double extortion tactics.</td><td>LockBit, BlackCat (ALPHV), Clop</td></tr><tr><td>Hacktivist</td><td>Hackers motivated by a political, social, or ideological cause, using hacking as a form of protest.</td><td>Anonymous, LulzSec, OpIsrael</td></tr></tbody></table>
+<table>
+<thead>
+<tr><th width="178">TA Category</th><th>Description</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>APT</td><td>Highly sophisticated, long-term clandestine campaigns. These actors have significant resources and focus on stealth to maintain persistent access to a network for espionage or data theft. Can be State sponsored, can be cybercrime.</td><td>Dark Basin, Lazarus, FIN7</td></tr>
+<tr><td>State Sponsored</td><td>Highly-skilled hackers funded and directed by a government of certain nation.</td><td>APT28 (Fancy Bear), APT34 (OilRig), Lazarus Group</td></tr>
+<tr><td>Cybercrime</td><td>Individuals or organized groups (Cybercriminals) whose primary motivation is financial gain.</td><td>FIN7</td></tr>
+<tr><td>Ransomware</td><td>An organized collective of cybercriminals that develops, distributes, and operates sophisticated ransomware strains, often employing the Ransomware-as-a-Service (RaaS) model and double extortion tactics.</td><td>LockBit, BlackCat (ALPHV), Clop</td></tr>
+<tr><td>Hacktivist</td><td>Hackers motivated by a political, social, or ideological cause, using hacking as a form of protest.</td><td>Anonymous, LulzSec, OpIsrael</td></tr>
+</tbody>
+</table>
 
 ## Target
 
-<table><thead><tr><th width="177">Target</th><th>Details</th><th></th></tr></thead><tbody><tr><td>Broad-based</td><td><ul><li>Commodity</li><li>Opportunistic</li></ul></td><td><ul><li>Everyone is a target, no exclusion</li><li>Everyone is a target, some exclusion such as specific country, locale, etc.</li><li>Specific Language - still broad (example targeting German/Mandarin Speaking)</li><li>Specific country - political events, etc.</li><li>Specific group of people (red-teamers, pentesters, gamers, etc.)</li></ul></td></tr><tr><td>Targeted</td><td>Specific Target - specially crafted based on opportunity or targets Information Attack Space</td><td><ul><li>Specific Individual/Company/Organization</li></ul></td></tr></tbody></table>
+<table>
+<thead>
+<tr><th width="177">Target</th><th>Details</th><th></th></tr></thead>
+<tbody>
+<tr><td>Broad-based<br>([[tags/broad-based]])</td><td><ul><li>Commodity</li><li>Opportunistic</li></ul></td><td><ul><li>Everyone is a target, no exclusion</li><li>Everyone is a target, some exclusion such as specific country, locale, etc.</li><li>Specific Language - still broad (example targeting German/Mandarin Speaking)</li><li>Specific country - political events, etc.</li><li>Specific group of people (red-teamers, pentesters, gamers, etc.)</li></ul></td></tr>
+<tr><td>Targeted<br>([[tags/targeted]])</td><td>Specific Target - specially crafted based on opportunity or targets Information Attack Space</td><td><ul><li>Specific Individual/Company/Organization</li></ul></td></tr>
+</tbody>
+</table>
 
 ## Target  vs Victim
 
@@ -57,7 +91,16 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 
 ## Relevancy
 
-<table><thead><tr><th width="207.4000244140625">Relevancy</th><th>Example</th></tr></thead><tbody><tr><td>🔴Relevant</td><td>APT targeting Malaysian entity.</td></tr><tr><td>🟡Somewhat Relevant</td><td>APT target Asian country.</td></tr><tr><td>🔵Potentially Relevant</td><td>Infostealers impact globally.</td></tr><tr><td>⚫Not Relevant</td><td>Good to know only.</td></tr></tbody></table>
+<table>
+<thead>
+<tr><th width="207.4000244140625">Relevancy</th><th>Links</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>🔴Relevant</td><td>[[tags/relevant]]</td><td>APT targeting Malaysian entity.</td></tr>
+<tr><td>🟡Somewhat Relevant</td><td>[[tags/somewhat-relevant]]</td><td>APT target Asian country.</td></tr>
+<tr><td>🔵Potentially Relevant</td><td>[[tags/potentially-relevant]]</td><td>Infostealers impact globally.</td></tr>
+<tr><td>⚫Not Relevant</td><td>[[not-relevant]]</td><td>Good to know only.</td></tr>
+</tbody>
+</table>
 
 <sub>p.s. Not relevant does not mean to be ignored, it can be use to improve our security detection or prevention from the lesson learn of the incident. It is just lower priority compared to other three as the event may specifically targeting organizations that is not related to Malaysia, or targeting specific language speakers (e.g. russian language) and etc.</sub>
 
@@ -70,9 +113,9 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 
 |Topics|Description|
 |---|---|
-|[[geopolitical]]|Geopolitical Related|
-|[[ics-ot]]|Industrial Control System (ICS) and Operational Technology (OT)|
-|[[mobile-attack]]|Mobile Attack|
-|[[supply-chain]]|Supply Chain|
+|[[tags/geopolitical]]|Geopolitical Related|
+|[[tags/ics-ot]]|Industrial Control System (ICS) and Operational Technology (OT)|
+|[[tags/mobile-attack]]|Mobile Attack|
+|[[tags/supply-chain]]|Supply Chain|
 
 
