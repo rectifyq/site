@@ -1,6 +1,8 @@
 ---
 title: Threat Intelligence focusing on Malaysia 🇲🇾
 description: Rectifyq provides the most comprehensive Threat Intelligence in Malaysia.
+date: 2001-01-01
+modified: 2001-01-01
 ---
 
 <link
