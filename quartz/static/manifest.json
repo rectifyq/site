@@ -2,7 +2,7 @@
   "name": "Rectifyq - Threat Intelligence Malaysia",
   "short_name": "Rectifyq",
   "description": "Malaysia-focused Threat Intelligence platform",
-  "start_url": "/static/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1e1e2e",
