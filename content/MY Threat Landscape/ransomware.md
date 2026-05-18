@@ -137,6 +137,7 @@ timeline
          : Int************ (+ Tsk************** + Ame******************** + Woo*************) (Manufacturing)
          : PNS* Ins****** Bro**** Sdn Bhd (Finance)
          : Maj*** Per******** Alo* Gaj** (Government, Administration)
+         : MS* Gro** (Logistic)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -160,7 +161,7 @@ pie title Ransomware Victim (by sector)
     "Manufacturing" : 17
     "Government, Administration" : 8
     "Engineering" : 7
-    "Logistic" : 6
+    "Logistic" : 7
     "Construction" : 6
     "Automotive" : 5
     "Civil Aviation" : 5
@@ -174,7 +175,7 @@ pie title Ransomware Victim (by sector)
 | Manufacturing | 17 |
 | Government, Administration | 8 |
 | Engineering | 7 |
-| Logistic | 6 |
+| Logistic | 7 |
 | Construction | 6 |
 | Automotive | 5 |
 | Civil Aviation | 5 |
