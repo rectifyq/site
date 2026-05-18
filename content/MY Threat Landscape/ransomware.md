@@ -129,6 +129,14 @@ timeline
          : Mal****** NP* Fer******* Sdn* Bhd (Agriculture)
          : olp********* (Engineering)
          : whe*********** (Manufacturing)
+         : Mal****** NPK Fer******* Sdn* Bhd (Agriculture)
+         : fav************* (Manufacturing)
+         : Jes** Gro** (Development)
+         : Int********** Ass******* Sdn (Health)
+         : Ker**** Pro**** Gro** (Construction)
+         : Int************ (+ Tsk************** + Ame******************** + Woo*************) (Manufacturing)
+         : PNS* Ins****** Bro**** Sdn Bhd (Finance)
+         : Maj*** Per******** Alo* Gaj** (Government, Administration)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -136,7 +144,7 @@ p.s. This is based on Ransomware Group claims or news, unless the organization c
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Lockbit3" : 21
-    "Qilin" : 15
+    "Qilin" : 18
     "Ransomhub" : 7
     "Direwolf" : 7
     "Akira" : 5
@@ -149,13 +157,13 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 15
-    "Government, Administration" : 7
+    "Manufacturing" : 17
+    "Government, Administration" : 8
     "Engineering" : 7
     "Logistic" : 6
+    "Construction" : 6
     "Automotive" : 5
     "Civil Aviation" : 5
-    "Construction" : 5
     "Pharmacy" : 4
     "Multi-sector" : 4
     "IT" : 4
@@ -163,20 +171,22 @@ pie title Ransomware Victim (by sector)
 ## Full breakdown Ransomware victim by sector:
 | Sector | Count |
 | -- | -- |
-| Manufacturing | 15 |
-| Government, Administration | 7 |
+| Manufacturing | 17 |
+| Government, Administration | 8 |
 | Engineering | 7 |
 | Logistic | 6 |
+| Construction | 6 |
 | Automotive | 5 |
 | Civil Aviation | 5 |
-| Construction | 5 |
+| Agriculture | 5 |
 | Pharmacy | 4 |
 | Multi-sector | 4 |
 | IT | 4 |
-| Agriculture | 4 |
 | Retail | 3 |
 | Electronic | 3 |
 | Academia - University | 3 |
+| Development | 3 |
+| Health | 3 |
 | Technology | 2 |
 | Telecoms | 2 |
 | Oil and Gas | 2 |
@@ -185,12 +195,10 @@ pie title Ransomware Victim (by sector)
 | eCommerce | 2 |
 | Consulting | 2 |
 | Transport | 2 |
-| Health | 2 |
-| Development | 2 |
+| Finance | 2 |
 | Bank | 1 |
 | Railway | 1 |
 | Online marketplace | 1 |
-| Finance | 1 |
 | Television Broadcast | 1 |
 | Marketing | 1 |
 | Energy | 1 |
