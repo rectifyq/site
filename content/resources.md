@@ -72,6 +72,7 @@ flowchart TB
         M8[RE:UN10N]
         M9[PINCER]
         M10[I/O–TRIX]
+        M11[HTB Meetup]
     end
     subgraph Conferences/Camps
         direction RL
@@ -97,6 +98,7 @@ flowchart TB
     click M8 "https://x.com/reun10n_" _blank
     click M9 "https://www.linkedin.com/groups/14716288/" _blank
     click M10 "https://www.linkedin.com/company/i-o-trix/" _blank
+    click M10 "https://www.meetup.com/hack-the-box-meetup-kuala-lumpur-my/" _blank
 
     click C1 "https://wargames.my" _blank
     click C2 "https://girls-in-ctf.online/" _blank
