@@ -83,6 +83,9 @@ flowchart TB
         F4[5GOT]
         F5[PH Talks]
         F6[RISE]
+        F7[DEATHCon]
+        F8[CyberSecAsia]
+        F9[DiCyFor]
 
     end
 
@@ -98,7 +101,7 @@ flowchart TB
     click M8 "https://x.com/reun10n_" _blank
     click M9 "https://www.linkedin.com/groups/14716288/" _blank
     click M10 "https://www.linkedin.com/company/i-o-trix/" _blank
-    click M10 "https://www.meetup.com/hack-the-box-meetup-kuala-lumpur-my/" _blank
+    click M11 "https://www.meetup.com/hack-the-box-meetup-kuala-lumpur-my/" _blank
 
     click C1 "https://wargames.my" _blank
     click C2 "https://girls-in-ctf.online/" _blank
@@ -120,5 +123,8 @@ flowchart TB
     click F4 "https://5got.asia/" _blank
     click F5 "https://phtalks.ptsecurity.com/kualalumpur" _blank
     click F6 "https://www.linkedin.com/posts/team-cymru_rise-malaysia-2025-activity-7376322136908558336-gMy3" _blank
+    click F7 "https://deathcon.io/" _blank
+    click F8 "https://cybersecasia.org/" _blank
+    click F9 "https://www.dicyfor.com/" _blank
 ```
 
