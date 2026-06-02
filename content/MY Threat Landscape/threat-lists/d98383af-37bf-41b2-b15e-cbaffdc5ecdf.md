@@ -11,7 +11,7 @@ modified: 2025-03-31
 > [!abstract] **Description**
 > Earth Alux, a China-linked APT group, is actively conducting cyberespionage attacks against key sectors in the APAC and Latin American regions. The group exploits vulnerable services in exposed servers to gain initial access and deploys web shells like GODZILLA. Their primary backdoor, VARGEIT, is used alongside COBEACON for various stages of attack. Earth Alux employs advanced techniques such as DLL side-loading, anti-API hooking, and execution guardrails. They utilize tools like RAILLOAD and RAILSETTER for persistence and evasion. The group's capabilities include system information collection, file manipulation, command execution, and tool injection via mspaint processes. Earth Alux targets industries such as government, technology, logistics, and manufacturing, demonstrating a strategic focus on high-value information across different sectors.
 
-> [!important] **🕵️‍♂Threat Actor**
+> [!important] **Threat Actor**
 > Earth Alux
 
 ![](https://raw.githubusercontent.com/rectifyq/Collections/refs/heads/main/Diamond-Models/2025/250331-Earth-Alux/14.png)

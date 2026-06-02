@@ -11,7 +11,7 @@ modified: 2022-08-30
 > [!abstract] **Description**
 > Proofpoint and PwC Threat Intelligence have jointly identified a cyber espionage campaign, active since April 2022 through June, delivering the ScanBox exploitation framework to targets who visit a malicious domain posing as an Australian news website.
 
-> [!important] **🕵️‍♂Threat Actor**
+> [!important] **Threat Actor**
 > TA423 APT40
 
 🔖Rectifyq Taxonomies:
