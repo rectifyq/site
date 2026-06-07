@@ -34,7 +34,7 @@ To move from "collecting data" to "producing intelligence," you need the right t
 - MISP 2026 - [https://feeds.rectifyq.com/MISP2026](https://feeds.rectifyq.com/MISP2026)
 
 ### 🇲🇾 MISP MY
-- MISP MY - soon
+- MISP MY - [https://feeds.rectifyq.com/MISP-MY](https://feeds.rectifyq.com/MISP-MY)
 
 ### 📦Miscelleanous
 - MISP ICS-OT - [https://feeds.rectifyq.com/MISP-ICS-OT](https://feeds.rectifyq.com/MISP-ICS-OT)
