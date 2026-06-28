@@ -1,9 +1,20 @@
 https://rectifyq.com/
-  Link: <https://rectifyq.com/llms.txt>; rel="describedby", <https://rectifyq.com/sitemap.xml>; rel="sitemap", <https://rectifyq.com/index.xml>; rel="alternate"; type="application/rss+xml"
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </llms.txt>; rel="describedby"
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </index.xml>; rel="alternate"; type="application/rss+xml"
 
 /*
-  Link: <https://rectifyq.com/llms.txt>; rel="describedby"
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </llms.txt>; rel="describedby"
+
+/.well-known/api-catalog
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
 
 /.well-known/ai-plugin.json
-  Access-Control-Allow-Origin: *
   Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/*
+  Access-Control-Allow-Origin: *

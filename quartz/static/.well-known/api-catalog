@@ -1,0 +1,35 @@
+{
+  "apis": [
+    {
+      "title": "Rectifyq MISP-MY Feed",
+      "description": "Structured threat indicators targeting Malaysia, mapped to MITRE ATT&CK and MISP galaxies.",
+      "url": "https://feeds.rectifyq.com/MISP-MY/",
+      "type": "threat-intelligence"
+    },
+    {
+      "title": "Rectifyq MISP-ICS-OT Feed",
+      "description": "OT/ICS-specific threat intelligence feed for Malaysian critical infrastructure.",
+      "url": "https://feeds.rectifyq.com/MISP-ICS-OT/",
+      "type": "threat-intelligence"
+    },
+    {
+      "title": "Rectifyq RSS Feed",
+      "description": "Latest Malaysian cybersecurity threat articles from Rectifyq.",
+      "url": "https://rectifyq.com/index.xml",
+      "type": "feed",
+      "mediaType": "application/rss+xml"
+    },
+    {
+      "title": "Rectifyq Sitemap",
+      "description": "Full sitemap of all threat intelligence content on rectifyq.com.",
+      "url": "https://rectifyq.com/sitemap.xml",
+      "type": "sitemap"
+    },
+    {
+      "title": "Rectifyq LLMs.txt",
+      "description": "Machine-readable site guide for AI agents and language models.",
+      "url": "https://rectifyq.com/llms.txt",
+      "type": "llms-txt"
+    }
+  ]
+}
