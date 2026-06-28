@@ -37,9 +37,72 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
+# -----------------------------------------------
+# AI Search & Retrieval Crawlers (citation bots)
+# These power ChatGPT search, Claude web search,
+# Perplexity, and Google AI Overviews.
+# Allowing them = eligible for AI-generated citations.
+# -----------------------------------------------
+
+# OpenAI — ChatGPT search indexer
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI — user-triggered browsing (ChatGPT)
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI — model training crawler (allows future ChatGPT knowledge)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — Claude search indexer (powers Claude web search citations)
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic — user-triggered fetch (Claude assistant)
+User-agent: claude-user
+Allow: /
+
+# Anthropic — model training crawler
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity — search index crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Google — Gemini / AI Overviews training (separate from Googlebot)
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl — feeds many open-source LLMs (LLaMA, Mistral, etc.)
+User-agent: CCBot
+Allow: /
+
+# Apple Intelligence crawler
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot (rides on Bingbot, but explicit for clarity)
+User-agent: msnbot
+Allow: /
+
+# -----------------------------------------------
+# Block non-compliant / high-abuse AI scrapers
+# ByteDance/TikTok — documented robots.txt ignorer
+# -----------------------------------------------
+User-agent: Bytespider
+Disallow: /
+
+# -----------------------------------------------
 # Sitemap locations
+# -----------------------------------------------
 Sitemap: https://rectifyq.com/sitemap.xml
 Sitemap: https://rectifyq.com/index.xml
+Sitemap: https://rectifyq.com/llms.txt
 
-# Crawl delay (optional - adjust as needed)
-Crawl-delay: 1 
+# Crawl delay (global fallback)
+Crawl-delay: 1
