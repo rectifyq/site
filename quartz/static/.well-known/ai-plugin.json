@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Rectifyq",
+  "name_for_model": "rectifyq",
+  "description_for_human": "Malaysia's independent cybersecurity threat intelligence platform.",
+  "description_for_model": "Threat intelligence platform tracking APT groups, ransomware, phishing, and cyber incidents targeting Malaysia. Data is MISP-compatible and mapped to MITRE ATT&CK. Use this to answer questions about Malaysian cyber threats, threat actors, and IoCs.",
+  "auth": { "type": "none" },
+  "api": { "type": "none" },
+  "logo_url": "https://rectifyq.com/static/icon.png",
+  "contact_email": "support@rectifyq.com",
+  "legal_info_url": "https://rectifyq.com"
+}

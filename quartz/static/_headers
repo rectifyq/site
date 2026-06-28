@@ -1,0 +1,9 @@
+https://rectifyq.com/
+  Link: <https://rectifyq.com/llms.txt>; rel="describedby", <https://rectifyq.com/sitemap.xml>; rel="sitemap", <https://rectifyq.com/index.xml>; rel="alternate"; type="application/rss+xml"
+
+/*
+  Link: <https://rectifyq.com/llms.txt>; rel="describedby"
+
+/.well-known/ai-plugin.json
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json
