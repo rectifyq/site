@@ -1,8 +1,8 @@
 ---
 title: About Rectifyq
 description: Bridging the visibility gap between internal telemetry and the Malaysian threat landscape.
-date: 1999-01-01
-modified: 1999-01-01
+date: 2024-01-01
+lastmod: 2026-06-29
 ---
 
 > [!abstract] **A Personal Mission for National Cyber Resilience**

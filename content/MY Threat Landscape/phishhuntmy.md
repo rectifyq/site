@@ -1,7 +1,7 @@
 ---
 title: "Phish Hunt MY 2026"
 date: 2026-03-18
-modified: 2020-01-01
+lastmod: 2026-06-29
 description: "Phish Hunting - hunting active phishing campaigns targeting Malaysians"
 draft: false
 ---

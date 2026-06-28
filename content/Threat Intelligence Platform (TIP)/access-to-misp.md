@@ -1,7 +1,7 @@
 ---
 title: Get access to Rectifyq's MISP
-date: 1999-01-01
-modified: 1999-01-01
+date: 2024-01-01
+lastmod: 2026-06-29
 ---
 Application to get access to Rectifyq's TIP (MISP) is now open.
 https://forms.gle/b57aaQixjdS5CPTEA

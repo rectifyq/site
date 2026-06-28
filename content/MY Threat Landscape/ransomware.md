@@ -1,7 +1,7 @@
 ---
 title: "Ransomware Tracker"
 date: 2026-01-29
-modified: 2020-01-01
+lastmod: 2026-06-29
 description: "Ransomware Tracker"
 aliases:
   - "[Alternative Name / Internal ID]"
