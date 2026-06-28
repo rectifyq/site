@@ -8,8 +8,8 @@ https://rectifyq.com/
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
 
-/.well-known/api-catalog
-  Content-Type: application/json
+/api-catalog.json
+  Content-Type: application/linkset+json
   Access-Control-Allow-Origin: *
 
 /.well-known/ai-plugin.json

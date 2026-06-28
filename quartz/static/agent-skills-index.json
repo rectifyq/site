@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "rectifyq-threat-intel",
+      "type": "skill-md",
+      "description": "Malaysian cybersecurity threat intelligence — APT groups, ransomware, phishing, IoCs mapped to MITRE ATT&CK.",
+      "url": "https://rectifyq.com/llms.txt",
+      "digest": "sha256:pending"
+    }
+  ]
+}
