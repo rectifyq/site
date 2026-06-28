@@ -25,6 +25,7 @@ draft: false
 - [Daily Darkweb in X(filtered)](https://x.com/search?q=from%3ADailyDarkWeb%20%F0%9F%87%B2%F0%9F%87%BE&src=typed_query&f=live)
 - [Ransomware.live(filtered)](https://www.ransomware.live/map/MY)
 - [Hendryadrian tool(filtered)](https://www.hendryadrian.com/dashboard/query.php?x=malaysia&itemsn=50&from=&to=&sort=date&categories%5B%5D=44&categories%5B%5D=1&categories%5B%5D=304&categories%5B%5D=253)
+- [Zone-H](https://www.zone-h.org/archive)
 
 ## Local cyberheroes
 - https://blog.xanda.org/
@@ -37,6 +38,8 @@ draft: false
 - https://blog.apnic.net/author/adli-w/
 - https://www.data0.net/
 - https://thestraitsintelligence.com/
+- https://research.pelagos-intel.com/
+- https://r4shsec.is-a.dev/
 
 ## Private sources
 - Heimdall - Malaysian Spamtrap Project

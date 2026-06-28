@@ -138,6 +138,13 @@ timeline
          : PNS* Ins****** Bro**** Sdn Bhd (Finance)
          : Maj*** Per******** Alo* Gaj** (Government, Administration)
          : MS* Gro** (Logistic)
+         : Sha******** Met*** (Manufacturing)
+         : M* I* Par***** Sdn Bhd (IT)
+         : S** Malaysia (Engineering)
+         : TH* PRO**** MAN******* SDN* BHD* (Engineering)
+         : Ked** Sta** Gov******* (Government, Administration)
+         : Vil*** Hot** in Att*** Hot*** & Res**** (Hotels)
+         : UiT* Hol***** (Investment)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -145,11 +152,12 @@ p.s. This is based on Ransomware Group claims or news, unless the organization c
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Lockbit3" : 21
-    "Qilin" : 18
+    "Qilin" : 19
+    "The Gentlemen" : 8
     "Ransomhub" : 7
     "Direwolf" : 7
     "Akira" : 5
-    "The Gentlemen" : 6
+    "lamashtu" : 5
     "BlackCat" : 4
     "Hunters" : 4
     "Babuk" : 4
@@ -158,40 +166,41 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 17
-    "Government, Administration" : 8
-    "Engineering" : 7
+    "Manufacturing" : 18
+    "Engineering" : 9
+    "Government, Administration" : 9
     "Logistic" : 7
     "Construction" : 6
     "Automotive" : 5
     "Civil Aviation" : 5
+     "IT" : 5
     "Pharmacy" : 4
     "Multi-sector" : 4
-    "IT" : 4
+
 ```
 ## Full breakdown Ransomware victim by sector:
 | Sector | Count |
 | -- | -- |
-| Manufacturing | 17 |
-| Government, Administration | 8 |
-| Engineering | 7 |
+| Manufacturing | 18 |
+| Engineering | 9 |
+| Government, Administration | 9 |
 | Logistic | 7 |
 | Construction | 6 |
 | Automotive | 5 |
 | Civil Aviation | 5 |
 | Agriculture | 5 |
+| IT | 5|
 | Pharmacy | 4 |
 | Multi-sector | 4 |
-| IT | 4 |
 | Retail | 3 |
 | Electronic | 3 |
 | Academia - University | 3 |
 | Development | 3 |
 | Health | 3 |
+| Investment | 3 |
 | Technology | 2 |
 | Telecoms | 2 |
 | Oil and Gas | 2 |
-| Investment | 2 |
 | Environment | 2 |
 | eCommerce | 2 |
 | Consulting | 2 |
@@ -213,6 +222,7 @@ pie title Ransomware Victim (by sector)
 | Education | 1 |
 | Game | 1 |
 | Infrastructure | 1 |
+| Hotels | 1 |
 
 
 
