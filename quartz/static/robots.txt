@@ -37,9 +37,84 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
+# -----------------------------------------------
+# AI Search & Retrieval Crawlers (citation bots)
+# These power ChatGPT search, Claude web search,
+# Perplexity, and Google AI Overviews.
+# Allowing them = eligible for AI-generated citations.
+# -----------------------------------------------
+
+# OpenAI — ChatGPT search indexer
+User-agent: OAI-SearchBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# OpenAI — user-triggered browsing (ChatGPT)
+User-agent: ChatGPT-User
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# OpenAI — model training crawler (allows future ChatGPT knowledge)
+User-agent: GPTBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Anthropic — Claude search indexer (powers Claude web search citations)
+User-agent: Claude-SearchBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Anthropic — user-triggered fetch (Claude assistant)
+User-agent: claude-user
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Anthropic — model training crawler
+User-agent: ClaudeBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+User-agent: anthropic-ai
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Perplexity — search index crawler
+User-agent: PerplexityBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Google — Gemini / AI Overviews training (separate from Googlebot)
+User-agent: Google-Extended
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Common Crawl — feeds many open-source LLMs (LLaMA, Mistral, etc.)
+User-agent: CCBot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Apple Intelligence crawler
+User-agent: Applebot-Extended
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Microsoft Copilot (rides on Bingbot, but explicit for clarity)
+User-agent: msnbot
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# -----------------------------------------------
+# Block non-compliant / high-abuse AI scrapers
+# ByteDance/TikTok — documented robots.txt ignorer
+# -----------------------------------------------
+User-agent: Bytespider
+Disallow: /
+
+# -----------------------------------------------
 # Sitemap locations
+# -----------------------------------------------
 Sitemap: https://rectifyq.com/sitemap.xml
 Sitemap: https://rectifyq.com/index.xml
+Sitemap: https://rectifyq.com/llms.txt
 
-# Crawl delay (optional - adjust as needed)
-Crawl-delay: 1 
+# Crawl delay (global fallback)
+Crawl-delay: 1
