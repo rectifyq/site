@@ -3,7 +3,7 @@
     {
       "title": "Rectifyq MISP-MY Feed",
       "description": "Structured threat indicators targeting Malaysia, mapped to MITRE ATT&CK and MISP galaxies.",
-      "url": "https://feeds.rectifyq.com/MISP-MY/",
+      "url": "https://mispmy.rectifyq.com",
       "type": "threat-intelligence"
     },
     {

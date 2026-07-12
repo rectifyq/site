@@ -1,0 +1,20 @@
+https://rectifyq.com/
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </llms.txt>; rel="describedby"
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </index.xml>; rel="alternate"; type="application/rss+xml"
+
+/*
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </llms.txt>; rel="describedby"
+
+/.well-known/api-catalog
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/ai-plugin.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/*
+  Access-Control-Allow-Origin: *
