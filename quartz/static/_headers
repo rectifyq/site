@@ -7,13 +7,18 @@ https://rectifyq.com/
 /*
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
+  X-Content-Type-Options: nosniff
 
-/.well-known/api-catalog
+/api-catalog.json
+  Content-Type: application/linkset+json
+  Access-Control-Allow-Origin: *
+
+/agent-skills-index.json
   Content-Type: application/json
   Access-Control-Allow-Origin: *
 
-/.well-known/ai-plugin.json
-  Content-Type: application/json
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
 
 /.well-known/*
