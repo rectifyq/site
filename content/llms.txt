@@ -1,0 +1,19 @@
+# Rectifyq
+
+> Malaysia's independent cybersecurity threat intelligence platform.
+> Founded and operated by Rectifyq (Threat Intelligence & OT/ICS).
+> Tracks 47+ threat actor groups with Malaysian relevance. All intelligence is MISP-compatible and mapped to MITRE ATT&CK.
+
+## Core intelligence
+- [MY Threat Landscape](https://rectifyq.com/MY-Threat-Landscape/): All tracked threat events targeting Malaysia
+- [Threat Actor Tracker](https://rectifyq.com/threat-actors/): 47+ groups, Diamond Model mapped
+- [Ransomware Tracker](https://rectifyq.com/ransomware/): Live Malaysia ransomware victim tracker
+- [Threat List](https://rectifyq.com/MY-Threat-Landscape/threat-lists/): List of all articles, security blogs and reports that are relevant to Malaysian context
+
+## MISP feeds
+- [MISP-MY](https://feeds.rectifyq.com/MISP-MY/): Structured indicator sharing, MITRE ATT&CK mapped MISP formatted feeds compiling all MISP event relevant to Malaysian context
+- [MISP-ICS-OT](https://feeds.rectifyq.com/MISP-ICS-OT/): OT/ICS-specific feed (Global context)
+
+## About
+- Analyst: Rectifyq — SANS GCTI, GRID, BTL1, BTL2 certified and passionate on Threat Intelligence
+- Contact: rectifyq.com
