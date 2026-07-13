@@ -21,3 +21,4 @@ lastmod: 2026-06-29
 
 # Speaking/Training
 - Trainer at Malaysia Cyber Camp 2025 - https://cybercamp.my/posts/2025/mcc-2025-conquer
+- Community stand-ups speaker at Positive Hack Talks Kuala Lumpur 2026 - https://phtalks.ptsecurity.com/kualalumpur
