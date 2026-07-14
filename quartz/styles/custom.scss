@@ -1,3 +1,40 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+footer {
+  // Hides the "Created with..." paragraph text
+  p {
+    font-size: 0; /* Hides the original "Created with..." text */
+
+  &::after {
+    content: "Rectifyq"; /* Inserts your custom text */
+    font-size: 0.85rem;  /* Restores the text size */
+    color: var(--gray);  /* Keeps the footer's original text color */
+  }
+}
+
+  // Keeps your links visible and centered
+  ul {
+    display: flex;
+  }
+}
+
+.recent-notes {
+  // Targets the list of tags inside recent notes items
+  .tags {
+    display: flex;
+    flex-wrap: wrap;   // Allows tags to wrap to the next line if they run out of space
+    gap: 0.5rem;       // Adds clean spacing between tags
+    padding: 0;
+    list-style: none;  // Removes the bullet points/markers completely
+
+    li {
+      margin: 0;       // Clears any native list indentation
+      
+      // Optional: If Quartz drops regular text markers inside, this strips them
+      &::before {
+        content: none !important;
+      }
+    }
+  }
+}
