@@ -16,10 +16,8 @@ modified: 2022-08-30
 
 🔖Rectifyq Taxonomies:
 - relevancy: 🔴 Highly Relevant
-- category: #⚔Threat
+- category: ⚔Threat
 - sub-category: #campaign-analysis
-- target: #targeted
-- MY-relevancy: #relevant
 - topic: #geopolitical
 
 🔖MISP Galaxies:

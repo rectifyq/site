@@ -11,10 +11,8 @@ modified: 2015-05-21
 
 🔖Rectifyq Taxonomies:
 - relevancy: 🔴 Highly Relevant
-- category: #⚔Threat
+- category: ⚔Threat
 - sub-category: #campaign-analysis
-- target: #targeted
-- MY-relevancy: #relevant
 
 🔖MISP Galaxies:
 - producer= #Kaspersky

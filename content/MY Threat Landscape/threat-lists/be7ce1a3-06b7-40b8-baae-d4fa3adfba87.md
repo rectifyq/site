@@ -13,10 +13,8 @@ modified: 2026-06-15
 
 🔖Rectifyq Taxonomies:
 - relevancy: 🔴 Highly Relevant
-- category: #⚔Threat
+- category: ⚔Threat
 - sub-category: #campaign-analysis
-- target: #broad-based
-- MY-relevancy: #relevant
 
 🔖MISP Galaxies:
 - producer= #Check-Point

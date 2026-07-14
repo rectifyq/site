@@ -35,6 +35,9 @@ export default (() => {
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    
+    // Canonical URL for current page
+    const canonicalUrl = socialUrl
 
     const coreStylesheet = css[0]?.content
     const coreScript = js.find(
@@ -45,6 +48,33 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href={canonicalUrl} />
+
+        {/* Basic SEO meta tags */}
+        <meta name="description" content={description} />
+        <meta name="author" content="Rectifyq" />
+        <meta name="generator" content="Quartz" />
+
+        {/* Language and region */}
+        <meta name="language" content={cfg.locale} />
+
+        {/* Robots meta tag */}
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+
+        {/* Additional SEO tags */}
+        {fileData.frontmatter?.tags && fileData.frontmatter.tags.length > 0 && (
+          <meta name="keywords" content={fileData.frontmatter.tags.join(", ")} />
+        )}
+
+        {fileData.dates?.modified && (
+          <meta name="revised" content={fileData.dates.modified.toISOString()} />
+        )}
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (
           <link rel="preload" href={coreScript.src} as="script" />
@@ -106,6 +136,51 @@ export default (() => {
             return resource
           }
         })}
+
+                {/* Link to Web App Manifest */}
+          <link rel="manifest" href="/static/manifest.json" />
+          <meta name="theme-color" content="#1e1e2e" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <link rel="apple-touch-icon" href="/static/icon-192.png" />
+          {/* Service Worker Registration */}
+          <script dangerouslySetInnerHTML={{__html: `
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/static/sw.js');
+              });
+            }
+          `}} />
+        <link rel="describedby" href="/llms.txt" />
+        <link rel="sitemap" href="/sitemap.xml" />
+        <link rel="alternate" type="application/rss+xml" href="/index.xml" />
+        <link rel="api-catalog" href="/api-catalog.json" />
+        <link rel="agent-skills" href="/agent-skills-index.json" />
+        <script type="application/ld+json">{`{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "name": "Rectifyq",
+              "url": "https://rectifyq.com",
+              "description": "Malaysia's independent cybersecurity threat intelligence platform",
+              "sameAs": [
+                "https://github.com/rectifyq",
+                "https://linkedin.com/company/rectifyq",
+                "https://x.com/_rectifyq"
+              ]
+            },
+            {
+              "@type": "Person",
+              "name": "Rectifyq",
+              "jobTitle": "Threat Intelligence Analyst",
+              "worksFor": {"@type": "Organization", "name": "Rectifyq"},
+              "url": "https://linkedin.com/company/rectifyq"
+            }
+          ]
+        }`}</script>
+
       </head>
     )
   }

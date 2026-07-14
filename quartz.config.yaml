@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: 'google'
+    tagId: 'G-M85CMMVFXC'
   locale: en-US
   baseUrl: rectifyq.com
   ignorePatterns:
@@ -151,9 +152,9 @@ plugins:
     enabled: true
     options:
       localGraph:
-        removeTags: ["relevant", "targeted", "broad-based", "⚔Threat"]
+        removeTags: ["relevant", "targeted", "broad-based", "⚔threat"]
       globalGraph:
-        removeTags: ["relevant", "targeted", "broad-based", "⚔Threat"]
+        removeTags: ["relevant", "targeted", "broad-based", "⚔threat"]
     layout:
       position: right
       priority: 10

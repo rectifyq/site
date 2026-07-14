@@ -1,7 +1,7 @@
 ---
 title: Resources
-date: 1999-01-01
-modified: 1999-01-01
+date: 2024-01-01
+modified: 2024-01-01
 description: A curated collection of tools, frameworks, and regulatory guides for the Malaysian CTI practitioner.
 ---
 # The Rectifyq Toolbox

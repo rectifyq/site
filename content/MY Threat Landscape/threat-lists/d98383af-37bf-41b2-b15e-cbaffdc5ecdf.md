@@ -22,10 +22,8 @@ modified: 2025-03-31
 
 🔖Rectifyq Taxonomies:
 - relevancy: 🔴 Highly Relevant
-- category: #⚔Threat
+- category: ⚔Threat
 - sub-category: #TA-profile
-- target: #targeted
-- MY-relevancy: #relevant
 - action-taken: #diamond-model
 
 🔖MISP Galaxies:

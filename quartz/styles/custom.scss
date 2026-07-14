@@ -38,3 +38,27 @@ footer {
     }
   }
 }
+
+
+.page-title a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    flex-shrink: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("/static/header_icon.png") no-repeat center / contain;
+  }
+}
+
+/* Desktop — matches your v4 sizing */
+@media all and (min-width: 800px) {
+  .page-title a::before {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
