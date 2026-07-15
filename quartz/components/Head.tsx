@@ -157,29 +157,34 @@ export default (() => {
         <link rel="alternate" type="application/rss+xml" href="/index.xml" />
         <link rel="api-catalog" href="/api-catalog.json" />
         <link rel="agent-skills" href="/agent-skills-index.json" />
-        <script type="application/ld+json">{`{
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Organization",
-              "name": "Rectifyq",
-              "url": "https://rectifyq.com",
-              "description": "Malaysia's independent cybersecurity threat intelligence platform",
-              "sameAs": [
-                "https://github.com/rectifyq",
-                "https://linkedin.com/company/rectifyq",
-                "https://x.com/_rectifyq"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "name": "Rectifyq",
+                  "url": "https://rectifyq.com",
+                  "description": "Malaysia's independent cybersecurity threat intelligence platform",
+                  "sameAs": [
+                    "https://github.com/rectifyq",
+                    "https://linkedin.com/company/rectifyq",
+                    "https://x.com/_rectifyq"
+                  ]
+                },
+                {
+                  "@type": "Person",
+                  "name": "Rectifyq",
+                  "jobTitle": "Threat Intelligence Analyst",
+                  "worksFor": {"@type": "Organization", "name": "Rectifyq"},
+                  "url": "https://linkedin.com/company/rectifyq"
+                }
               ]
-            },
-            {
-              "@type": "Person",
-              "name": "Rectifyq",
-              "jobTitle": "Threat Intelligence Analyst",
-              "worksFor": {"@type": "Organization", "name": "Rectifyq"},
-              "url": "https://linkedin.com/company/rectifyq"
-            }
-          ]
-        }`}</script>
+            }`
+          }}
+        />
 
       </head>
     )
