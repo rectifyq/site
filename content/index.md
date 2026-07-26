@@ -157,10 +157,10 @@ Everything published maps to our open **[[pir/index|Intelligence Requirements (P
 ```mermaid
 pie showData 
     "LockBit3" : 21
-    "Qilin" : 18
+    "Qilin" : 20
+    "The Gentlemen" : 9
     "RansomHub" : 7
     "Direwolf" : 7
-    "The Gentlemen" : 6
     "Akira" : 5
     "Others" : 20
 ```
