@@ -73,4 +73,4 @@ Affected Malaysian domains
 Check if you are listed at [Hudson Rock](https://www.hudsonrock.com/fortinet)
 More information and full list available at [MISP2026 - Event ID:706](https://misp2026.rectifyq.com/events/view/706)
 
-*Updates appended as status changes. Policy: [[MY-Threat-Landscape/breaches/index|Breach Watch]].*
+*Updates appended as status changes. Policy: [[my-threat-landscape/breaches/index|Breach Watch]].*

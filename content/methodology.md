@@ -40,10 +40,10 @@ flowchart LR
     C --> F
     C --> G
 
-    click A "https://rectifyq.com/threat-intelligence-platform-(tip)/source" _blank
+    click A "https://rectifyq.com/threat-intelligence-platform/source" _blank
     click B "https://misp2026.rectifyq.com" _blank
     click C "https://mispmy.rectifyq.com" _blank
-    click D "https://rectifyq.com/my-threat-landscape/threat-lists/" _blank
+    click D "https://rectifyq.com/my-threat-landscape/threats/" _blank
     click E "http://t.me/rectifyq" _blank
     click F "https://x.com/_rectifyq" _blank
     click G "https://linkedin.com/company/rectifyq" _blank
@@ -64,7 +64,7 @@ flowchart LR
 ## Rules the pipeline follows
 
 1. **The Assessment is always human-written.** Ingestion can be automated; judgment is not.
-2. **Claims vs confirmations** are always distinguished ([[MY-Threat-Landscape/breaches/index|Breach Watch policy]]).
+2. **Claims vs confirmations** are always distinguished ([[my-threat-landscape/breaches/index|Breach Watch policy]]).
 3. **Victims are never named** — masked descriptors and sectors only.
 4. **Aggregate exposure only** — never listable vulnerable IPs.
 5. **TTP-first attribution** — vendor actor names recorded as context, not endorsed as fact.
@@ -76,4 +76,4 @@ flowchart LR
 
 ## Cadence, honestly
 
-Entries publish as triaged (solo capacity — quality over schedule); the [[MY-Threat-Landscape/vulnerabilities/index|vulnerability sweep]] runs weekly-ish; [[radar/index|Radar]] monthly; [[intel-program/pir|PIR review]] annually.
+Entries publish as triaged (solo capacity — quality over schedule); the [[my-threat-landscape/vulnerabilities/index|vulnerability sweep]] runs weekly-ish; [[radar/index|Radar]] monthly; [[intel-program/pir|PIR review]] annually.

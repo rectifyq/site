@@ -38,7 +38,7 @@ Free resources mapped to practice areas — evidence you can cite in your own as
 | [[intel-program/pir\|Published PIR mapping]] | Requirements definition & stakeholder alignment |
 | [[radar/index\|Radar]] briefings | Dissemination to leadership, situational awareness |
 | [[resources/guides/index\|Deployment guides]] | Tooling & platform capability |
-| [[MY-Threat-Landscape/breaches/index\|Breach Watch]] sector data | Risk framing with local evidence |
+| [[my-threat-landscape/breaches/index\|Breach Watch]] sector data | Risk framing with local evidence |
 
 ## Changelog
 

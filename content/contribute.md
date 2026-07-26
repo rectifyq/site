@@ -16,7 +16,7 @@ You don't need a formal invitation. If you find something interesting using the 
 | 👤 **Threat Actor Profiles** | Deep dives into groups targeting Malaysian infrastructure or local industries |
 | 🦠 **Malware Analysis** | Reverse engineering or behavioral analysis of samples found in the wild locally |
 | 🚨 **Incident Analysis** | Post-mortem or technical breakdowns of recent Malaysian cyber incidents |
-| 🔓 **Leak Data Analysis** | Investigating breaches, credential dumps, or PII leaks affecting Malaysian citizens — responsibly, per the [[MY-Threat-Landscape/breaches/index\|Breach Watch policy]] |
+| 🔓 **Leak Data Analysis** | Investigating breaches, credential dumps, or PII leaks affecting Malaysian citizens — responsibly, per the [[my-threat-landscape/breaches/index\|Breach Watch policy]] |
 
 ## Other ways in
 

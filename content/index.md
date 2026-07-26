@@ -70,7 +70,7 @@ tags:
         <span class="tile-title">Tanya Rectifyq</span>
         <span class="tile-desc">Ask anything about CTI</span>
     </a>
-    <a href="/MY-Threat-Landscape/phishhuntmy/" class="product-tile">
+    <a href="/my-threat-landscape/phishhuntmy/" class="product-tile">
         <span class="tile-icon">🎣</span>
         <span class="tile-title">PhishHuntMY</span>
         <span class="tile-desc">Phishing hunt challenge</span>

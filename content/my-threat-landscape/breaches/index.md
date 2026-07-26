@@ -17,7 +17,7 @@ Because "it happens here too" is the sentence every Malaysian CISO needs on reco
 
 ## Ransomware Tracker
 
-Live tracker of extortion claims against Malaysian organizations since 2018 — by group, sector, and year: [[MY-Threat-Landscape/breaches/ransomware-tracker|Ransomware Tracker →]]
+Live tracker of extortion claims against Malaysian organizations since 2018 — by group, sector, and year: [[my-threat-landscape/breaches/ransomware-tracker|Ransomware Tracker →]]
 
 ## Claim log
 

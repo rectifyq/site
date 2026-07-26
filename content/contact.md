@@ -5,9 +5,7 @@ date: 2024-01-01
 lastmod: 2026-06-29
 ---
 
-# Connect with Rectifyq
-
-Whether you're a CISO looking for a strategic briefing, a SOC analyst needing [[API]] support, or a student wanting to learn more about the Malaysian threat landscape—we’re here to help.
+Whether you're a CISO looking for a strategic briefing, a SOC analyst needing support on feeds, or a student wanting to learn more about the Malaysian threat landscape—we’re here to help.
 
 ---
 

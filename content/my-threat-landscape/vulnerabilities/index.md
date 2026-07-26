@@ -13,7 +13,7 @@ Exposure signals come from public scan data (Shadowserver, Shodan) filtered to M
 
 ## This week
 
-→ Latest: [[MY-Threat-Landscape/vulnerabilities/2026-w28|Top CVEs for Malaysia — Week 28]]
+→ Latest: [[my-threat-landscape/vulnerabilities/2026-w28|Top CVEs for Malaysia — Week 28]]
 
 <!-- Quartz folder listing of weekly/ renders below -->
 

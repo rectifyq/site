@@ -1,5 +1,5 @@
 ---
-title: "📌Start Here"
+title: "Start Here"
 description: "Two minutes to find your lane — role-based guide to Rectifyq for SOC analysts, CTI analysts, CISOs, OT engineers, business owners, and newcomers."
 date: 2026-07-17
 tags: [guide]
@@ -11,27 +11,27 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 
 <div class="role-grid">
     <a href="#ciso" class="role-tile">
-        <span class="tile-title">🧭 CISO / Manager</span>
+        🧭<span class="tile-title">CISO / Manager</span>
         <span class="tile-desc">Trends and justification</span>
     </a>
     <a href="#biz" class="role-tile">
-        <span class="tile-title">🏢 Business Owner</span>
+        🏢<span class="tile-title">Business Owner</span>
         <span class="tile-desc">Plain-language risk</span>
     </a>
     <a href="#cti" class="role-tile">
-        <span class="tile-title">🔎 CTI Analyst</span>
+        🔎<span class="tile-title">CTI Analyst</span>
         <span class="tile-desc">Context, actors, TTPs</span>
     </a>
     <a href="#soc" class="role-tile">
-        <span class="tile-title">🖥️ SOC / IR Analyst</span>
+        🖥️<span class="tile-title">SOC / IR Analyst</span>
         <span class="tile-desc">IoCs and detections</span>
     </a>
     <a href="#ot" class="role-tile">
-        <span class="tile-title">🏭 OT / Plant Engineer</span>
+        🏭<span class="tile-title">OT / Plant Engineer</span>
         <span class="tile-desc">ICS threats & advisories</span>
     </a>
     <a href="#new" class="role-tile">
-        <span class="tile-title">🌱 Student / Newcomer</span>
+        🌱<span class="tile-title">Student / Newcomer</span>
         <span class="tile-desc">Getting into cyber</span>
     </a>
 </div>
@@ -77,14 +77,14 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 <a id="ciso"></a>
 ## 🧭 CISO / Security Manager
 
-1. **[[/my-threat-landscape/radar/index|Rectifyq Radar]]** — one read a month keeps you current.
-2. **[[MY-Threat-Landscape/breaches/index|Breach Watch]]** — local ransomware claims and leaks by sector, since 2018. Nothing justifies budget like local numbers. Victims always masked.
-3. **[[MY-Threat-Landscape/vulnerabilities/index|Vulnerability Watch]]** — is Malaysia (and your sector) actually exposed to the CVE in the news?
+1. **[[my-threat-landscape/radar/index|Rectifyq Radar]]** — one read a month keeps you current.
+2. **[[my-threat-landscape/breaches/index|Breach Watch]]** — local ransomware claims and leaks by sector, since 2018. Nothing justifies budget like local numbers. Victims always masked.
+3. **[[my-threat-landscape/vulnerabilities/index|Vulnerability Watch]]** — is Malaysia (and your sector) actually exposed to the CVE in the news?
 
 <a id="biz"></a>
 ## 🏢 Business Owner
 
-1. **[[/my-threat-landscape/radar/index|Rectifyq Radar]]** — plain-language monthly summary of what's hitting Malaysian organizations.
+1. **[[my-threat-landscape/radar/index|Rectifyq Radar]]** — plain-language monthly summary of what's hitting Malaysian organizations.
 2. **[[tanya-rectifyq/index|Tanya Rectifyq]]** — ask anything, anonymously. "Kena ransomware, siapa nak call dulu?" is a perfectly good question.
 
 > [!info] Reporting an incident?
@@ -93,9 +93,9 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 <a id="cti"></a>
 ## 🔎 CTI Analyst
 
-1. **[[MY-Threat-Landscape/threat-actor/index|Threat Actor Profiles]]** — 47+ groups clustered by suspected origin (heavily China-nexus among APTs), mapped to MITRE ATT&CK and the Diamond Model.
+1. **[[my-threat-landscape/threat-actor/index|Threat Actor Profiles]]** — 47+ groups clustered by suspected origin (heavily China-nexus among APTs), mapped to MITRE ATT&CK and the Diamond Model.
 2. **[[intel-program/index|Intelligence Program]]** — our open PIR/GIR. Map them against your org's requirements to know which tags to watch.
-3. **[[threat-intelligence-platform-(tip)/style-guide|Style Guide]]** — relevancy 🔴🟡🟢, severity, category, sub-category, threat actor category, target scope — filter with precision.
+3. **[[threat-intelligence-platform/style-guide|Style Guide]]** — relevancy 🔴🟡🟢, severity, category, sub-category, threat actor category, target scope — filter with precision.
 4. **MISP-MY** — every entry links to its MISP event for structured pivoting. See [[resources/feeds|Feeds]].
 
 > [!warning] On attribution
@@ -104,9 +104,9 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 <a id="soc"></a>
 ## 🖥️ SOC / IR Analyst
 
-1. **[[MY-Threat-Landscape/threats/index|Threat Watch]]** — every entry ships defanged IoCs ready for your SIEM or TIP, linked to its MISP event. Filter 🔴 Highly Relevant first.
+1. **[[my-threat-landscape/threats/index|Threat Watch]]** — every entry ships defanged IoCs ready for your SIEM or TIP, linked to its MISP event. Filter 🔴 Highly Relevant first.
 2. **[[resources/feeds|Feeds]]** — pull continuously instead of copy-pasting: `MISP-MY`, `MISP-ICS-OT`, and yearly instances at feeds.rectifyq.com, plus [t.me/rectifyq](https://t.me/rectifyq) for real-time local IoC alerts.
-3. **[[MY-Threat-Landscape/vulnerabilities/index|Vulnerability Watch]]** — CVEs with confirmed Malaysian exposure. Listed here = check your attack surface today.
+3. **[[my-threat-landscape/vulnerabilities/index|Vulnerability Watch]]** — CVEs with confirmed Malaysian exposure. Listed here = check your attack surface today.
 
 > [!tip] Integrating with your SIEM/TIP?
 > Email us at **support@rectifyq.com**.

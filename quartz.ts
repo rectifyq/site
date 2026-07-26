@@ -15,8 +15,8 @@ ExternalPlugin.RecentNotes({
 ExternalPlugin.Explorer({
   sortFn: (a, b) => {
     // 1. Define the pinning conditions (checks both filename and display title)
-    const aIsPinned = a.name === "start-here" || a.displayName.includes("📌Start Here")
-    const bIsPinned = b.name === "start-here" || b.displayName.includes("📌Start Here")
+    const aIsPinned = a.name === "start-here" || a.displayName.includes("Start Here")
+    const bIsPinned = b.name === "start-here" || b.displayName.includes("Start Here")
 
     // If one of the nodes is the pinned page, place it at the absolute top
     if (aIsPinned && !bIsPinned) return -1

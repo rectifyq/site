@@ -23,4 +23,4 @@ TLP = **Traffic Light Protocol** (current version: TLP 2.0, maintained by FIRST)
 
 **Do you need to care?** Yes, the moment you share threat intel with anyone. It tells you whether forwarding that report to a vendor group chat is fine (CLEAR/GREEN) or a breach of trust that gets you cut out of sharing circles (AMBER/RED). Everything published on Rectifyq is TLP:CLEAR unless stated otherwise — share freely, credit appreciated.
 
-*Related: [[threat-intelligence-platform-(tip)/style-guide|Rectifyq's Style Guide]] · Ask your own: [[tanya-rectifyq/index|Tanya Rectifyq]]* · [[start-here|Start Here]]
+*Related: [[threat-intelligence-platform/style-guide|Rectifyq's Style Guide]] · Ask your own: [[tanya-rectifyq/index|Tanya Rectifyq]]* · [[start-here|Start Here]]
