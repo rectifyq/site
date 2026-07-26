@@ -30,7 +30,7 @@ footer {
 
     li {
       margin: 0;       // Clears any native list indentation
-      
+
       // Optional: If Quartz drops regular text markers inside, this strips them
       &::before {
         content: none !important;
@@ -61,4 +61,316 @@ footer {
     width: 1.75rem;
     height: 1.75rem;
   }
+}
+
+/* ==========================================================================
+   RECTIFYQ — INTEL CONSOLE STYLING
+   Appended enhancements. Aligned to the site's Catppuccin Mocha palette and
+   its threat-intel subject. Works in both dark and light themes.
+   Signature: the Latest Threat Articles feed reads like SOC advisory rows.
+   Everything else stays quiet — data surfaces get the monospace treatment,
+   prose stays prose.
+   ========================================================================== */
+
+/* --- 1. Accent tokens ---------------------------------------------------- */
+/* Named semantic colours drawn from Catppuccin (Mocha for dark, Latte for
+   light) so severity reads at a glance and contrast holds in both themes.   */
+:root {
+  --rq-signal:   #94e2d5; /* teal   — primary intel accent            */
+  --rq-verified: #a6e3a1; /* green  — clear / confirmed               */
+  --rq-critical: #f38ba8; /* red    — critical / active threat        */
+  --rq-warn:     #fab387; /* peach  — advisory / watch                */
+  --rq-track:    #cba6f7; /* mauve  — tracked actor / campaign        */
+}
+:root[saved-theme="light"] {
+  --rq-signal:   #179299;
+  --rq-verified: #40a02b;
+  --rq-critical: #d20f39;
+  --rq-warn:     #fe640b;
+  --rq-track:    #8839ef;
+}
+
+/* --- 2. Signature: threat feed as SOC advisory rows ---------------------- */
+.recent-notes {
+  .recent-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* Each note becomes a raised, tinted advisory card with a status rail. */
+  .recent-ul > li {
+    position: relative;
+    margin: 0;
+    padding: 0.85rem 1rem 0.85rem 1.15rem;
+    border: 1px solid color-mix(in srgb, var(--secondary) 14%, transparent);
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--secondary) 4%, var(--light));
+    overflow: hidden;
+    transition: transform 0.15s ease, border-color 0.15s ease,
+                background 0.15s ease, box-shadow 0.15s ease;
+
+    /* Left status rail — the recognisable SOC-row cue. */
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: var(--rq-signal);
+      opacity: 0.6;
+      transition: width 0.15s ease, opacity 0.15s ease;
+    }
+
+    &:hover,
+    &:focus-within {
+      transform: translateX(2px);
+      border-color: color-mix(in srgb, var(--rq-signal) 45%, transparent);
+      background: color-mix(in srgb, var(--rq-signal) 7%, var(--light));
+      box-shadow: 0 4px 18px -10px color-mix(in srgb, var(--rq-signal) 55%, transparent);
+
+      &::before { width: 4px; opacity: 1; }
+    }
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  /* Note title — keep it prose, let the accent show on interaction. */
+  .desc > h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.35;
+
+    a {
+      color: var(--dark);
+      background-image: none; /* strip Quartz's default underline gradient */
+
+      &:hover { color: var(--rq-signal); }
+    }
+  }
+
+  /* Date/metadata — the "machine" line: monospace, muted, tracked out. */
+  .meta {
+    margin: 0;
+    font-family: var(--codeFont);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--gray);
+
+    &::before {
+      content: "// ";
+      color: var(--rq-signal);
+      opacity: 0.7;
+    }
+  }
+}
+
+/* --- 3. Tags as terminal chips (site-wide) ------------------------------- */
+/* Applies on note cards, tag pages and inline tag lists.                    */
+.tags li a,
+a.tag-link {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--rq-signal);
+  background: color-mix(in srgb, var(--rq-signal) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rq-signal) 30%, transparent);
+  border-radius: 4px;
+  background-image: none;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+
+  &:hover {
+    color: var(--light);
+    background: var(--rq-signal);
+    border-color: var(--rq-signal);
+  }
+}
+
+/* Severity colour-coding — encodes real signal, not decoration.
+   Matches on the tag slug in the href, so it also works on tag pages.
+   Extend this list with your own taxonomy slugs as needed.               */
+:is(.tags li a, a.tag-link) {
+  &[href*="critical-vuln"], &[href*="ransomware"],
+  &[href*="breach"], &[href*="exploit"] {
+    color: var(--rq-critical);
+    background: color-mix(in srgb, var(--rq-critical) 12%, transparent);
+    border-color: color-mix(in srgb, var(--rq-critical) 32%, transparent);
+    &:hover { color: var(--light); background: var(--rq-critical); border-color: var(--rq-critical); }
+  }
+  &[href*="advisory"], &[href*="alert"], &[href*="report"] {
+    color: var(--rq-warn);
+    background: color-mix(in srgb, var(--rq-warn) 12%, transparent);
+    border-color: color-mix(in srgb, var(--rq-warn) 32%, transparent);
+    &:hover { color: var(--light); background: var(--rq-warn); border-color: var(--rq-warn); }
+  }
+  &[href*="apt"], &[href*="threat-actor"], &[href*="campaign"],
+  &[href*="sharppanda"], &[href*="panda"] {
+    color: var(--rq-track);
+    background: color-mix(in srgb, var(--rq-track) 12%, transparent);
+    border-color: color-mix(in srgb, var(--rq-track) 32%, transparent);
+    &:hover { color: var(--light); background: var(--rq-track); border-color: var(--rq-track); }
+  }
+}
+
+/* --- 4. Blockquotes & callouts as ops notices ---------------------------- */
+article blockquote {
+  border-left: 3px solid var(--rq-signal);
+  border-radius: 0 6px 6px 0;
+  background: color-mix(in srgb, var(--rq-signal) 6%, var(--light));
+  padding: 0.75rem 1rem;
+}
+
+/* Map Quartz callout types onto the intel palette. */
+.callout {
+  &[data-callout="warning"],
+  &[data-callout="caution"] { --color: var(--rq-warn); }
+  &[data-callout="danger"],
+  &[data-callout="failure"],
+  &[data-callout="bug"]     { --color: var(--rq-critical); }
+  &[data-callout="success"],
+  &[data-callout="tip"]     { --color: var(--rq-verified); }
+  &[data-callout="info"],
+  &[data-callout="note"],
+  &[data-callout="abstract"]{ --color: var(--rq-signal); }
+}
+
+/* --- 5. Code: IoC / terminal surfaces ------------------------------------ */
+article {
+  /* Inline code — good for hashes, domains, CVEs. */
+  p code, li code, td code {
+    font-family: var(--codeFont);
+    font-size: 0.85em;
+    color: var(--rq-signal);
+    background: color-mix(in srgb, var(--rq-signal) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--rq-signal) 22%, transparent);
+    border-radius: 4px;
+    padding: 0.05rem 0.35rem;
+  }
+
+  /* Fenced blocks — a clean tinted panel with a signal edge. */
+  pre {
+    border: 1px solid color-mix(in srgb, var(--secondary) 16%, transparent);
+    border-left: 3px solid var(--rq-signal);
+    border-radius: 6px;
+
+    & > code {
+      background: none;
+      border: none;
+      color: inherit;
+    }
+  }
+}
+
+/* --- 6. Tables for structured IoC / campaign data ------------------------ */
+article table {
+  border-collapse: collapse;
+  font-family: var(--codeFont);
+  font-size: 0.82rem;
+  border: 1px solid color-mix(in srgb, var(--secondary) 16%, transparent);
+  border-radius: 6px;
+  overflow: hidden;
+
+  thead th {
+    background: color-mix(in srgb, var(--rq-signal) 14%, var(--light));
+    color: var(--dark);
+    text-align: left;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid color-mix(in srgb, var(--rq-signal) 35%, transparent);
+  }
+
+  tbody tr:nth-child(even) {
+    background: color-mix(in srgb, var(--secondary) 4%, transparent);
+  }
+  tbody tr:hover {
+    background: color-mix(in srgb, var(--rq-signal) 8%, transparent);
+  }
+
+  th, td {
+    padding: 0.45rem 0.7rem;
+    border: none;
+  }
+}
+
+/* Let wide IoC tables scroll on small screens instead of breaking layout. */
+@media all and (max-width: 800px) {
+  article table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* --- 7. Links: signal underline that grows from the left ----------------- */
+article a.internal,
+article a.external {
+  background-image: none;
+  text-decoration: none;
+  color: var(--secondary);
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background: var(--rq-signal);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.18s ease;
+  }
+  &:hover::after { transform: scaleX(1); }
+}
+
+/* Small outbound marker on external links. */
+article a.external::before {
+  content: "↗";
+  font-size: 0.75em;
+  margin-right: 0.15rem;
+  color: var(--rq-signal);
+  opacity: 0.8;
+}
+
+/* --- 8. Title glyph + heading anchors ------------------------------------ */
+/* A restrained glow on the header icon — reads "live console" without shout. */
+.page-title a::before {
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--rq-signal) 55%, transparent));
+}
+
+article :is(h1, h2, h3) .anchor {
+  color: var(--rq-signal);
+}
+
+/* --- 9. Quality floor: focus + reduced motion ---------------------------- */
+:focus-visible {
+  outline: 2px solid var(--rq-signal);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recent-notes .recent-ul > li,
+  .recent-notes .recent-ul > li::before,
+  .tags li a, a.tag-link,
+  article a.internal::after,
+  article a.external::after {
+    transition: none !important;
+  }
+  .recent-notes .recent-ul > li:hover,
+  .recent-notes .recent-ul > li:focus-within { transform: none; }
+}
+
+/* Target both file links and folder buttons in the Explorer on hover */
+.explorer ul li a:hover,
+.explorer ul li button:hover {
+  /* Change text color */
+  color: var(--tertiary); 
+  
+  /* Optional: Add a subtle background color highlight (Great for dark themes) */
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 4px; 
 }

@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Events Calendar
 description: Compilation or list of Malaysia Cybersecurity Events either physical or online.
 tags:
   - community

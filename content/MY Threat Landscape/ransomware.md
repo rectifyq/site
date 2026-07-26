@@ -1,27 +1,25 @@
 ---
 title: "Ransomware Tracker"
 date: 2026-01-29
-lastmod: 2026-06-29
+lastmod: 2026-07-25
 description: "Ransomware Tracker"
 aliases:
   - "[Alternative Name / Internal ID]"
 tags:
   - ransomware
   - tracker
-  - [category: test]
-  - [category: e.g., RAT / Scanner / Exfil]
 draft: false
 ---
 # Ransomware Tracker
 
-## Ransomware Attack Trajectory (Malaysian Organizations) - Up to June 2026 
+## Ransomware Attack Trajectory (Malaysian Organizations) - Up to July 2026 
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
-    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (36)"]
+    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (40)"]
     y-axis "Number of Alleged Cases" 0 --> 40
-    bar [1, 5, 6, 21, 21, 38, 29]
-    line [1, 5, 6, 21, 21, 38, 29]
+    bar [1, 5, 6, 21, 21, 38, 40]
+    line [1, 5, 6, 21, 21, 38, 40]
 ```
 
 ## Timeline of MY organizations in alleged Ransomware cases
@@ -120,7 +118,7 @@ timeline
          : PJS* Con******** Sdn Bhd (Consulting)
          : Ori***** Cas*** Sdn Bhd (Manufacturing)
          : Ber**** Air Sdn* Bhd* (Civil Aviation)
-    2026 (36) : Sun*** Gro** Ber*** (Manufacturing)
+    2026 (40) : Sun*** Gro** Ber*** (Manufacturing)
          : Bin* Dar****** Ber*** (Construction)
          : PTS Gol***** Ind******* Sdn Bhd (Manufacturing)
          : RED**** Dig**** Ber*** (Telecoms)
@@ -156,6 +154,10 @@ timeline
          : Ked** Sta** Gov******* (Government, Administration)
          : Vil*** Hot** in Att*** Hot*** and Res**** (Hotels)
          : UiT* Hol***** (Investment)
+         : Ma** Ho** Fur******* Sd* Bh* (Retail)
+         : Qua***** Log****** Sdn Bhd (Logistics)
+         : Pus** Reh********* PER**** (Health)
+         : Sun*** Ber*** (Multi-sector)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -163,8 +165,8 @@ p.s. This is based on Ransomware Group claims or news, unless the organization c
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Lockbit3" : 21
-    "Qilin" : 19
-    "The Gentlemen" : 8
+    "Qilin" : 20
+    "The Gentlemen" : 9
     "Ransomhub" : 7
     "Direwolf" : 7
     "Akira" : 5
@@ -182,13 +184,13 @@ pie title Ransomware Victim (by sector)
     "Manufacturing" : 18
     "Engineering" : 9
     "Government, Administration" : 9
-    "Logistic" : 7
+    "Logistic" : 8
     "Construction" : 6
     "Automotive" : 5
     "Civil Aviation" : 5
+    "Multi-sector" : 5       
      "IT" : 5
     "Pharmacy" : 4
-    "Multi-sector" : 4
 
 ```
 
@@ -199,19 +201,19 @@ pie title Ransomware Victim (by sector)
 > | Manufacturing | 18 |
 > | Engineering | 9 |
 > | Government, Administration | 9 |
-> | Logistic | 7 |
+> | Logistic | 8 |
 > | Construction | 6 |
 > | Automotive | 5 |
 > | Civil Aviation | 5 |
 > | Agriculture | 5 |
+> | Multi-sector | 5 |
 > | IT | 5|
 > | Pharmacy | 4 |
-> | Multi-sector | 4 |
-> | Retail | 3 |
+> | Retail | 4 |
+> | Health | 4 |
 > | Electronic | 3 |
 > | Academia - University | 3 |
 > | Development | 3 |
-> | Health | 3 |
 > | Investment | 3 |
 > | Technology | 2 |
 > | Telecoms | 2 |
@@ -238,20 +240,3 @@ pie title Ransomware Victim (by sector)
 > | Game | 1 |
 > | Infrastructure | 1 |
 > | Hotels | 1 |
-
-
-
-
-
-The NCII sectors are:
-- Government
-- Banking and finance
-- Transportation
-- Defence and national security
-- Information, communication and digital
-- Healthcare services
-- Water, sewerage and waste management
-- Energy
-- Agriculture and plantation
-- Trade, industry and economy
-- Science, technology and innovation
