@@ -3,6 +3,8 @@ title: "Recognition"
 description: "Where Rectifyq's work has been featured — public mentions, MISP community contributions, and training engagements."
 date: 2026-07-17
 tags: [about, recognition]
+aliases:
+ - achievement
 ---
 
 ## Public mentions / featured
