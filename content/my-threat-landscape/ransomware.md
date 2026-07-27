@@ -16,10 +16,10 @@ draft: false
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
-    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (40)"]
-    y-axis "Number of Alleged Cases" 0 --> 40
-    bar [1, 5, 6, 21, 21, 38, 40]
-    line [1, 5, 6, 21, 21, 38, 40]
+    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (41)"]
+    y-axis "Number of Alleged Cases" 0 --> 41
+    bar [1, 5, 6, 21, 21, 38, 41]
+    line [1, 5, 6, 21, 21, 38, 41]
 ```
 
 ## Timeline of MY organizations in alleged Ransomware cases
@@ -158,6 +158,7 @@ timeline
          : Qua***** Log****** Sdn Bhd (Logistics)
          : Pus** Reh********* PER**** (Health)
          : Sun*** Ber*** (Multi-sector)
+         : Fur*** Buk** Bin**** (Hotels)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
@@ -223,6 +224,7 @@ pie title Ransomware Victim (by sector)
 > | Consulting | 2 |
 > | Transport | 2 |
 > | Finance | 2 |
+> | Hotels | 2 |
 > | Bank | 1 |
 > | Railway | 1 |
 > | Online marketplace | 1 |
@@ -239,4 +241,3 @@ pie title Ransomware Victim (by sector)
 > | Education | 1 |
 > | Game | 1 |
 > | Infrastructure | 1 |
-> | Hotels | 1 |
