@@ -16,10 +16,10 @@ draft: false
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
-    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (41)"]
-    y-axis "Number of Alleged Cases" 0 --> 41
-    bar [1, 5, 6, 21, 21, 38, 41]
-    line [1, 5, 6, 21, 21, 38, 41]
+    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (50)"]
+    y-axis "Number of Alleged Cases" 0 --> 50
+    bar [1, 5, 6, 21, 21, 38, 50]
+    line [1, 5, 6, 21, 21, 38, 50]
 ```
 
 ## Timeline of MY organizations in alleged Ransomware cases
@@ -118,7 +118,7 @@ timeline
          : PJS* Con******** Sdn Bhd (Consulting)
          : Ori***** Cas*** Sdn Bhd (Manufacturing)
          : Ber**** Air Sdn* Bhd* (Civil Aviation)
-    2026 (40) : Sun*** Gro** Ber*** (Manufacturing)
+    2026 (50) : Sun*** Gro** Ber*** (Manufacturing)
          : Bin* Dar****** Ber*** (Construction)
          : PTS Gol***** Ind******* Sdn Bhd (Manufacturing)
          : RED**** Dig**** Ber*** (Telecoms)
