@@ -159,17 +159,26 @@ timeline
          : Pus** Reh********* PER**** (Health)
          : Sun*** Ber*** (Multi-sector)
          : Fur*** Buk** Bin**** (Hotels)
+         : T** Co**** Be** (Retail)
+         : Des***** Sdn Bhd (Food)
+         : S* As******** Sdn Bhd (Engineering)
+         : P** Gr*** Sdn* Bhd* (Engineering)
+         : Ken** Res****** (Environment)
+         : Car******** (Health)
+         : E* Man********** Bhd (Manufacturing)
+         : ci**************** (Investment)
+         : Po** of Ta***** Pe***** (Transport)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
 ## Top 10 Ransomware Group impacting Malaysian Organziations
 ```mermaid
 pie title Ransomware Victim (by sector)
+    "Qilin" : 23
     "Lockbit3" : 21
-    "Qilin" : 20
-    "The Gentlemen" : 9
+    "The Gentlemen" : 11
+    "Direwolf" : 8
     "Ransomhub" : 7
-    "Direwolf" : 7
     "Akira" : 5
     "lamashtu" : 5
     "BlackCat" : 4
@@ -182,8 +191,8 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 18
-    "Engineering" : 9
+    "Manufacturing" : 19
+    "Engineering" : 11
     "Government, Administration" : 9
     "Logistic" : 8
     "Construction" : 6
@@ -191,7 +200,7 @@ pie title Ransomware Victim (by sector)
     "Civil Aviation" : 5
     "Multi-sector" : 5       
      "IT" : 5
-    "Pharmacy" : 4
+    "Retail" : 5
 
 ```
 
@@ -199,8 +208,8 @@ pie title Ransomware Victim (by sector)
 > ## Full breakdown Ransomware victim by sector:
 > | Sector | Count |
 > | -- | -- |
-> | Manufacturing | 18 |
-> | Engineering | 9 |
+> | Manufacturing | 19 |
+> | Engineering | 11 |
 > | Government, Administration | 9 |
 > | Logistic | 8 |
 > | Construction | 6 |
@@ -209,22 +218,23 @@ pie title Ransomware Victim (by sector)
 > | Agriculture | 5 |
 > | Multi-sector | 5 |
 > | IT | 5|
+> | Retail | 5 |
+> | Health | 5 |
 > | Pharmacy | 4 |
-> | Retail | 4 |
-> | Health | 4 |
+> | Investment | 4 |
 > | Electronic | 3 |
 > | Academia - University | 3 |
 > | Development | 3 |
-> | Investment | 3 |
+> | Environment | 3 |
+> | Transport | 3 |
 > | Technology | 2 |
 > | Telecoms | 2 |
 > | Oil and Gas | 2 |
-> | Environment | 2 |
 > | eCommerce | 2 |
 > | Consulting | 2 |
-> | Transport | 2 |
 > | Finance | 2 |
 > | Hotels | 2 |
+> | Food | 2 |
 > | Bank | 1 |
 > | Railway | 1 |
 > | Online marketplace | 1 |
@@ -237,7 +247,6 @@ pie title Ransomware Victim (by sector)
 > | Payment | 1 |
 > | Security systems | 1 |
 > | Electric | 1 |
-> | Food | 1 |
 > | Education | 1 |
 > | Game | 1 |
 > | Infrastructure | 1 |
