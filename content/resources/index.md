@@ -15,7 +15,8 @@ To move from "collecting data" to "producing intelligence," you need the right t
 ## 📕Notion
 🗓️[Malaysia Cybersecurity Events](https://rectifyq.notion.site/Malaysia-Cybersecurity-Events-e5b7d360750c42cd8d35de22ab0ff8e1)\
 🔁[Cybersecurity Subscription Comparison](https://rectifyq.notion.site/Subscription-Comparison-2aaba5ae66c780f4902dc59212d57fae)\
-💼[Certification Comparison and Action Plan (CCAP)](https://rectifyq.notion.site/Certification-Comparison-and-Action-Plan-CCAP-1ac3036cc51647679fb217433dc90f0a)
+💼[NEW! Certification Comparison and Action Plan (CCAP)](https://certs.rectifyq.com)
+💼[Certification Comparison and Action Plan (CCAP)*old](https://rectifyq.notion.site/Certification-Comparison-and-Action-Plan-CCAP-1ac3036cc51647679fb217433dc90f0a)
 
 ---
 ## 💻Github Repos
