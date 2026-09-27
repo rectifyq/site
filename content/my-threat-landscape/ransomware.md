@@ -149,7 +149,7 @@ timeline
          : MS* Gro** (Logistic)
          : Sha******** Met*** (Manufacturing)
          : M* I* Par***** Sdn Bhd (IT)
-         : S** Malaysia (Engineering)
+         : S** Ma****** (Engineering)
          : TH* PRO**** MAN******* SDN* BHD* (Engineering)
          : Ked** Sta** Gov******* (Government, Administration)
          : Vil*** Hot** in Att*** Hot*** and Res**** (Hotels)
