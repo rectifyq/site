@@ -12,7 +12,7 @@ draft: false
 ---
 # Ransomware Tracker
 
-## Ransomware Attack Trajectory (Malaysian Organizations) - Up to July 2026 
+## Ransomware Attack Trajectory (Malaysian Organizations) - Up to Oct 2026 
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
