@@ -20,7 +20,7 @@ tags:
         <span class="stat-label">Threat actors<br>tracked with MY relevance</span>
     </div>
     <div class="stat-item">
-        <span class="stat-number">130+</span>
+        <span class="stat-number">140+</span>
         <span class="stat-label">Ransomware claims<br>vs. MY orgs since 2018</span>
     </div>
 </div>

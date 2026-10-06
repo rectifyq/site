@@ -14,10 +14,10 @@ draft: false
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
-    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (45)"]
+    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (50)"]
     y-axis "Number of Alleged Cases" 0 --> 50
-    bar [1, 5, 6, 21, 21, 38, 45]
-    line [1, 5, 6, 21, 21, 38, 45]
+    bar [1, 5, 6, 21, 21, 38, 50]
+    line [1, 5, 6, 21, 21, 38, 50]
 ```
 
 ## Timeline of MY organizations in alleged Ransomware cases
@@ -116,7 +116,7 @@ timeline
          : PJS* Con******** Sdn Bhd (Consulting)
          : Ori***** Cas*** Sdn Bhd (Manufacturing)
          : Ber**** Air Sdn* Bhd* (Civil Aviation)
-    2026 (45) : Sun*** Gro** Ber*** (Manufacturing)
+    2026 (50) : Sun*** Gro** Ber*** (Manufacturing)
          : Bin* Dar****** Ber*** (Construction)
          : PTS Gol***** Ind******* Sdn Bhd (Manufacturing)
          : RED**** Dig**** Ber*** (Telecoms)
@@ -149,9 +149,13 @@ timeline
          : UiT* Hol***** (Investment)
          : Ma** Ho** Fur******* Sd* Bh* (Retail)
          : Qua***** Log****** Sdn Bhd (Logistic)
+         : Per******* (Government, Administration)
          : Pus** Reh********* PER**** (Health)
          : Sun*** Ber*** (Multi-sector)
          : Fur*** Buk** Bin**** (Hotels)
+         : Wei****** (Hotels)
+         : Ton* Kon* E & E Sdn Bhd (Electronic)
+         : Mal******* Nuc**** Age*** (Government, Administration)
          : T** Co**** Be** (Retail)
          : Des***** Sdn Bhd (Food)
          : S* As******** Sdn Bhd (Engineering)
@@ -160,6 +164,7 @@ timeline
          : Car******** (Health)
          : E* Man********** Bhd (Manufacturing)
          : ci**************** (Investment)
+         : My* Glo*** Ser***** Sdn Bhd (Technology)
          : Po** of Ta***** Pe***** (Transport)
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
@@ -185,8 +190,8 @@ pie title Ransomware Victim (by group)
 ```mermaid
 pie title Ransomware Victim (by sector)
     "Manufacturing" : 18
+    "Government, Administration" : 11
     "Engineering" : 11
-    "Government, Administration" : 9
     "Logistic" : 8
     "Multi-sector" : 5
     "Automotive" : 5
@@ -201,8 +206,8 @@ pie title Ransomware Victim (by sector)
 > | Sector | Count |
 > | -- | -- |
 > | Manufacturing | 18 |
+> | Government, Administration | 11 |
 > | Engineering | 11 |
-> | Government, Administration | 9 |
 > | Logistic | 8 |
 > | Multi-sector | 5 |
 > | Automotive | 5 |
@@ -210,15 +215,16 @@ pie title Ransomware Victim (by sector)
 > | IT | 5 |
 > | Construction | 5 |
 > | Retail | 5 |
+> | Electronic | 4 |
 > | Pharmacy | 4 |
 > | Agriculture | 4 |
 > | Investment | 4 |
 > | Health | 4 |
 > | Academia - University | 3 |
-> | Electronic | 3 |
 > | Transport | 3 |
 > | Environment | 3 |
-> | Technology | 2 |
+> | Technology | 3 |
+> | Hotels | 3 |
 > | eCommerce | 2 |
 > | Finance | 2 |
 > | Oil and Gas | 2 |
@@ -226,7 +232,6 @@ pie title Ransomware Victim (by sector)
 > | Development | 2 |
 > | Consulting | 2 |
 > | Telecoms | 2 |
-> | Hotels | 2 |
 > | Television Broadcast | 1 |
 > | Payment | 1 |
 > | Marketing | 1 |
