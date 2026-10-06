@@ -55,7 +55,7 @@ Here is an analysis of the local providers you mentioned, along with additional 
 *   **Velum Labs:** A highly sophisticated player with an explicit focus on high-end cyber defense, intelligence generation, and strategic sovereign capabilities. Excellent for deep-dive threat visibility and complex environments.
 
 #### B. Additional Local Alternatives for your RFQ
-*   **LGMS (Leong Guan Means Security):** A publicly listed, dominant cybersecurity firm in Malaysia. LGMS maintains extensive relationships with financial institutions and provides robust cyber risk, assessment, and threat intelligence advisory services aligned closely with BNM frameworks.
+*   **LGMS (LE Global Services):** A publicly listed, dominant cybersecurity firm in Malaysia. LGMS maintains extensive relationships with financial institutions and provides robust cyber risk, assessment, and threat intelligence advisory services aligned closely with BNM frameworks.
 *   **Condition Zebra:** An established local cybersecurity firm offering managed security services and tactical threat insights, frequently servicing clients who need to satisfy rigorous local compliance standards.
 *   **DefSec Malaysia / Local MSSPs:** Several specialized niche boutiques provide localized operational threat feeds specifically tracking Malaysian threat groups and infrastructure.
 
@@ -67,4 +67,4 @@ Here is an analysis of the local providers you mentioned, along with additional 
 2. **Evaluate Integration Capabilities:** Ensure the local provider can feed directly into your existing infrastructure (e.g., via STIX/TAXII into your SIEM/SOAR).
 3. **Verify RMiT Familiarity:** Ask the vendors explicitly for a matrix mapping their deliverables to BNM RMiT clauses.
 
-*Related: [[resources/vendor-evaluation|Vendor Assessment]] · [[compliance/rmit|RMiT Mapping]] · Ask your own: [[tanya-rectifyq/index|Tanya Rectifyq]]*
+*Ask your own: [[tanya-rectifyq/index|Tanya Rectifyq]]*

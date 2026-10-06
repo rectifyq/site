@@ -10,7 +10,7 @@ description: The terms governing your use of rectifyq.com and related Rectifyq s
 
 These Terms of Service ("Terms") are a binding agreement between you and Rectifyq ("Rectifyq", "we", "us", "our"), governing your access to and use of **rectifyq.com**, its subdomains, and any related tools, applications and services (the "Services").
 
-By accessing or using the Services, you agree to these Terms and to our [Privacy Policy](/privacy-policy). If you do not agree, do not use the Services.
+By accessing or using the Services, you agree to these Terms and to our [Privacy Policy](/privacy). If you do not agree, do not use the Services.
 
 ---
 

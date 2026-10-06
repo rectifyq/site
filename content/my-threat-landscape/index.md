@@ -5,7 +5,7 @@ date: 2026-07-17
 tags: [landscape, dashboard]
 ---
 
-One view of what is actually hitting Malaysia — compiled from [[my-threat-landscape/threats/index|Threat Watch]], [[my-threat-landscape/breaches/index|Breach Watch]], [[my-threat-landscape/vulnerabilities/index|Vulnerability Watch]], and the [[my-threat-landscape/threat-actors|Actor Tracker]].
+One view of what is actually hitting Malaysia — compiled from [[my-threat-landscape/threats/index|Threat Watch]], [[my-threat-landscape/breaches/index|Breach Watch]], [[my-threat-landscape/vulnerabilities/index|Vulnerability Watch]], and the [[my-threat-landscape/threat-actor|Actor Tracker]].
 
 ## Ransomware claims vs MY organizations
 
@@ -26,11 +26,11 @@ pie showData title Claims by group (2018–present)
 > [!warning] Claims, not confirmations
 > Unless the organization confirmed an incident, it remains a claim. Victims are never named. [[my-threat-landscape/breaches/index|Editorial policy →]]
 
-**Recent movement (2026):** Qilin remains the most prolific global operator and continues claiming Malaysian victims; The Gentlemen (emerged Sep 2025) has been actively claiming MY organizations including in the transport sector; a newer group, Payload, claimed a Malaysian hospitality group in June 2026. Full log: [[my-threat-landscape/ransomware|Ransomware Tracker]].
+**Recent movement (2026):** Qilin remains the most prolific global operator and continues claiming Malaysian victims; The Gentlemen (launched mid-2025) has been actively claiming MY organizations including in the transport sector; a newer group, Payload, claimed a Malaysian hospitality group in June 2026. Full log: [[my-threat-landscape/ransomware|Ransomware Tracker]].
 
 ## Most-claimed sectors
 
-Manufacturing · Government/Administration · Academia · Logistics · Electronics · Multi-sector conglomerates — the tracker timeline runs back to 2018 (first recorded claim: a television broadcaster).
+Manufacturing · Engineering · Government/Administration · Logistics — the tracker timeline runs back to 2018 (first recorded claim: a television broadcaster).
 
 ## Top techniques in MY-relevant intrusions (MISP-MY)
 

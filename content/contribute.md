@@ -24,7 +24,7 @@ You don't need a formal invitation. If you find something interesting using the 
 | --- | --- |
 | A phishing sample targeting Malaysians (APK scam, bank phish) | Email **phishing@rectifyq.com** (headers + defanged sample) |
 | An event for the community | [[events/index\|Submit to the calendar]] |
-| A correction | [[about/contact\|Contact]] — corrections are published transparently |
+| A correction | [[contact\|Contact]] — corrections are published transparently |
 | A question others probably share | [[tanya-rectifyq/index\|Tanya Rectifyq]] |
 
 ## The amplification deal

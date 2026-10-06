@@ -1,10 +1,8 @@
 ---
 title: "Ransomware Tracker"
 date: 2026-01-29
-lastmod: 2026-07-25
+lastmod: 2026-10-07
 description: "Ransomware Tracker"
-aliases:
-  - "[Alternative Name / Internal ID]"
 tags:
   - ransomware
   - tracker
@@ -16,10 +14,10 @@ draft: false
 ```mermaid
 xychart-beta
     title "Ransomware Attack Trajectory (Malaysian Organizations)"
-    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (50)"]
+    x-axis ["2018 (1)", "2021 (5)", "2022 (6)", "2023 (21)", "2024 (21)", "2025 (38)", "2026 (45)"]
     y-axis "Number of Alleged Cases" 0 --> 50
-    bar [1, 5, 6, 21, 21, 38, 50]
-    line [1, 5, 6, 21, 21, 38, 50]
+    bar [1, 5, 6, 21, 21, 38, 45]
+    line [1, 5, 6, 21, 21, 38, 45]
 ```
 
 ## Timeline of MY organizations in alleged Ransomware cases
@@ -118,7 +116,7 @@ timeline
          : PJS* Con******** Sdn Bhd (Consulting)
          : Ori***** Cas*** Sdn Bhd (Manufacturing)
          : Ber**** Air Sdn* Bhd* (Civil Aviation)
-    2026 (50) : Sun*** Gro** Ber*** (Manufacturing)
+    2026 (45) : Sun*** Gro** Ber*** (Manufacturing)
          : Bin* Dar****** Ber*** (Construction)
          : PTS Gol***** Ind******* Sdn Bhd (Manufacturing)
          : RED**** Dig**** Ber*** (Telecoms)
@@ -138,11 +136,6 @@ timeline
          : Mal****** NP* Fer******* Sdn* Bhd (Agriculture)
          : olp********* (Engineering)
          : whe*********** (Manufacturing)
-         : Mal****** NPK Fer******* Sdn* Bhd (Agriculture)
-         : fav************* (Manufacturing)
-         : Jes** Gro** (Development)
-         : Int********** Ass******* Sdn (Health)
-         : Ker**** Pro**** Gro** (Construction)
          : Int************ (+ Tsk************** + Ame******************** + Woo*************) (Manufacturing)
          : PNS* Ins****** Bro**** Sdn Bhd (Finance)
          : Maj*** Per******** Alo* Gaj** (Government, Administration)
@@ -155,7 +148,7 @@ timeline
          : Vil*** Hot** in Att*** Hot*** and Res**** (Hotels)
          : UiT* Hol***** (Investment)
          : Ma** Ho** Fur******* Sd* Bh* (Retail)
-         : Qua***** Log****** Sdn Bhd (Logistics)
+         : Qua***** Log****** Sdn Bhd (Logistic)
          : Pus** Reh********* PER**** (Health)
          : Sun*** Ber*** (Multi-sector)
          : Fur*** Buk** Bin**** (Hotels)
@@ -171,9 +164,9 @@ timeline
 ```
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
-## Top 10 Ransomware Group impacting Malaysian Organziations
+## Top Ransomware Groups impacting Malaysian Organizations
 ```mermaid
-pie title Ransomware Victim (by sector)
+pie title Ransomware Victim (by group)
     "Qilin" : 23
     "Lockbit3" : 21
     "The Gentlemen" : 11
@@ -191,62 +184,61 @@ pie title Ransomware Victim (by sector)
 ## Top 10 sectors affected by Ransomware
 ```mermaid
 pie title Ransomware Victim (by sector)
-    "Manufacturing" : 19
+    "Manufacturing" : 18
     "Engineering" : 11
     "Government, Administration" : 9
     "Logistic" : 8
-    "Construction" : 6
+    "Multi-sector" : 5
     "Automotive" : 5
     "Civil Aviation" : 5
-    "Multi-sector" : 5       
-     "IT" : 5
+    "IT" : 5
+    "Construction" : 5
     "Retail" : 5
-
 ```
 
 > [!ABSTRACT]- Click to expand Full breakdown Ransomware victim by sector:
 > ## Full breakdown Ransomware victim by sector:
 > | Sector | Count |
 > | -- | -- |
-> | Manufacturing | 19 |
+> | Manufacturing | 18 |
 > | Engineering | 11 |
 > | Government, Administration | 9 |
 > | Logistic | 8 |
-> | Construction | 6 |
+> | Multi-sector | 5 |
 > | Automotive | 5 |
 > | Civil Aviation | 5 |
-> | Agriculture | 5 |
-> | Multi-sector | 5 |
-> | IT | 5|
+> | IT | 5 |
+> | Construction | 5 |
 > | Retail | 5 |
-> | Health | 5 |
 > | Pharmacy | 4 |
+> | Agriculture | 4 |
 > | Investment | 4 |
-> | Electronic | 3 |
+> | Health | 4 |
 > | Academia - University | 3 |
-> | Development | 3 |
-> | Environment | 3 |
+> | Electronic | 3 |
 > | Transport | 3 |
+> | Environment | 3 |
 > | Technology | 2 |
-> | Telecoms | 2 |
-> | Oil and Gas | 2 |
 > | eCommerce | 2 |
-> | Consulting | 2 |
 > | Finance | 2 |
-> | Hotels | 2 |
+> | Oil and Gas | 2 |
 > | Food | 2 |
-> | Bank | 1 |
-> | Railway | 1 |
-> | Online marketplace | 1 |
+> | Development | 2 |
+> | Consulting | 2 |
+> | Telecoms | 2 |
+> | Hotels | 2 |
 > | Television Broadcast | 1 |
-> | Marketing | 1 |
-> | Energy | 1 |
-> | Insurance | 1 |
-> | Employment | 1 |
-> | Chemical | 1 |
 > | Payment | 1 |
-> | Security systems | 1 |
-> | Electric | 1 |
+> | Marketing | 1 |
+> | Employment | 1 |
 > | Education | 1 |
+> | Online marketplace | 1 |
+> | Insurance | 1 |
+> | Bank | 1 |
+> | Chemical | 1 |
+> | Security systems | 1 |
 > | Game | 1 |
+> | Railway | 1 |
+> | Electric | 1 |
+> | Energy | 1 |
 > | Infrastructure | 1 |

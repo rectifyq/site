@@ -36,8 +36,8 @@ Free resources mapped to practice areas — evidence you can cite in your own as
 | --- | --- |
 | [[resources/feeds\|MISP-MY / MISP-ICS-OT feeds]] | External intelligence sources, structured ingestion |
 | [[intel-program/pir\|Published PIR mapping]] | Requirements definition & stakeholder alignment |
-| [[radar/index\|Radar]] briefings | Dissemination to leadership, situational awareness |
-| [[resources/guides/index\|Deployment guides]] | Tooling & platform capability |
+| [[my-threat-landscape/radar/index\|Radar]] briefings | Dissemination to leadership, situational awareness |
+| [[threat-intelligence-platform/Install Your Own TIP/install-MISP\|MISP deployment guide]] | Tooling & platform capability |
 | [[my-threat-landscape/breaches/index\|Breach Watch]] sector data | Risk framing with local evidence |
 
 ## Changelog

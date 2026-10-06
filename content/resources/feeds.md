@@ -21,9 +21,9 @@ Latest updates of Cybersecurity News also flow via Telegram: [t.me/rectifyq](htt
 
 The feed is step two. Step one is having somewhere to put it:
 
-1. [[resources/guides/misp-install|Deploy MISP from scratch]]
-2. [[resources/guides/misp-feeds|Add MISP-MY + MISP-ICS-OT to your instance]]
-3. [[resources/guides/siem-integration|Push IoCs into your SIEM/TIP]]
+1. [[threat-intelligence-platform/Install Your Own TIP/install-MISP|Deploy MISP from scratch]], then [[threat-intelligence-platform/Install Your Own TIP/MISP-initial-setup|complete the initial setup]]
+2. Add MISP-MY + MISP-ICS-OT to your instance (Sync Actions → Feeds → Add Feed, using the URLs above)
+3. Push IoCs into your SIEM/TIP
 
 ## Fair use
 

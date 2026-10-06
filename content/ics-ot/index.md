@@ -22,6 +22,6 @@ flowchart LR
 - **[[ics-ot/ics-threat-landscape|OT/ICS Threat Landscape]]** — 	MITRE ATT&CK ICS Heatmap, ICS/OT active threat actors, and incident timelines.
 
 > [!tip] Structured indicators
-> The **MISP-ICS-OT feed** carries OT-specific events and context: `https://feeds.rectifyq.com/MISP-ICS-OT`. Setup: [[resources/guides/misp-feeds|feed guide]].
+> The **MISP-ICS-OT feed** carries OT-specific events and context: `https://feeds.rectifyq.com/MISP-ICS-OT`. Setup: [[resources/feeds|Feeds]].
 
 *This section serves [[intel-program/pir|PIR-05]] — threats to industrial and operational technology.*

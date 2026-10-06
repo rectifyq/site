@@ -9,7 +9,7 @@ tags: [breach, watch, data-breach]
 > 1. **We do not name victims.** Organizations are identified by sector and a masked descriptor only (e.g., `Vil*** Hot***`).
 > 2. **Claims ≠ confirmations.** Extortion-site claims are recorded as *claimed* until the organization or authorities confirm. Extortion sites lie, duplicate, and recycle.
 > 3. **No leaked data is hosted, linked, or described in detail.** We track that a claim exists, not its contents.
-> 4. Corrections welcome: [[about/contact|contact us]] — verified takedowns/withdrawals update the record transparently.
+> 4. Corrections welcome: [[contact|contact us]] — verified takedowns/withdrawals update the record transparently.
 
 ## Why track claims at all?
 
@@ -17,7 +17,7 @@ Because "it happens here too" is the sentence every Malaysian CISO needs on reco
 
 ## Ransomware Tracker
 
-Live tracker of extortion claims against Malaysian organizations since 2018 — by group, sector, and year: [[my-threat-landscape/breaches/ransomware-tracker|Ransomware Tracker →]]
+Live tracker of extortion claims against Malaysian organizations since 2018 — by group, sector, and year: [[my-threat-landscape/ransomware|Ransomware Tracker →]]
 
 ## Claim log
 

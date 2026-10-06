@@ -65,47 +65,47 @@ flowchart LR
     U --> A40[Equation-Group]
     I1 --> A41[INDOHAXSEC-TEAM]
 
-    click A1 "/tags/APT28" _blank
-    click A2 "/tags/APT29" _blank
-    click A3 "/tags/RAZOR-TIGER" _blank
-    click A4 "/tags/QUILTED-TIGER" _blank
-    click A5 "/tags/HAZY-TIGER" _blank
-    click A6 "/tags/Fox-Kitten" _blank
-    click A7 "/tags/UNC3886" _blank
-    click A8 "/tags/APT15" _blank
-    click A9 "/tags/APT23" _blank
-    click A10 "/tags/APT30" _blank
-    click A11 "/tags/APT40" _blank
-    click A12 "/tags/APT41" _blank
-    click A13 "/tags/Earth-Estries" _blank
-    click A14 "/tags/Earth-Lusca" _blank
-    click A15 "/tags/RedJuliett" _blank
-    click A16 "/tags/RedDelta" _blank
-    click A17 "/tags/HAFNIUM" _blank
-    click A18 "/tags/GALLIUM" _blank
-    click A19 "/tags/Platinum" _blank
-    click A20 "/tags/Hellsing" _blank
-    click A21 "/tags/Naikon" _blank
-    click A22 "/tags/LOTUS-PANDA" _blank
-    click A23 "/tags/GOBLIN-PANDA" _blank
-    click A24 "/tags/Evasive-Panda" _blank
-    click A25 "/tags/Aoqin-Dragon" _blank
-    click A26 "/tags/TA428" _blank
-    click A27 "/tags/Worok" _blank
-    click A28 "/tags/Earth-Longzhi" _blank
-    click A29 "/tags/SOLAR-SPIDER" _blank
-    click A30 "/tags/ToddyCat" _blank
-    click A31 "/tags/LabHost" _blank
-    click A32 "/tags/ScamClub" _blank
-    click A33 "/tags/El-Machete" _blank
-    click A34 "/tags/Orangeworm" _blank
-    click A35 "/tags/Cobalt" _blank
-    click A36 "/tags/Thrip" _blank
-    click A37 "/tags/Roaming-Mantis" _blank
-    click A38 "/tags/Lazarus-Group" _blank
-    click A39 "/tags/DarkHotel" _blank
-    click A40 "/tags/Equation-Group" _blank
-    click A41 "/tags/INDOHAXSEC-TEAM" _blank
+    click A1 "/tags/apt28" _blank
+    click A2 "/tags/apt29" _blank
+    click A3 "/tags/razor-tiger" _blank
+    click A4 "/tags/quilted-tiger" _blank
+    click A5 "/tags/hazy-tiger" _blank
+    click A6 "/tags/fox-kitten" _blank
+    click A7 "/tags/unc3886" _blank
+    click A8 "/tags/apt15" _blank
+    click A9 "/tags/apt23" _blank
+    click A10 "/tags/apt30" _blank
+    click A11 "/tags/apt40" _blank
+    click A12 "/tags/apt41" _blank
+    click A13 "/tags/earth-estries" _blank
+    click A14 "/tags/earth-lusca" _blank
+    click A15 "/tags/redjuliett" _blank
+    click A16 "/tags/reddelta" _blank
+    click A17 "/tags/hafnium" _blank
+    click A18 "/tags/gallium" _blank
+    click A19 "/tags/platinum" _blank
+    click A20 "/tags/hellsing" _blank
+    click A21 "/tags/naikon" _blank
+    click A22 "/tags/lotus-panda" _blank
+    click A23 "/tags/goblin-panda" _blank
+    click A24 "/tags/evasive-panda" _blank
+    click A25 "/tags/aoqin-dragon" _blank
+    click A26 "/tags/ta428" _blank
+    click A27 "/tags/worok" _blank
+    click A28 "/tags/earth-longzhi" _blank
+    click A29 "/tags/solar-spider" _blank
+    click A30 "/tags/toddycat" _blank
+    click A31 "/tags/labhost" _blank
+    click A32 "/tags/scamclub" _blank
+    click A33 "/tags/el-machete" _blank
+    click A34 "/tags/orangeworm" _blank
+    click A35 "/tags/cobalt" _blank
+    click A36 "/tags/thrip" _blank
+    click A37 "/tags/roaming-mantis" _blank
+    click A38 "/tags/lazarus-group" _blank
+    click A39 "/tags/darkhotel" _blank
+    click A40 "/tags/equation-group" _blank
+    click A41 "/tags/indohaxsec-team" _blank
 
 ```
 
@@ -118,6 +118,7 @@ flowchart LR
 - #APT30
 - #APT37
 - #APT40
+- #APT41
 - #Aoqin-Dragon
 - #Cobalt
 - #DarkHotel
@@ -154,7 +155,6 @@ flowchart LR
 - #ScamClub
 - #Sowbug
 - #TA428
-- #Thrip
 - #Thrip
 - #ToddyCat
 - #UNC3886

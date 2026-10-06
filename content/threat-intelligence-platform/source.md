@@ -2,9 +2,7 @@
 title: "Sources"
 date: 2026-01-29
 lastmod: 2026-06-29
-description: "Capability profile for [Tool Name], utilized by [Actor Name/s] fodfdr [Phase]."
-aliases:
-  - "[Alternative Name / Internal ID]"
+description: "Sources Rectifyq collects and triages threat intelligence from."
 tags:
   - sources
 draft: false

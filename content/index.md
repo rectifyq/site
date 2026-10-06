@@ -20,7 +20,7 @@ tags:
         <span class="stat-label">Threat actors<br>tracked with MY relevance</span>
     </div>
     <div class="stat-item">
-        <span class="stat-number">80+</span>
+        <span class="stat-number">130+</span>
         <span class="stat-label">Ransomware claims<br>vs. MY orgs since 2018</span>
     </div>
 </div>
@@ -168,7 +168,7 @@ pie showData
 > [!warning] Claims, not confirmations
 > Figures are based on ransomware group claims or news reporting. Unless the organization confirmed the incident, it remains a claim. Victims are never named on this site.
 
-**Most-claimed sectors:** Manufacturing · Government · Engineering · Logistics · Construction — full breakdown in the [[my-threat-landscape/ransomware|Ransomware Tracker]].
+**Most-claimed sectors:** Manufacturing · Engineering · Government · Logistics — full breakdown in the [[my-threat-landscape/ransomware|Ransomware Tracker]].
 
 **Top techniques observed in MY-relevant intrusions (MISP-MY):** [T1027](https://attack.mitre.org/techniques/T1027/) Obfuscated Files · [T1566](https://attack.mitre.org/techniques/T1566/) Phishing · [T1055](https://attack.mitre.org/techniques/T1055/) Process Injection · [T1059.001](https://attack.mitre.org/techniques/T1059/001/) PowerShell · [T1190](https://attack.mitre.org/techniques/T1190/) Exploit Public-Facing App — full heatmap in [[my-threat-landscape/ttps|TTPs]].
 

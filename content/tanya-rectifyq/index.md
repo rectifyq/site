@@ -8,7 +8,7 @@ tags: [tanya, community, rfi]
 Ask anything about CTI, threats, careers, or "eh, is this legit?" — via WhatsApp, NGL, or DM on any channel. Questions are **anonymized** and answered publicly so everyone benefits.
 
 > [!info] How it works
-> 1. Ask through any channel in [[about/contact|Contact]] (Telegram [t.me/rectifyq](https://t.me/rectifyq), LinkedIn, or the socials)
+> 1. Ask through any channel in [[contact|Contact]] (Telegram [t.me/rectifyq](https://t.me/rectifyq), LinkedIn, or the socials)
 > 2. We anonymize and answer here
 > 3. Good questions become permanent entries — your confusion helps the next person
 

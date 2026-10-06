@@ -29,13 +29,13 @@ Rectifyq exists to bridge the visibility gap between internal telemetry and the 
      other page builds — even a handle with verifiable history (talks, MISP contributions,
      the items on the Recognition page) beats nothing. -->
 
-A Malaysian CTI practitioner working in CSIRT engineering with a threat-intelligence and ICS/OT focus. Public track record: [[about/recognition|Recognition]].
+A Malaysian CTI practitioner working in CSIRT engineering with a threat-intelligence and ICS/OT focus. Public track record: [[recognition|Recognition]].
 
 ## What Rectifyq is not
 
-Not an official channel, not incident response, not a vendor. For incidents: NACSA / MyCERT Cyber999 — [[about/contact|Contact]].
+Not an official channel, not incident response, not a vendor. For incidents: NACSA / MyCERT Cyber999 — [[contact|Contact]].
 
 ## Dig deeper
 
-- [[about/methodology|Methodology]] — how the sausage is made
+- [[methodology|Methodology]] — how the sausage is made
 - [[intel-program/index|Intelligence Program]] — requirements, RFI, maturity, documented in the open

@@ -40,18 +40,18 @@ graph LR
 
     subgraph Execution ["2. Execution & Pivot"]
         T0807["T0807: Command-Line"]:::medium
-        T0887["T0887: Eng Workstation"]:::high
+        T0818["T0818: Eng Workstation Compromise"]:::high
         T0858["T0858: Change Mode"]:::medium
     end
 
     subgraph Persistence ["3. Persistence & Evasion"]
         T0859["T0859: Valid Accounts"]:::critical
-        T0888["T0888: Living off Land"]:::high
+        T0853["T0853: Scripting (LotL)"]:::high
         T0839["T0839: Module Firmware"]:::medium
     end
 
     subgraph Impact ["4. ICS Impact"]
-        T0826["T0826: Loss of Control"]:::critical
+        T0827["T0827: Loss of Control"]:::critical
         T0836["T0836: Modify Parameter"]:::high
         T0880["T0880: Loss of Safety"]:::critical
     end

@@ -76,4 +76,4 @@ flowchart LR
 
 ## Cadence, honestly
 
-Entries publish as triaged (solo capacity — quality over schedule); the [[my-threat-landscape/vulnerabilities/index|vulnerability sweep]] runs weekly-ish; [[radar/index|Radar]] monthly; [[intel-program/pir|PIR review]] annually.
+Entries publish as triaged (solo capacity — quality over schedule); the [[my-threat-landscape/vulnerabilities/index|vulnerability sweep]] runs weekly-ish; [[my-threat-landscape/radar/index|Radar]] monthly; [[intel-program/pir|PIR review]] annually.

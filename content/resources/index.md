@@ -47,20 +47,18 @@ To move from "collecting data" to "producing intelligence," you need the right t
 
 ## Get the data
 - **[[resources/feeds|Feeds]]** — MISP-MY, MISP-ICS-OT, yearly MISP instances, all at feeds.rectifyq.com
-- **[[resources/api|API Documentation]]** — programmatic access
 
 ## Understand the system
-- **[[resources/taxonomy|Taxonomy]]** — tags, TLP, relevancy scale, rq_id scheme
+- **[[threat-intelligence-platform/style-guide|Style Guide]]** — tags, TLP, severity, relevancy scale
 - **[[resources/glossary|Glossary]]** — CTI terms, EN/BM
 - **[[resources/ecosystem|MY Cyber Ecosystem Map]]** — communities, CTFs, conferences, agencies
 
 ## Choose wisely (the comparisons)
-- **[[resources/subscriptions|Cybersecurity Subscription Comparison]]** — intel & tooling subscriptions, MY budget lens
-- **[[resources/ccap|Certification Comparison & Action Plan (CCAP)]]** — certs worth your ringgit
-- **[[resources/tip-comparison|TIP Comparison]]** — MISP vs OpenCTI vs commercial
+- **[Cybersecurity Subscription Comparison](https://rectifyq.notion.site/Subscription-Comparison-2aaba5ae66c780f4902dc59212d57fae)** — intel & tooling subscriptions, MY budget lens
+- **[Certification Comparison & Action Plan (CCAP)](https://certs.rectifyq.com)** — certs worth your ringgit
 
 ## Do it (the guides)
-- **[[resources/guides/index|Deployment Guides]]** — deploy MISP → add the feeds → wire your SIEM
+- **[[threat-intelligence-platform/Install Your Own TIP/install-MISP|Install MISP]]** and **[[threat-intelligence-platform/Install Your Own TIP/MISP-initial-setup|MISP initial setup]]** — deploy MISP, then add the [[resources/feeds|feeds]]
 
 ## Datasets & side projects
 - **List of Computer Crime Act 1997 Cases** — Malaysian case compilation <!-- MIGRATE link -->

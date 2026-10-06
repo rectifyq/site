@@ -3,8 +3,6 @@ title: "TTPs"
 date: 2024-01-01
 lastmod: 2026-06-29
 description: "Tactic Technique Procedures."
-aliases:
-  - "[Alternative Name / Internal ID]"
 draft: false
 ---
 
@@ -24,7 +22,7 @@ draft: false
     "File and Directory Discovery - T1083":	28
     "Exploit Public-Facing Application - T1190":	27
     "Web Protocols - T1071.001":	27
-    "Registry Run Keys / Startup Folder - T1105":	26
+    "Ingress Tool Transfer - T1105":	26
 ```
 
 # Top 10 Malware (according to Malpedia)
@@ -34,7 +32,7 @@ draft: false
         "Cobalt Strike":	12
         "MimiKatz":	10
         "ShadowPad":	7
-        "Ghost RAT":	5
+        "Gh0st RAT":	5
         "PlugX":	4
         "scanbox":	3
         "Regin":	3

@@ -123,7 +123,7 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 
 1. **[[events/index|Events Calendar]]** — CTFs (Wargames.my, iCTF, and more), meetups, and conferences across Malaysia. Turun padang; most careers here start at a meetup.
 2. **[[tanya-rectifyq/index|Tanya Rectifyq]]** — no question is too basic.
-3. **[[resources/ccap|Certification Comparison]]** and **[[resources/subscriptions|Subscription Comparison]]** — spend your ringgit wisely.
+3. **[Certification Comparison](https://certs.rectifyq.com)** and **[Subscription Comparison](https://rectifyq.notion.site/Subscription-Comparison-2aaba5ae66c780f4902dc59212d57fae)** — spend your ringgit wisely.
 4. **[[phishhuntmy/index|PhishHuntMY]]** — hunt a real phishing campaign targeting Malaysians, write it up. Best portfolio piece you can build.
 
 ## How to read a threat entry
@@ -136,6 +136,6 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 | `targeted` / `broad-based` | Specific MY org/sector vs. global campaign with MY exposure |
 | ⚔Threat / 🔰Defense / 📰News | Entry category |
 
-Full reference: [[threat-intelligence-platform-(tip)/style-guide|Rectifyq's Style Guide]].
+Full reference: [[threat-intelligence-platform/style-guide|Rectifyq's Style Guide]].
 
 *Semua orang boleh contribute — see [[contribute|Contribute]].*

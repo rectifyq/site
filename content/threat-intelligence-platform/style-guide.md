@@ -2,9 +2,7 @@
 title: "MISP Style Guide"
 date: 2026-01-29
 lastmod: 2026-06-29
-description: "Capability profile for [Tool Name], utilized by [Actor Name/s] fodfdr [Phase]."
-aliases:
-  - "[Alternative Name / Internal ID]"
+description: "Rectifyq's MISP style guide — TLP, severity, category, sub-category, threat actor category, target and relevancy definitions."
 ---
 # Rectifyq's MISP Style Guide
 
@@ -26,7 +24,7 @@ aliases:
 </tbody>
 </table>
 
-APT definition - Advanced Persistence Threat. Not only limited to State Sponsored.
+APT definition - Advanced Persistent Threat. Not only limited to State Sponsored.
 
 ## Category
 
@@ -43,10 +41,10 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 | <span style="background-color: rgba(239, 68, 68, 0.2); color: #ef4444; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/malware-analysis\|Malware Analysis]]</span> | Deep dive analysis of malware either **static, dynamic or reverse engineer** the malware sample(s) to understand how it works, capabilities, potential attributions and other intelligence requirements.|
 | <span style="background-color: rgba(239, 68, 68, 0.2); color: #ef4444; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/intrusion-analysis\|Intrusion Analysis (Incident Analysis)]]</span> | A close-up look at one single successful attack on **only against specific target (usually one)**. It maps out the entire story, from how the hacker first got in until they achieved their final goal (like stealing data).|
 | <span style="background-color: rgba(239, 68, 68, 0.2); color: #ef4444; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/campaign-analysis\|Campaign Analysis]]</span> | A report that looks at several related attacks against *multiple* targets. It helps connect the dots to see a bigger picture of what a hacker group is trying to achieve strategically.|
-| <span style="background-color: rgba(249, 115, 22, 0.2); color: #f97316; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/leaks-forum\|Leaks Forum]]</span> | Reports focused on illegal underground forums where hackers post and try to sell or share data they claim to have stolen from a company.|
-| <span style="background-color: rgba(249, 115, 22, 0.2); color: #f97316; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/leaks-infostealer\|Leaks Infostealer]]</span> | An analysis focused on finding stolen data logs (like passwords) from "Infostealer" malware that are linked to a specific company or organization.|
-| <span style="background-color: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/zero-day\|Zero-day]]</span> | Unpatched Exploits: High-priority indicators for vulnerabilities that have no official patch or were exploited before public awareness.|
-| <span style="background-color: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/branded-vuln\|Branded Vulnerability]]</span> | High-Profile Bugs: Vulnerabilities with marketing names/logos (e.g., Heartbleed, PwnKit) that often see rapid, mass exploitation.|
+| <span style="background-color: rgba(249, 115, 22, 0.2); color: #f97316; padding: 2px 8px; border-radius: 4px; display: inline-block;">Leaks Forum</span> | Reports focused on illegal underground forums where hackers post and try to sell or share data they claim to have stolen from a company.|
+| <span style="background-color: rgba(249, 115, 22, 0.2); color: #f97316; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/leak-infostealer\|Leaks Infostealer]]</span> | An analysis focused on finding stolen data logs (like passwords) from "Infostealer" malware that are linked to a specific company or organization.|
+| <span style="background-color: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 8px; border-radius: 4px; display: inline-block;">Zero-day</span> | Unpatched Exploits: High-priority indicators for vulnerabilities that have no official patch or were exploited before public awareness.|
+| <span style="background-color: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 8px; border-radius: 4px; display: inline-block;">Branded Vulnerability</span> | High-Profile Bugs: Vulnerabilities with marketing names/logos (e.g., Heartbleed, PwnKit) that often see rapid, mass exploitation.|
 | <span style="background-color: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/critical-vuln\|Critical Vulnerability]]</span> | High-Severity Flaws: Standard vulnerabilities that carry a high CVSS/EPSS score but may not have a brand name.|
 | <span style="background-color: rgba(107, 114, 128, 0.2); color: #6b7280; padding: 2px 8px; border-radius: 4px; display: inline-block;">[[tags/report\|Report]]</span> | Other related cybersecurity or intelligence reports that is relevant.|
 
@@ -67,7 +65,7 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 | Target | Details |  |
 |---|---|---|
 | [[tags/broad-based\|Broad-based]] | CommodityOpportunistic | Everyone is a target, no exclusionEveryone is a target, some exclusion such as specific country, locale, etc.Specific Language - still broad (example targeting German/Mandarin Speaking)Specific country - political events, etc.Specific group of people (red-teamers, pentesters, gamers, etc.) |
-| [[tags/targeted\|Targeted]] | Specific Target - specially crafted based on opportunity or targets Information Attack Space | Specific Individual/Company/Organization |
+| Targeted | Specific Target - specially crafted based on opportunity or targets Information Attack Space | Specific Individual/Company/Organization |
 
 
 ## Target  vs Victim
@@ -84,10 +82,10 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 
 | Relevancy              | Links                         | Example                         |
 |------------------------|-------------------------------|---------------------------------|
-| 🔴Relevant             | [[tags/relevant]]             | APT targeting Malaysian entity. |
-| 🟡Somewhat Relevant    |  [[tags/somewhat-relevant]]   | APT target Asian country.       |
-| 🔵Potentially Relevant | [[tags/potentially-relevant]] | Infostealers impact globally.   |
-| ⚫Not Relevant         | [[not-relevant]]              | Good to know only.              |
+| 🔴Relevant             | —                             | APT targeting Malaysian entity. |
+| 🟡Somewhat Relevant    | —                             | APT target Asian country.       |
+| 🔵Potentially Relevant | —                             | Infostealers impact globally.   |
+| ⚫Not Relevant         | —                             | Good to know only.              |
 
 
 
@@ -106,6 +104,6 @@ APT definition - Advanced Persistence Threat. Not only limited to State Sponsore
 |[[tags/geopolitical\|Geopolitical]]|Geopolitical Related|
 |[[tags/ics-ot\|ICS-OT]]|Industrial Control System (ICS) and Operational Technology (OT)|
 |[[tags/mobile-attack\|Mobile Attack]]|Mobile Attack|
-|[[tags/supply-chain\|Supply Chain]]|Supply Chain|
+|Supply Chain|Supply Chain|
 
 
