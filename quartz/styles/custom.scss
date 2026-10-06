@@ -364,6 +364,25 @@ article :is(h1, h2, h3) .anchor {
   .recent-notes .recent-ul > li:focus-within { transform: none; }
 }
 
+/* Mobile explorer panel: the plugin positions it absolutely inside the padded
+   page, so it sat 1rem right of the viewport — long titles were clipped on the
+   right when open, and the open folder's titles bled into the left edge when
+   closed. Anchor it to the viewport and keep the gutter as inner padding. */
+@media all and (max-width: 800px) {
+  /* #quartz-body scoping: the plugin's stylesheet loads after this one. */
+  #quartz-body .explorer .explorer-content {
+    position: fixed;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* .folder-outer.open sets visibility: visible, which overrides the hidden
+     panel; keep everything hidden (and unfocusable) while collapsed. */
+  .explorer.collapsed > .explorer-content .folder-outer {
+    visibility: hidden;
+  }
+}
+
 /* Target both file links and folder buttons in the Explorer on hover */
 .explorer ul li a:hover,
 .explorer ul li button:hover {
