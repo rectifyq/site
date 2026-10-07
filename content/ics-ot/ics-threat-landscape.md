@@ -34,20 +34,20 @@ The diagram below highlights high-frequency techniques used across modern OT/ICS
 graph LR
     subgraph InitialAccess ["1. Initial Access"]
         T0886["T0886: Remote Services"]:::critical
-        T0822["T0822: External Services"]:::medium
-        T0865["T0865: Spearphishing"]:::medium
+        T0822["T0822: External Remote Services"]:::medium
+        T0865["T0865: Spearphishing Attachment"]:::medium
     end
 
     subgraph Execution ["2. Execution & Pivot"]
         T0807["T0807: Command-Line"]:::medium
-        T0818["T0818: Eng Workstation Compromise"]:::high
+        T0843["T0843: Program Download (via EWS)"]:::high
         T0858["T0858: Change Mode"]:::medium
     end
 
     subgraph Persistence ["3. Persistence & Evasion"]
         T0859["T0859: Valid Accounts"]:::critical
         T0853["T0853: Scripting (LotL)"]:::high
-        T0839["T0839: Module Firmware"]:::medium
+        T1693_002["T1693.002: Module Firmware"]:::medium
     end
 
     subgraph Impact ["4. ICS Impact"]
@@ -80,8 +80,11 @@ timeline
     2017 : TRITON / TRISIS : Targeted Triconex Safety Instrumented Systems SIS.
     2022 : PIPEDREAM : Modular toolkit targeting PLCs Schneider Electric Omron.
     2024 : FrostyGoop : Direct ICS malware targeting Modbus TCP causing outages.
+    2025 : DynoWiper (Poland) : Default-credential firewalls led to damaged RTUs and relays at ~30 energy sites.
     2025-2026 : LotL Probes : Widespread targeting of edge routers and OT-adjacent IT.
 ```
+
+**Read the full entries:** [[ics-ot/threats/2016-02-25-blackenergy3-ukraine-power-grid-attack|BlackEnergy 3 (2015)]] · [[ics-ot/threats/2017-06-12-crashoverride-industroyer-grid-malware|CrashOverride/Industroyer (2016)]] · [[ics-ot/threats/2017-12-14-triton-trisis-safety-system-malware|TRITON/TRISIS (2017)]] · [[ics-ot/threats/2020-02-03-ekans-ransomware-ics-kill-list|EKANS (2020)]] · [[ics-ot/threats/2022-04-12-industroyer2-sandworm-ukraine-substations|Industroyer2 (2022)]] · [[ics-ot/threats/2022-04-13-pipedream-incontroller-ics-attack-toolkit|PIPEDREAM (2022)]] · [[ics-ot/threats/2023-12-01-cyberav3ngers-unitronics-plc-attacks|CyberAv3ngers/Unitronics (2023)]] · [[ics-ot/threats/2024-02-07-volt-typhoon-critical-infrastructure-prepositioning|Volt Typhoon (2024)]] · [[ics-ot/threats/2024-04-12-fuxnet-moscollector-sensor-gateways|Fuxnet (2024)]] · [[ics-ot/threats/2024-07-23-frostygoop-modbus-ics-malware|FrostyGoop (2024)]] · [[ics-ot/threats/2024-12-10-iocontrol-iot-ot-malware-cyberav3ngers|IOCONTROL (2024)]] · [[ics-ot/threats/2026-01-30-dynowiper-poland-energy-sector-attack|DynoWiper/Poland (2025)]]
 
 ---
 
