@@ -2,7 +2,6 @@ User-agent: *
 Allow: /
 Allow: /static/
 Allow: /tags/
-Allow: /*/amp
 
 # Block access to private directories
 Disallow: /private/
@@ -10,21 +9,20 @@ Disallow: /.obsidian/
 Disallow: /templates/
 Disallow: /*?*
 Disallow: /search.json
-Disallow: /contentIndex.json
+Disallow: /static/contentIndex.json
+Disallow: /static/encryptedContentIndex.json
 
 # Special rules for common bots
 User-agent: Googlebot
 Allow: /
 Allow: /static/
 Allow: /tags/
-Allow: /*/amp
 Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
 Allow: /static/
 Allow: /tags/
-Allow: /*/amp
 Crawl-delay: 2
 
 # Block aggressive crawlers
@@ -114,7 +112,6 @@ Disallow: /
 # -----------------------------------------------
 Sitemap: https://rectifyq.com/sitemap.xml
 Sitemap: https://rectifyq.com/index.xml
-Sitemap: https://rectifyq.com/llms.txt
 
 # Crawl delay (global fallback)
 Crawl-delay: 1

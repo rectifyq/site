@@ -1,5 +1,6 @@
 ---
 title: 2023-03-29 Spyware vendors use 0-days and n-days against popular platforms
+description: "Spyware vendors use 0-days and n-days against popular platforms (Mar 2023). Source: blog.google. Rectifyq assessment: Highly Relevant to Malaysia. Campaign analysis. Targets: Kazakhstan, Malaysia, United Arab Emirates."
 date: 2023-03-29
 modified: 2023-03-29
 ---

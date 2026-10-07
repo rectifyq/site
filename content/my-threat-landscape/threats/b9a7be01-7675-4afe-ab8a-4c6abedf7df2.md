@@ -1,5 +1,6 @@
 ---
 title: 2015-05-21 The Naikon APT and the MsnMM Campaigns
+description: "The Naikon APT and the MsnMM Campaigns (May 2015). Source: securelist.com. Rectifyq assessment: Highly Relevant to Malaysia. Campaign analysis. Targets: Laos, Malaysia, Myanmar, Philippines and others."
 date: 2015-05-21
 modified: 2015-05-21
 ---

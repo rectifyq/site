@@ -1,5 +1,6 @@
 ---
 title: 2020-05-08 Naikon’s Aria
+description: "Naikon’s Aria (May 2020). Source: securelist.com. Rectifyq assessment: Highly Relevant to Malaysia. Malware analysis."
 date: 2020-05-08
 modified: 2020-05-08
 ---

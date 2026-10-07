@@ -1,5 +1,6 @@
 ---
 title: 2026-06-15 Travel Phishing and Cyber Attacks are Surging in 2026, Growing 122% over the last 3 years How Cybercriminals Are Targeting Travelers in 2026
+description: "The hospitality and travel sector experienced a dramatic surge in cyberattacks, with organizations facing an average of 2,291 weekly attacks in May 2026, representing a 24% year-over-year increase and a cumulative 122% rise since 2023."
 date: 2026-06-15
 modified: 2026-06-15
 ---

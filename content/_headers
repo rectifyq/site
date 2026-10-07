@@ -10,8 +10,8 @@ https://rectifyq.com/
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=0, must-revalidate
 
-/api-catalog.json
-  Content-Type: application/linkset+json
+/.well-known/api-catalog
+  Content-Type: application/json
   Access-Control-Allow-Origin: *
 
 /agent-skills-index.json

@@ -1,5 +1,6 @@
 ---
 title: 2026-06-22 An unknown actor distributes malicious VBS scripts via WhatsApp
+description: "An active malware campaign has been discovered distributing malicious VBScript files through WhatsApp direct messages since June 2026. The operation affects users across multiple countries, with Malaysia experiencing the highest concentration of victims."
 date: 2026-06-22
 modified: 2026-06-22
 ---

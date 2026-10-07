@@ -1,5 +1,6 @@
 ---
 title: 2024-06-19 Cloaked and Covert Uncovering UNC3886 Espionage Operations
+description: "Cloaked and Covert: Uncovering UNC3886 Espionage Operations (Jun 2024). Source: cloud.google.com. Rectifyq assessment: Somewhat Relevant to Malaysia. Threat actor profile."
 date: 2024-06-19
 modified: 2024-06-19
 ---

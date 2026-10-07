@@ -1,14 +1,27 @@
 ---
-title: "Ransomware Tracker"
+title: "Malaysia Ransomware Tracker"
 date: 2026-01-29
 lastmod: 2026-10-07
-description: "Ransomware Tracker"
+description: "Malaysia ransomware tracker: 142 alleged ransomware claims against Malaysian organisations since 2018 (50 in 2026), by year, sector and threat group. Victims masked; claims distinguished from confirmations."
+aliases:
+  - Ransomware Tracker
 tags:
   - ransomware
   - tracker
 draft: false
 ---
-# Ransomware Tracker
+## Key figures (as of 7 October 2026)
+
+- **142 alleged ransomware claims** against Malaysian organisations have been recorded by Rectifyq since 2018.
+- **2026 is the highest year on record:** 50 claims so far, more than all of 2025 (38) and more than 2023 and 2024 combined (42).
+- **Most-targeted sectors:** manufacturing (18 claims), government and public administration (11), engineering (11), and logistics (8).
+- **Most active groups against Malaysian victims:** Qilin, LockBit 3.0, and The Gentlemen.
+
+Figures count claims posted on ransomware leak sites or reported in the news. A claim is not a confirmed breach unless the organisation confirms it, and victims are never named. Method: [[methodology|Methodology]]. Monthly context: [[my-threat-landscape/radar/index|Rectifyq Radar]].
+
+**Ringkasan:** Sejak 2018, Rectifyq telah merekodkan 142 dakwaan serangan ransomware terhadap organisasi di Malaysia, termasuk 50 pada tahun 2026, jumlah tahunan tertinggi setakat ini. Sektor yang paling kerap disasarkan ialah pembuatan, kerajaan dan kejuruteraan.
+
+*Cite as: Rectifyq, "Malaysia Ransomware Tracker", https://rectifyq.com/my-threat-landscape/ransomware*
 
 ## Ransomware Attack Trajectory (Malaysian Organizations) - Up to Oct 2026 
 ```mermaid

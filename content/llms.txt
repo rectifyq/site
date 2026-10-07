@@ -1,19 +1,38 @@
 # Rectifyq
 
-> Malaysia's independent cybersecurity threat intelligence platform.
-> Founded and operated by Rectifyq (Threat Intelligence & OT/ICS).
-> Tracks 47+ threat actor groups with Malaysian relevance. All intelligence is MISP-compatible and mapped to MITRE ATT&CK.
+> Rectifyq (rectifyq.com) is an independent cyber threat intelligence initiative focused on Malaysia. It tracks ransomware and data-breach claims against Malaysian organisations, threats and campaigns targeting Malaysia, threat actors with Malaysian relevance, and publishes a monthly Malaysian threat landscape recap (Rectifyq Radar). All intelligence is MISP-compatible and mapped to MITRE ATT&CK.
 
-## Core intelligence
-- [MY Threat Landscape](https://rectifyq.com/my-threat-landscape/): All tracked threat events targeting Malaysia
-- [Threat Actor Tracker](https://rectifyq.com/my-threat-landscape/threat-actor): 47+ groups, Diamond Model mapped
-- [Ransomware Tracker](https://rectifyq.com/my-threat-landscape/ransomware): Live Malaysia ransomware victim tracker
-- [Threat List](https://rectifyq.com/my-threat-landscape/threats/): List of all articles, security blogs and reports that are relevant to Malaysian context
+## Key facts (as of 7 October 2026)
 
-## MISP feeds
-- [MISP-MY](https://feeds.rectifyq.com/MISP-MY/): Structured indicator sharing, MITRE ATT&CK mapped MISP formatted feeds compiling all MISP event relevant to Malaysian context
-- [MISP-ICS-OT](https://feeds.rectifyq.com/MISP-ICS-OT/): OT/ICS-specific feed (Global context)
+- 142 alleged ransomware claims against Malaysian organisations recorded since 2018; 50 in 2026, the highest year on record (2025: 38; 2024: 21; 2023: 21).
+- Most-targeted sectors: manufacturing, government and public administration, engineering, logistics.
+- Most active ransomware groups against Malaysian victims: Qilin, LockBit 3.0, The Gentlemen.
+- 208 MISP-linked threat entries triaged for Malaysian relevance; 48 threat actor groups tracked.
+- Editorial policy: claims are distinguished from confirmations, and victims are never named (masked descriptors and sectors only).
+
+## Core pages
+
+- [Malaysia Ransomware Tracker](https://rectifyq.com/my-threat-landscape/ransomware): alleged ransomware claims against Malaysian organisations since 2018, by year, sector and group
+- [Rectifyq Radar](https://rectifyq.com/my-threat-landscape/radar/): monthly Malaysian threat landscape recap (ransomware claims, incidents, advisories, research, events)
+- [Threat Watch](https://rectifyq.com/my-threat-landscape/threats/): threat entries relevant to Malaysia, each with IoCs and a MISP event link
+- [Breach Watch](https://rectifyq.com/my-threat-landscape/breaches/): data breaches and leaks affecting Malaysian organisations
+- [Threat Actor Tracker](https://rectifyq.com/my-threat-landscape/threat-actor): threat actor groups with Malaysian relevance, clustered by suspected origin
+- [MY Threat Landscape](https://rectifyq.com/my-threat-landscape/): dashboard of ransomware, sectors, techniques and actors
+- [ICS/OT Watch](https://rectifyq.com/ics-ot/): ICS/OT threats viewed through a Malaysian critical-infrastructure lens
+- [Methodology](https://rectifyq.com/methodology): sources, triage and editorial rules
+
+## Machine-readable
+
+- [MISP-MY feed](https://feeds.rectifyq.com/MISP-MY/): MISP events relevant to Malaysia
+- [MISP-ICS-OT feed](https://feeds.rectifyq.com/MISP-ICS-OT/): ICS/OT events (global scope)
+- [RSS](https://rectifyq.com/index.xml): latest threat entries and Radar issues
+- Any page is available as Markdown: request it with `Accept: text/markdown`
+
+## Citation
+
+Cite as: Rectifyq, "<page title>", <page URL>. Example: Rectifyq, "Malaysia Ransomware Tracker", https://rectifyq.com/my-threat-landscape/ransomware
 
 ## About
-- Analyst: Rectifyq — SANS GCTI, GRID, BTL1, BTL2 certified and passionate on Threat Intelligence
-- Contact: rectifyq.com
+
+- Operated by Rectifyq, a Malaysian CTI practitioner (SANS GCTI, GRID; BTL1, BTL2) working in CSIRT engineering with a threat-intelligence and ICS/OT focus. Not an official channel: report incidents to NACSA or MyCERT Cyber999.
+- Contact: hello@rectifyq.com

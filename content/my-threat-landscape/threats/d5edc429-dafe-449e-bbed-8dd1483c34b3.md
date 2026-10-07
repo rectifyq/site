@@ -1,5 +1,6 @@
 ---
 title: 2022-11-16 MA-888.112022 MyCERT Alert - Suspicious Fraudulent Telephone Calls Asking for Users NRIC Number
+description: "MA-888.112022: MyCERT Alert - Suspicious Fraudulent Telephone Calls Asking for Users NRIC Number (Nov 2022). Source: MyCERT. Rectifyq assessment: Highly Relevant to Malaysia. Campaign analysis. Targets: Malaysia."
 date: 2022-11-16
 modified: 2022-11-16
 ---

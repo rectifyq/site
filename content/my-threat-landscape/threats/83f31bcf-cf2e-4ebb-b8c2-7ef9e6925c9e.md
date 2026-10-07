@@ -1,5 +1,6 @@
 ---
 title: 2022-08-30 Rising Tide Chasing the Currents of Espionage in the South China Sea
+description: "Proofpoint and PwC Threat Intelligence have jointly identified a cyber espionage campaign, active since April 2022 through June, delivering the ScanBox exploitation framework to targets who visit a malicious domain posing as an Australian news website."
 date: 2022-08-30
 modified: 2022-08-30
 ---

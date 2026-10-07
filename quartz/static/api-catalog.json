@@ -3,12 +3,12 @@
     {
       "title": "Rectifyq MISP-MY Feed",
       "description": "Structured threat indicators targeting Malaysia, mapped to MITRE ATT&CK and MISP galaxies.",
-      "url": "https://mispmy.rectifyq.com",
+      "url": "https://feeds.rectifyq.com/MISP-MY/",
       "type": "threat-intelligence"
     },
     {
       "title": "Rectifyq MISP-ICS-OT Feed",
-      "description": "OT/ICS-specific threat intelligence feed for Malaysian critical infrastructure.",
+      "description": "OT/ICS-specific threat intelligence feed (global scope), triaged with a Malaysian critical-infrastructure lens.",
       "url": "https://feeds.rectifyq.com/MISP-ICS-OT/",
       "type": "threat-intelligence"
     },

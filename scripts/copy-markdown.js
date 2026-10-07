@@ -1,4 +1,10 @@
-import { cpSync, existsSync } from "fs"
+import { cpSync, existsSync, readFileSync } from "fs"
+
+// Draft pages are excluded from the HTML build; don't publish their raw Markdown either
+const isDraft = (path) => {
+  const fm = readFileSync(path, "utf8").match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  return fm !== null && /^draft:\s*true\s*$/m.test(fm[1])
+}
 
 const contentDir = "content"
 const outputDir = "public"
@@ -15,9 +21,11 @@ if (!existsSync(outputDir)) {
 
 cpSync(contentDir, outputDir, {
   recursive: true,
-  filter: (src) => src.endsWith(".md") || !src.includes("."),
+  filter: (src) => (src.endsWith(".md") && !isDraft(src)) || !src.includes("."),
   force: false,
   errorOnExist: false,
 })
 
 console.log("✅ Markdown source copied to public/")
+
+await import("./seo-postbuild.js")
