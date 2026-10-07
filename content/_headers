@@ -9,6 +9,10 @@ https://rectifyq.com/
   Link: </llms.txt>; rel="describedby"
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=0, must-revalidate
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self'
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
 
 /.well-known/api-catalog
   Content-Type: application/json
@@ -24,6 +28,3 @@ https://rectifyq.com/
 
 /.well-known/*
   Access-Control-Allow-Origin: *
-
-/static/*
-  Cache-Control: public, max-age=31536000, immutable

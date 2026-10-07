@@ -1,4 +1,17 @@
+// Duplicate hostnames that serve the same site; 301 them to the canonical domain.
+// Preview deployments (<hash>.site-3wq.pages.dev, <branch>.site-3wq.pages.dev) are left alone.
+const CANONICAL_HOST = "rectifyq.com"
+const REDIRECT_HOSTS = new Set(["www.rectifyq.com", "site-3wq.pages.dev"])
+
 export async function onRequest({ request, next }) {
+  const requestUrl = new URL(request.url)
+  if (REDIRECT_HOSTS.has(requestUrl.hostname)) {
+    requestUrl.protocol = "https:"
+    requestUrl.hostname = CANONICAL_HOST
+    requestUrl.port = ""
+    return Response.redirect(requestUrl.toString(), 301)
+  }
+
   const accept = request.headers.get("accept") || ""
 
   // Normal browsers and crawlers: untouched, zero overhead
