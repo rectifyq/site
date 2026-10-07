@@ -183,19 +183,22 @@ timeline
 p.s. This is based on Ransomware Group claims or news, unless the organization confirmed it then it is only a claim.
 
 ## Top Ransomware Groups impacting Malaysian Organizations
+
+Common questions are answered in [[malaysia-cyber-threats-faq|Malaysia Cyber Threats 2026: Key Facts and FAQ]].
+
 ```mermaid
 pie title Ransomware Victim (by group)
     "Qilin" : 23
-    "Lockbit3" : 21
+    "LockBit3" : 21
     "The Gentlemen" : 11
     "Direwolf" : 8
-    "Ransomhub" : 7
+    "RansomHub" : 7
     "Akira" : 5
-    "lamashtu" : 5
+    "Lamashtu" : 5
     "BlackCat" : 4
     "Hunters" : 4
     "Babuk" : 4
-    "Lockbit" : 3
+    "LockBit" : 3
 ```
 
 

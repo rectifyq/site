@@ -7,6 +7,8 @@ tags:
 
 **Threat intelligence focusing on Malaysia 🇲🇾** — bridging global reporting with local reality. Compiled, tagged, and analyzed for Malaysian defenders, from SOC analysts to CISOs.
 
+**Key facts (as of 8 October 2026):** Rectifyq has recorded **142 alleged ransomware claims** against Malaysian organisations since 2018 (**50 in 2026**, the highest year on record); manufacturing is the most-claimed sector; Qilin, LockBit 3.0 and The Gentlemen are the most active groups. Quick answers: **[[malaysia-cyber-threats-faq|Malaysia Cyber Threats: Key Facts & FAQ]]**.
+
 > [!tip] Baru di sini? New here?
 > Head to **[[start-here/index|Start Here]]** — a 2-minute guide that routes you to the right section based on your role. Prefer raw data? Jump straight to **[[resources/feeds|Feeds & MISP]]**.
 
@@ -16,7 +18,7 @@ tags:
         <span class="stat-label">Threat entries<br>MISP-linked, MY-triaged</span>
     </div>
     <div class="stat-item">
-        <span class="stat-number">47+</span>
+        <span class="stat-number">50+</span>
         <span class="stat-label">Threat actors<br>tracked with MY relevance</span>
     </div>
     <div class="stat-item">
@@ -38,7 +40,7 @@ tags:
     <a href="/my-threat-landscape/threat-actor/" class="product-tile">
         <span class="tile-icon">🎭</span>
         <span class="tile-title">Threat Actors</span>
-        <span class="tile-desc">47+ groups tracked with Malaysian relevance</span>
+        <span class="tile-desc">50+ groups tracked with Malaysian relevance</span>
     </a>
     <a href="/my-threat-landscape/vulnerabilities/" class="product-tile">
         <span class="tile-icon">🩹</span>
@@ -156,14 +158,16 @@ Everything published maps to our open **[[pir/index|Intelligence Requirements (P
 ### Ransomware extortion claims vs MY organizations — top groups (2018–present)
 ```mermaid
 pie showData 
+    "Qilin" : 23
     "LockBit3" : 21
-    "Qilin" : 20
-    "The Gentlemen" : 9
+    "The Gentlemen" : 11
+    "Direwolf" : 8
     "RansomHub" : 7
-    "Direwolf" : 7
     "Akira" : 5
-    "Others" : 20
+    "Other groups / unattributed" : 67
 ```
+
+*142 alleged claims as of 8 October 2026. Source: [[my-threat-landscape/ransomware|Malaysia Ransomware Tracker]].*
 
 > [!warning] Claims, not confirmations
 > Figures are based on ransomware group claims or news reporting. Unless the organization confirmed the incident, it remains a claim. Victims are never named on this site.

@@ -5,23 +5,28 @@ date: 2026-07-17
 tags: [landscape, dashboard]
 ---
 
+Quick answers: [[malaysia-cyber-threats-faq|Malaysia Cyber Threats 2026: Key Facts and FAQ]].
+
 One view of what is actually hitting Malaysia — compiled from [[my-threat-landscape/threats/index|Threat Watch]], [[my-threat-landscape/breaches/index|Breach Watch]], [[my-threat-landscape/vulnerabilities/index|Vulnerability Watch]], and the [[my-threat-landscape/threat-actor|Actor Tracker]].
 
 ## Ransomware claims vs MY organizations
 
 ```mermaid
 pie showData title Claims by group (2018–present)
+    "Qilin" : 23
     "LockBit3" : 21
-    "Qilin" : 14
+    "The Gentlemen" : 11
+    "Direwolf" : 8
     "RansomHub" : 7
-    "Direwolf" : 7
     "Akira" : 5
-    "The Gentlemen" : 5
+    "Lamashtu" : 5
     "BlackCat" : 4
     "Hunters" : 4
     "Babuk" : 4
     "LockBit" : 3
 ```
+
+*Top groups among 142 alleged claims as of 8 October 2026. Source: [[my-threat-landscape/ransomware|Malaysia Ransomware Tracker]].*
 
 > [!warning] Claims, not confirmations
 > Unless the organization confirmed an incident, it remains a claim. Victims are never named. [[my-threat-landscape/breaches/index|Editorial policy →]]

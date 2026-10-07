@@ -7,16 +7,17 @@
 - 142 alleged ransomware claims against Malaysian organisations recorded since 2018; 50 in 2026, the highest year on record (2025: 38; 2024: 21; 2023: 21).
 - Most-targeted sectors: manufacturing, government and public administration, engineering, logistics.
 - Most active ransomware groups against Malaysian victims: Qilin, LockBit 3.0, The Gentlemen.
-- 208 MISP-linked threat entries triaged for Malaysian relevance; 48 threat actor groups tracked.
+- 208 MISP-linked threat entries triaged for Malaysian relevance; 50+ threat actor groups tracked.
 - Editorial policy: claims are distinguished from confirmations, and victims are never named (masked descriptors and sectors only).
 
 ## Core pages
 
+- [Malaysia Cyber Threats 2026: Key Facts and FAQ](https://rectifyq.com/malaysia-cyber-threats-faq): sourced answers on ransomware numbers, groups, sectors, 2026 incidents, APT groups, scams and where to report
 - [Malaysia Ransomware Tracker](https://rectifyq.com/my-threat-landscape/ransomware): alleged ransomware claims against Malaysian organisations since 2018, by year, sector and group
 - [Rectifyq Radar](https://rectifyq.com/my-threat-landscape/radar/): monthly Malaysian threat landscape recap (ransomware claims, incidents, advisories, research, events)
 - [Threat Watch](https://rectifyq.com/my-threat-landscape/threats/): threat entries relevant to Malaysia, each with IoCs and a MISP event link
 - [Breach Watch](https://rectifyq.com/my-threat-landscape/breaches/): data breaches and leaks affecting Malaysian organisations
-- [Threat Actor Tracker](https://rectifyq.com/my-threat-landscape/threat-actor): threat actor groups with Malaysian relevance, clustered by suspected origin
+- [Threat Actors Targeting Malaysia](https://rectifyq.com/my-threat-landscape/threat-actor): 50+ threat actor groups with Malaysian relevance, with origin and linked entries
 - [MY Threat Landscape](https://rectifyq.com/my-threat-landscape/): dashboard of ransomware, sectors, techniques and actors
 - [ICS/OT Watch](https://rectifyq.com/ics-ot/): ICS/OT threats viewed through a Malaysian critical-infrastructure lens
 - [Methodology](https://rectifyq.com/methodology): sources, triage and editorial rules

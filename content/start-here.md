@@ -93,7 +93,7 @@ Rectifyq publishes a lot. You don't need all of it. **Find your role below and c
 <a id="cti"></a>
 ## 🔎 CTI Analyst
 
-1. **[[my-threat-landscape/threat-actor/index|Threat Actor Profiles]]** — 47+ groups clustered by suspected origin (heavily China-nexus among APTs), mapped to MITRE ATT&CK and the Diamond Model.
+1. **[[my-threat-landscape/threat-actor/index|Threat Actor Profiles]]** — 50+ groups clustered by suspected origin (heavily China-nexus among APTs), mapped to MITRE ATT&CK and the Diamond Model.
 2. **[[intel-program/index|Intelligence Program]]** — our open PIR/GIR. Map them against your org's requirements to know which tags to watch.
 3. **[[threat-intelligence-platform/style-guide|Style Guide]]** — relevancy 🔴🟡🟢, severity, category, sub-category, threat actor category, target scope — filter with precision.
 4. **MISP-MY** — every entry links to its MISP event for structured pivoting. See [[resources/feeds|Feeds]].
