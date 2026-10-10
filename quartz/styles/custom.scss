@@ -16,6 +16,17 @@ footer {
   // Keeps your links visible and centered
   ul {
     display: flex;
+    flex-wrap: wrap; // site, legal and social links wrap on narrow screens
+    gap: 0.4rem 1rem;
+    margin-top: 0.5rem; // breathing room below the "Rectifyq" line
+  }
+
+  // Visual separators between the link groups: site pages | legal | social
+  li:has(> a[href="/privacy"])::before,
+  li:has(> a[href^="https://github.com"])::before {
+    content: "|";
+    margin-right: 1rem;
+    opacity: 0.4;
   }
 }
 

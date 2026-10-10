@@ -221,11 +221,20 @@ plugins:
     enabled: true
     options:
       links:
+        About: /about
+        Methodology: /methodology
+        Intelligence Program: /intel-program/
+        Recognition: /recognition
+        Contribute: /contribute
+        Contact: /contact
+        Privacy: /privacy
+        Terms: /terms
         GitHub: https://github.com/rectifyq
         X: https://x.com/_rectifyq
         LinkedIn: https://linkedin.com/company/rectifyq
         Medium: https://medium.com/@rectifyq
-        Tiktok: https://www.tiktok.com/@rectifyq
+        TikTok: https://www.tiktok.com/@rectifyq
+        Telegram: https://t.me/rectifyq
   - source: github:quartz-community/recent-notes
     enabled: true
     options:
