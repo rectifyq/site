@@ -1,6 +1,6 @@
 ---
 title: "Melangkaui Waze: Teknologi Berkait Israel dalam Sektor Awam Malaysia"
-description: "Penilaian strategik susulan arahan 20 Okt 2026 yang melarang penjawat awam menggunakan Waze. Jika bidang kuasa Israel ke atas data Malaysia menjadi ujiannya, apakah lagi dalam rangkaian teknologi kerajaan yang terkesan, dan bagaimana organisasi wajar bertindak tanpa penggantian mendadak yang mahal?"
+description: "Penjawat awam kini dilarang menggunakan Waze kerana kaitannya dengan Israel. Berdasarkan ujian kerajaan sendiri, banyak perisian keselamatan yang melindungi rangkaian kerajaan mempunyai akses jauh lebih luas daripada aplikasi navigasi. Apa maksudnya, dan bagaimana bertindak tanpa penggantian mendadak yang mahal."
 date: 2026-10-21
 rq_id: RQ-2026-0159
 tlp: GREEN
@@ -14,377 +14,309 @@ unlisted: true
 draft: false
 ---
 
-**Status:** Arahan disahkan oleh dua sumber (Utusan, SoyaCincau) · **Jenis:** Penilaian strategik · **Keyakinan keseluruhan:** Sederhana · **TLP:GREEN** · 🇲🇾 Malaysia sahaja · [[my-only/2026-10-waze-ban-israel-nexus-technology|English version]]
-
-> [!warning] **TLP:GREEN**
-> Boleh dikongsi dalam komuniti keselamatan siber Malaysia dan organisasi rakan. Jangan siar semula secara terbuka atau di luar Malaysia. Kongsikan pautan ke halaman ini sahaja.
+**TLP:GREEN** · 🇲🇾 Malaysia sahaja. Kongsi pautan, jangan siar semula. · Penilaian strategik · Keyakinan: Sederhana · [[my-only/2026-10-waze-ban-israel-nexus-technology|Read in English]]
 
 > [!abstract] **BLUF (Intipati Utama)**
-> - **Dua langkah pada hari yang sama (20 Okt 2026):**
->   - **Pemberitahuan rasmi yang mengikat** daripada Ketua Setiausaha Negara (KSN) melarang **penjawat awam** menggunakan **Waze** berkuat kuasa serta-merta, berdasarkan keputusan Jawatankuasa Keselamatan Siber Negara (JKSN) Bil. 3/2026, dengan NACSA sebagai agensi penyelaras.
->   - **Nasihat awam** daripada Perdana Menteri Anwar Ibrahim menggesa semua rakyat Malaysia beralih kepada aplikasi tempatan **TuJu**.
-> - **Rasional yang dinyatakan ialah bidang kuasa ke atas data.** PM menyebut data peribadi dan maklumat pergerakan pengguna, dan menyatakan Waze **tertakluk kepada undang-undang kerajaan Israel**. Jika diterbalikkan, ini menjadi soalan yang boleh diuji bagi setiap pembekal lain: **adakah data Malaysia disimpan atau diproses di Israel, atau boleh dicapai dari sana?**
-> - **Berdasarkan ujian itu, Waze berada di kedudukan rendah.** **Produk keselamatan** yang beribu pejabat atau diasaskan di Israel (firewall, pengurusan akses istimewa, SASE, pemantauan OT, EDR) berada di dalam rangkaian kerajaan dan CNII. Produk ini memegang akses pentadbir dan saluran kemas kini automatik, serta menghantar telemetri kembali kepada vendor. *(Keyakinan tinggi)*
-> - **Ujian berdasarkan kewarganegaraan pengasas tidak dapat dilaksanakan secara konsisten.** Penyedia awan hiperskala dalam Perjanjian Rangka Kerja Awan sektor awam (**Microsoft, Google, AWS**) semuanya mempunyai R&D, pengambilalihan atau kontrak kerajaan Israel, dan **Google memiliki Waze sejak 2013**. **Ujian aliran data boleh dilaksanakan**, kerana ia boleh disemak melalui kontrak dan trafik rangkaian. *(Keyakinan tinggi)*
-> - **Cadangan: sedar dahulu, kemudian bertindak secara berperingkat.** Penggantian mendadak alat keselamatan adalah mahal dan menimbulkan risiko. Sebaliknya, **masukkan ke dalam polisi, dapatkan jaminan bertulis vendor bahawa tiada data dihantar ke Israel, dan sahkan jaminan itu**. Rancang sebarang migrasi **semasa pembaharuan kontrak atau tamat hayat produk**. Lihat [[#Apa maksudnya untuk Malaysia? 🇲🇾|pelan berperingkat]].
+> **Waze dilarang untuk penjawat awam, tetapi rangkaian kerajaan bergantung pada alat yang mempunyai kaitan Israel lebih mendalam dan akses jauh lebih luas.**
+> - **Apa berlaku:** pada **20 Okt 2026**, berdasarkan keputusan Jawatankuasa Keselamatan Siber Negara (JKSN) 3/2026, Ketua Setiausaha Negara melarang semua penjawat awam menggunakan Waze. PM pula menasihati orang awam beralih kepada aplikasi tempatan **TuJu**.
+> - **Alasan kerajaan:** Waze *"tertakluk kepada undang-undang kerajaan Israel"*, sekali gus mendedahkan data dan pergerakan pengguna kepada risiko.
+> - **Gunakan ujian yang sama ke atas semua yang lain**, dan Waze berada hampir di bawah sekali. Firewall, peti akses istimewa (PAM), SASE, EDR dan sensor OT daripada vendor yang diasaskan di Israel berada di dalam rangkaian kementerian dan CNII, dengan hak pentadbir dan kemas kini automatik.
+> - **Jangan buang apa-apa secara mendadak.** Masukkan peraturan ke dalam polisi, minta vendor **menjamin secara bertulis bahawa tiada data Malaysia dihantar ke Israel**, sahkan jaminan itu, dan **tukar hanya semasa pembaharuan kontrak** jika mereka gagal berbuat demikian.
 
 ---
 
-## Soalan Risikan Utama (KIQ)
+## Ringkasan pantas
 
-1. **KIQ-1:** Apakah sebenarnya yang diputuskan, untuk siapa, dan atas asas apa?
-2. **KIQ-2:** Teknologi lain manakah dalam penggunaan sektor awam yang memenuhi ujian yang sama, dan setakat mana aksesnya?
-3. **KIQ-3:** Adakah keputusan ini didorong oleh penemuan teknikal, kebimbangan bidang kuasa data, polisi dan solidariti, atau gabungan?
-4. **KIQ-4:** Apakah langkah susulan yang mungkin, dan apa yang perlu dilakukan oleh pertahanan siber Malaysia sekarang?
-
----
-
-## Apa yang diketahui (KIQ-1)
-
-| Perkara | Butiran | Status |
-| --- | --- | --- |
-| Pengeluar (mengikat) | KSN Tan Sri Shamsul Azri Abu Bakar, pemberitahuan rasmi kepada perkhidmatan awam | ✅ Disahkan (Utusan, SoyaCincau) |
-| Asas | Mesyuarat JKSN Bil. 3/2026, dipengerusikan oleh PM Anwar Ibrahim | ✅ Disahkan |
-| Skop (mengikat) | Semua anggota perkhidmatan awam, berkuat kuasa serta-merta. KSU dan Ketua Jabatan perlu memaklumkan hingga ke peringkat agensi | ✅ Disahkan |
-| Skop peranti | **Peranti rasmi atau peribadi tidak dinyatakan** | ⚪ Jurang |
-| Sebab dalam pemberitahuan | Waze "berpangkalan di Israel" / berkait dengan Israel | ✅ Disahkan |
-| Nasihat awam | PM menasihati **semua rakyat Malaysia** supaya tidak menggunakan Waze dan mempromosikan **TuJu** (oleh Lembaga Lebuhraya Malaysia, dibangunkan bersama Prosignal Consortium) | ✅ FMT, Malay Mail |
-| Rasional PM | Data peribadi dan maklumat pergerakan pengguna. Waze "tertakluk kepada undang-undang kerajaan Israel". *"Kerajaan tidak boleh berkompromi dalam soal keselamatan data dan identiti rakyat Malaysia"* (terjemahan) | ✅ FMT |
-| Mesyuarat yang sama | Keselamatan MyDigital ID dan risiko AI autonomi | ✅ FMT |
-| Penyelaras | NACSA, MKN, JPM | ✅ Disahkan |
-| Nombor / teks pekeliling | Tidak diterbitkan | ⚪ Jurang |
-
-**Konteks:**
-- **Pemilikan Waze:** diasaskan di Israel pada 2008 dan diambil alih oleh **Google pada Jun 2013** dengan nilai kira-kira US$1.15 bilion. Pasukannya digabungkan ke dalam organisasi Geo Google (Google Maps) mulai **Dis 2022**, dan ia masih mempunyai pusat pembangunan di Israel.
-- **Penggunaan:** anggaran 2017 meletakkan pengguna bulanan Waze di Malaysia pada **kira-kira 6 juta**, menurut FMT.
-- **Duluan serantau:** **Iraq** telah mengumumkan larangan penuh Waze mulai awal 2027 atas faktor asal Israel dan keselamatan data, dan **Iran** pernah menyekatnya (kedua-duanya menurut FMT).
-- **Duluan tempatan:** pada **2015**, seorang Ahli Parlimen Umno memberitahu Parlimen bahawa Waze dan Google Maps mendedahkan Malaysia kepada ancaman AS dan Israel. Kerajaan ketika itu menjawab bahawa penggunaannya adalah pilihan (Malay Mail).
-
----
-
-## Kaedah analisis
-
-| SAT | Tujuan |
+| | |
 | --- | --- |
-| **Semakan Andaian Utama** | Mendedahkan apa yang mesti benar supaya polisi "sekat teknologi berkait Israel" berkesan |
-| **Analisis Hipotesis Bersaing (ACH)** | Menguji *mengapa* Waze dipilih (KIQ-3) |
-| **Pengkelasan tahap kaitan berstruktur** | Menggantikan "berkait / tidak berkait" dengan kriteria bertingkat serta tahap akses (KIQ-2) |
-| **Penggredan sumber (Admiralty)** | Setiap rujukan digred. Bio vendor ≠ pengesahan bebas |
-| **Peguam Syaitan (Devil's Advocacy)** | Membentangkan hujah terkuat *menentang* hipotesis utama |
-| **Penunjuk & Amaran** | Tanda yang boleh dilihat yang akan mengubah penilaian |
-
-> [!info] **Bahasa anggaran** (ICD 203)
-> hampir tiada kemungkinan (01–05%) · sangat tidak mungkin (05–20%) · tidak mungkin (20–45%) · peluang hampir sama (45–55%) · mungkin (55–80%) · sangat mungkin (80–95%) · hampir pasti (95–99%).
-> **Keyakinan** (Tinggi / Sederhana / Rendah) mencerminkan kualiti dan pengesahan sumber, *bukan* kebarangkalian.
+| 🚫 **Dilarang** | Waze, untuk semua penjawat awam, berkuat kuasa serta-merta |
+| ⚖️ **Ujiannya** | Adakah data Malaysia **dalam jangkauan undang-undang Israel**? |
+| 🔓 **Alat berakses lebih tinggi yang memenuhinya** | Firewall, PAM, SASE, EDR, pemantauan OT (lihat di bawah) |
+| ☁️ **Kes sukar** | Microsoft, Google dan AWS: penyedia awan kerajaan, semuanya ada R&D atau kontrak di Israel |
+| ✅ **Tindakan** | Sedar → Polisi → Sahkan → Migrasi semasa pembaharuan |
 
 ---
 
-## Semakan Andaian Utama
+## Jika Waze gagal ujian, alat-alat ini gagal lebih dahulu
 
-| # | Andaian | Kukuh? | Ulasan |
+Disusun mengikut **tahap akses di dalam rangkaian anda**, tertinggi dahulu:
+
+| # | Kategori | Mengapa penting | Contoh berkait Israel |
 | --- | --- | --- | --- |
-| A1 | "Berkait dengan Israel" bermaksud risiko yang boleh diukur | ⚠️ Sebahagian | Kerangka kerajaan sendiri ialah **bidang kuasa undang-undang ke atas data**. Ini *boleh* diukur (di mana data disimpan, siapa boleh mencapainya). Kaitan semata-mata **bukan** bukti keupayaan berniat jahat |
-| A2 | Perkhidmatan risikan IDF pengasas (cth. Unit 8200) ialah pembeza yang kuat | ❌ Lemah | Kerahan tentera hampir menyeluruh di Israel, dan alumni 8200 sangat ramai dalam industri. Berguna sebagai konteks, lemah sebagai kriteria tunggal |
-| A3 | Membuang vendor beribu pejabat di Israel bermakna membuang kod yang dibangunkan di Israel | ❌ Tidak | Banyak teknologi Israel **kini dimiliki syarikat AS** (Palo Alto Networks, Google, CrowdStrike, Zscaler, Microsoft, ServiceNow) |
-| A4 | Jika dasar privasi tidak menyebut Israel, tiada data mengalir ke sana | ❌ Tidak | Semak **senarai sub-pemproses DPA**, akses sokongan "follow-the-sun", dan akses R&D kepada telemetri serta crash dump. SentinelOne dan Snyk menyenaraikan **entiti Israel dalam DPA** walaupun dasar privasi mereka tidak menyebut Israel |
-| A5 | Jaminan bertulis vendor sudah memadai | ⚠️ Bergantung | Kontrak tidak boleh mengatasi undang-undang akses paksa **di negara asal vendor**. Jaminan daripada vendor **Tahap 1** (ibu pejabat Israel) mempunyai **tahap kepastian lebih rendah** berbanding vendor Tahap 3 yang boleh mengasingkan data di luar Israel |
-| A6 | Pekeliling meliputi peranti peribadi | ⚪ Tidak diketahui | Tidak dinyatakan |
-| A7 | Alternatif tempatan berisiko lebih rendah | ⚠️ Belum diuji | Tiada penilaian keselamatan awam ke atas TuJu ditemui. "Tempatan" ≠ "telah dinilai" |
+| 1 | **SASE / secure web gateway** | *Semua* trafik anda melalui awan vendor | Cato Networks (ibu pejabat Israel). Zscaler dan Palo Alto (kedua-duanya ada R&D di Israel) |
+| 2 | **Akses istimewa (PAM)** | Menyimpan kata laluan akaun pentadbir anda | CyberArk, kini Idira (diasaskan di Israel, milik Palo Alto Networks) |
+| 3 | **Firewall / perimeter** | Inline pada setiap sambungan, kemas kini ditolak vendor | Check Point (ibu pejabat Israel). Palo Alto Networks (pengasas dan R&D Israel) |
+| 4 | **EDR / XDR** | Ejen tahap kernel pada setiap komputer dan pelayan | SentinelOne, Cynet, Cybereason (diasaskan di Israel). CrowdStrike (pusat R&D di Israel) |
+| 5 | **Pemantauan OT / IoT** | Melihat ke dalam sistem kawalan CNII | Claroty, Armis (diasaskan di Israel). Tenable OT (dibina atas Indegy, syarikat Israel) |
+| 6 | **Keselamatan awan** | Membaca konfigurasi dan snapshot awan anda | Wiz (kini Google), Orca |
+| … | **Aplikasi navigasi** | Data lokasi dan pergerakan | **Waze** |
+
+Senarai penuh vendor beserta bukti ada di [[#Lampiran|Lampiran B]].
+
+> [!tip] **Mengapa ini sukar**
+> Kewarganegaraan pengasas ialah jalan buntu. Syarikat keselamatan terbesar Israel kini dimiliki firma AS, dan **Microsoft, Google dan AWS**, iaitu penyedia awan kerajaan, semuanya mempunyai R&D atau kontrak kerajaan di Israel. **Ke mana data anda pergi boleh disemak. Siapa pengasas vendor tidak boleh ditindaklanjuti.** Sebab itu langkah di bawah memberi tumpuan kepada aliran data.
 
 ---
 
-## Analisis Hipotesis Bersaing (ACH)
+## Apa perlu dilakukan: secara berperingkat, bukan mendadak
 
-**Hipotesis:**
-- **H1:** Isyarat polisi/solidariti, selari dengan langkah lebih luas Malaysia terhadap Israel.
-- **H2:** Kebimbangan keselamatan data dari sudut bidang kuasa (undang-undang Israel menjangkau data dan pergerakan pengguna Malaysia).
-- **H3:** Penemuan teknikal khusus tentang Waze (kerentanan, insiden atau analisis telemetri).
-- **H4:** Langkah pembukaan kepada semakan lebih luas teknologi berkait Israel.
-- **H5:** Dasar industri untuk mempromosikan platform tempatan (TuJu).
-
-| Bukti | Gred | H1 | H2 | H3 | H4 | H5 |
-| --- | --- | --- | --- | --- | --- | --- |
-| E1: Pemberitahuan menyebut Waze berpangkalan di Israel. Tiada kerentanan, insiden atau penemuan data disebut | B2 | K | K | T | N | N |
-| E2: PM menyebut data peribadi dan pergerakan, serta "tertakluk kepada undang-undang kerajaan Israel" | B2 | N | K | N | N | N |
-| E3: Diputuskan di JKSN dan diselaraskan oleh NACSA (jentera siber) | B2 | N | K | K | K | N |
-| E4: Google Maps dan Google Cloud (syarikat induk sama) **tidak** termasuk | A1 | K | N | **T** | N | N |
-| E5: Konteks 2026: rampasan kargo ke Israel (Ogos), ikrar PM 15 Sep, larangan kapal ZIM/Israel 2023 | A1 | K | N | N | K | N |
-| E6: Hanya Waze dinamakan | B2 | K | N | N | T | N |
-| E7: TuJu dipromosikan pada hari yang sama, kepada orang awam | B2 | K | N | N | N | K |
-| E8: Mesyuarat yang sama membincangkan MyDigital ID dan risiko AI (agenda kedaulatan data) | B2 | N | K | N | K | N |
-| E9: Duluan serantau (Iraq, Iran) menyebut asal Israel dan keselamatan data | B2 | K | K | N | N | N |
-| **Ketidakselarasan (lebih rendah = lebih baik)** | | **0** | **0** | **2** | **1** | **0** |
-
-*K = konsisten, T = tidak konsisten, N = neutral.*
-
-**Keputusan:** **H1 dan H2 bersama-sama** paling menjelaskan bukti: **keputusan polisi yang dijustifikasikan atas alasan keselamatan data dari sudut bidang kuasa**. **H5** ialah pendorong sokongan. **H3 paling kurang disokong**, kerana tiada penemuan teknikal diterbitkan, dan kebimbangan berasaskan telemetri sepatutnya turut terpakai kepada Google Maps. **H4 masih terbuka**, dan penunjuk di bawah mengujinya.
-
-> [!question] **Peguam Syaitan: hujah menentang H2**
-> Jika bidang kuasa ke atas data benar-benar pendorongnya, logik yang sama menjangkau undang-undang **AS** (cth. CLOUD Act) ke atas **Google Maps**, Google Cloud dan penyedia Rangka Kerja Awan yang lain, yang tidak disentuh. Data Waze diproses oleh Google, jadi sama ada "undang-undang Israel" terpakai bergantung pada lokasi data dan siapa yang boleh mencapainya, dan ini belum ditunjukkan secara terbuka. Sikap selektif ini menunjukkan hujah bidang kuasa **lebih merupakan justifikasi kepada pilihan polisi (H1)** daripada hasil audit aliran data. *Pandangan kami:* kedua-duanya benar serentak. Bagi pasukan pertahanan, yang penting ialah **kerajaan telah menerima pakai secara terbuka ujian bidang kuasa data**, dan ujian itu boleh digunakan ke atas pembekal.
-
----
-
-## Pengkelasan tahap kaitan berstruktur (KIQ-2)
-
-```mermaid
-flowchart TD
-    T1["<b>Tahap 1</b><br/>Ibu pejabat atau kawalan di Israel<br/><i>Check Point, Cato, Radware, Cymulate, Cellebrite</i>"]
-    T2["<b>Tahap 2</b><br/>Diasaskan di Israel, ibu pejabat berpindah,<br/>R&D teras masih di Israel<br/><i>SentinelOne, Varonis, Claroty, Snyk, Orca, Cynet</i>"]
-    T3["<b>Tahap 3</b><br/>Syarikat bukan Israel yang mengambil alih<br/>teknologi Israel atau ada pusat R&D di Israel<br/><i>Palo Alto (CyberArk), Google (Wiz, Waze), CrowdStrike, Zscaler</i>"]
-    T4["<b>Tahap 4</b><br/>Kontrak dengan kerajaan / tentera Israel<br/><i>Google & AWS (Project Nimbus), Microsoft (IMOD Azure)</i>"]
-    X["<b>Lapisan: tahap akses</b><br/>Inline / kernel / istimewa → SaaS berdata → aplikasi pengguna"]
-    D["<b>Lapisan: aliran data</b><br/>Disimpan / diproses / boleh dicapai di Israel?<br/>(dasar privasi, T&C, sub-pemproses DPA, model sokongan)"]
-    T1 --> T2 --> T3 --> T4
-    X -.-> T1
-    X -.-> T2
-    X -.-> T3
-    D -.-> T1
-    D -.-> T2
-    D -.-> T3
-    style T1 fill:#8b0000,color:#fff
-    style T2 fill:#b34700,color:#fff
-    style T3 fill:#7a6a00,color:#fff
-    style T4 fill:#284b63,color:#fff
-```
-
-**Risiko ≈ Tahap kaitan × Tahap akses × Aliran data.** Firewall Tahap 3 yang berada inline di rangkaian kementerian dan menghantar telemetri kepada pasukan R&D di Israel memerlukan penelitian lebih rapi berbanding alat Tahap 1 yang datanya diasingkan secara kontrak di rantau ini.
-
----
-
-## Matriks vendor yang disahkan
-
-**Petunjuk:**
-- ✅ Disahkan dalam semakan ini (sumber dinyatakan)
-- 🟡 Dilaporkan (bio vendor, sekunder atau satu sumber)
-- ❌ Dakwaan draf awal tidak disokong / diperbetulkan
-- ⚪ Belum dinilai
-
-**Dok. undang-undang** = Israel disebut dalam **Dasar Privasi / T&C-ToU-EULA / DPA (sub-pemproses)**, daripada semakan dokumen Rectifyq sendiri (Y = ya, N = tidak, – = belum disemak). Semakan ini belum diulang untuk versi ini, dan vendor kerap mengemas kini dokumen tersebut.
-
-### Tahap 1: Ibu pejabat di Israel
-
-| Vendor | Kaitan Israel | Kaitan unit risikan pimpinan | Bukti di Malaysia | Dok. undang-undang | Nota / pembetulan |
-| --- | --- | --- | --- | --- | --- |
-| **Check Point** | Ibu pejabat Tel Aviv (ibu pejabat AS di San Carlos) ✅. Mengambil alih Perimeter 81 (2023) | **Nadav Zafrir**, CEO sejak Dis 2024, bekas komander Unit 8200 ✅. **Gil Shwed**, Pengerusi Eksekutif, Unit 8200 ✅ | Pengedar JM Eastern, Ingram Micro MY. Pendedahan MY (agregat) di Shadowserver | Y / Y / – | ❌ Jerry Ungerman sebagai Pengerusi sudah lapuk. ❌ **Amnon Shoshani ialah pengarah CyberArk, bukan Check Point.** Kaitannya dengan "Unit Jurucakap IDF" tidak disokong. Yoav Chelouche, Kor Risikan 🟡 |
-| **Cato Networks** | Ibu pejabat Tel Aviv ✅ | **Shlomo Kramer**, pengasas bersama/CEO, Unit 8200 ✅. Gur Shatz: tiada ditemui | Kisah pelanggan menamakan Gamuda 🟡. Pendedahan MY di Shadowserver | Y / – / – | SASE: **semua trafik melalui awan vendor** |
-| **Radware** | Ibu pejabat Tel Aviv 🟡 | ⚪ | ⚪ | N / Y / – | DDoS/WAF, inline |
-| **Cymulate** | Diasaskan/ibu pejabat di Israel 🟡 | ⚪ | ⚪ | Y / Y / – | Simulasi serangan: **ejen menjalankan serangan dalam rangkaian anda** |
-| **Cybersixgill** | Israel ✅. **Diambil alih BitSight (2024)** | ⚪ | Melalui BitSight | Y / Y / – | Risikan ancaman |
-| **Ionix** (dahulu Cyberpion) | Israel/AS 🟡 | ⚪ | ⚪ | Y / Y / – | Pengurusan permukaan serangan |
-| **Cellebrite** *(tambahan)* | Ibu pejabat Petah Tikva ✅. Pemegang saham terbesar Sun Corp (Jepun) | ⚪ | **Tiada bukti awam penggunaan di MY** ✅ | – | Disenaraikan untuk kelengkapan, tiada dakwaan MY dibuat |
-
-### Tahap 2: Diasaskan di Israel, ibu pejabat di luar, R&D teras di Israel
-
-| Vendor | Kaitan Israel | Kaitan unit risikan pimpinan | Bukti di Malaysia | Dok. undang-undang | Nota / pembetulan |
-| --- | --- | --- | --- | --- | --- |
-| **CyberArk** | Diasaskan di Petah Tikva ✅. **Dimiliki Palo Alto Networks sejak 11 Feb 2026** ✅ | **Udi Mokady**, pengasas, risikan tentera IDF ✅. "Unit 8200" 🟡 | ⚪ | Tidak langsung (pejabat) / Y / – | PAM: **memegang kunci akaun pentadbir**. ❌ "Gadi Tirosh – mungkin IDF" dibuang kerana tidak bermaklumat |
-| **SentinelOne** | Diasaskan di Israel 2013 ✅. Mengambil alih Prompt Security 🟡 | Tomer Weingarten: ❌ kaitan tentera **tidak ditemui** dalam sumber | ⚪ | N / N / **Y (Prompt Security Ltd, Israel)** | EDR, ejen kernel. **Contoh jelas A4**: DPA mendedahkan apa yang tidak disebut dalam dasar privasi |
-| **Snyk** | Diasaskan di London & Tel Aviv 2015, ibu pejabat Boston ✅. Mengambil alih Helios 🟡 | **Podjarny, Hefetz, Grander**: Unit 8200 ✅ | ⚪ | N / N / **Y (Snyk Israel Ltd)** | ❌ **CEO ialah Peter McKay (sejak 2019)**, bukan Podjarny |
-| **Wiz** | Diasaskan di Israel ✅. **Dimiliki Google sejak 11 Mac 2026** ✅ | Keempat-empat pengasas Unit 8200 🟡 | ⚪ | Y / N / – | ❌ "Talpiot" bagi Rappaport tidak disahkan |
-| **Cybereason** | Diasaskan di Israel 2012 ✅. **Dimiliki LevelBlue sejak 25 Nov 2025** ✅ | Pengasas Div, Naar, Striem-Amit: Unit 8200 🟡 | Penjual semula (Adellence) | N / N / – | ❌ Pengasas, bukan bekas CISO, ialah kaitan yang relevan |
-| **Claroty** | Diasaskan di Israel (Team8), ibu pejabat New York 🟡 | Amir Zilberstein, "unit siber elit IDF" 🟡 | Hantaran pengedar berkaitan **sektor awam** (Ishan Tech) | Y / Y / – | **Pemantauan OT/CNII**, lihat [[ics-ot/index\|ICS/OT]] |
-| **Cynet** | Diasaskan di Tel Aviv 2015, ibu pejabat Boston ✅ | ❌ Eyal Gruner "Unit 8200" **tidak disokong** | ⚪ | Y / Y / – | EDR/XDR |
-| **Varonis** | Diasaskan oleh Faitelson & Korkus, R&D di Herzliya 🟡 | ⚪ | ⚪ | Y / N / – | Membaca kebenaran dan kandungan fail |
-| **Orca Security** | Diasaskan di Israel 🟡 | ⚪ | ⚪ | Y / Y / – | Keselamatan awan (membaca snapshot awan) |
-| **Aqua Security** | Ibu pejabat Israel (Ramat Gan). R&D di India menurut koleksi kami 🟡 | Dror Davidoff (CEO): tiada dikenal pasti | Pihak permintaan sahaja: iklan jawatan majikan MY | Y / Y / – | Kehadiran MY: tiada ditemui |
-| **Intezer** | Diasaskan di Israel, ibu pejabat New York 🟡 | **Itai Tevet**, bekas ketua IDF CERT 🟡 | ⚪ | Y / Y / – | |
-| **Morphisec** | Diasaskan/ibu pejabat di Israel (Be'er Sheva) 🟡 | ⚪ | ⚪ | Y / Y / – | Endpoint |
-| **Coro** | Diasaskan di Israel (Coronet), ibu pejabat Chicago 🟡 | ⚪ | ⚪ | Y / Y / – | Keselamatan PKS |
-| **Forter** | Diasaskan di Israel, ibu pejabat New York 🟡 | ⚪ | ⚪ | Y (alamat pejabat) / N / – | Pencegahan penipuan. **Relevan rendah kepada kerajaan** |
-| **Imperva** *(tambahan)* | Diasaskan di Israel. **Dimiliki Thales (Perancis) sejak 2023** | Kramer (pengasas bersama): Unit 8200 ✅ | ⚪ | – | WAF/DDoS, inline |
-| **Armis** *(tambahan)* | Diasaskan di Israel. **Dimiliki ServiceNow sejak 20 Apr 2026** ✅ | ⚪ | ⚪ | – | IoT/OT/perubatan: **relevan kepada CNII** |
-| **Guardicore** *(tambahan)* | Diasaskan di Israel. Dimiliki Akamai (2021) | ⚪ | ⚪ | – | Segmentasi mikro |
-
-### Tahap 3: Syarikat bukan Israel dengan pengambilalihan atau R&D di Israel
-
-| Vendor | Kaitan Israel | Bukti di Malaysia | Dok. undang-undang | Nota / pembetulan |
-| --- | --- | --- | --- | --- |
-| **Palo Alto Networks** | Pengasas/CTO **Nir Zuk**, bekas Unit 8200 ✅. Pengambilalihan Israel: Cyvera (asas Cortex XDR), LightCyber, Secdo, Twistlock, PureSec, Cider, Talon, Dig, **CyberArk (2026)** ✅. Rancangan penyenaraian sekunder di Tel Aviv ✅ | Ya. Pendedahan MY di Shadowserver | – | ❌ **Baris pendua digabungkan.** Kini **portfolio kaitan Israel paling padat** dalam kalangan vendor AS |
-| **Google** | **Waze** (2013), Siemplify (2022), **Wiz** (2026) ✅. R&D di Israel. **Project Nimbus** (Tahap 4) ✅ | **Penyedia Perjanjian Rangka Kerja Awan** ✅ | N / N / – | ❌ Waze dan Nimbus tertinggal dalam draf |
-| **Microsoft** | Pusat R&D di Israel. Adallom, Aorato, Hexadite, CyberX (→ Defender for IoT). **Sep 2025: menyahaktifkan langganan IMOD tertentu** ✅ | **Penyedia Perjanjian Rangka Kerja Awan** ✅. Pelaburan besar di MY | – | ❌ Nota kaki "54" tanpa sumber diganti dengan kenyataan Microsoft sendiri |
-| **AWS** *(tambahan)* | **Annapurna Labs** (Israel, 2015, mereka bentuk cip Nitro/Graviton). **Project Nimbus** ✅ | **Penyedia Perjanjian Rangka Kerja Awan** ✅ | – | Baris baharu |
-| **CrowdStrike** | **Pusat R&D di Israel (Ramat Gan)** ✅. Preempt, Bionic, Flow Security, Adaptive Shield ✅. Seraphic 🟡 | ⚪ | Y (syarikat cawangan) / N / – | ❌ R&D "Israel (Mungkin)" kini **disahkan** |
-| **Zscaler** | Canonic, **Trustdome (2021, pusat R&D pertama di Israel)**, **Avalor (2024)** ✅ | ⚪ | Y (syarikat sekutu) / – / – | ❌ R&D "Tiada (berdasarkan petikan)" **diperbetulkan** |
-| **Rapid7** | Cawangan di Israel. IntSights, Alcide, Minerva Labs 🟡 | ⚪ | N / N / – | Seperti draf |
-| **Tenable** | **Indegy (2019, asas Tenable OT)**, Ermetic (2023) 🟡 | ⚪ | N / N / – | Indegy ditambah (OT) |
-| **Okta** | Spera (2024), Axiom (2025) 🟡 | ⚪ | N / N / – | Seperti draf |
-| **BitSight** | Cawangan di Israel melalui **Cybersixgill (2024)** ✅ | Pengedar TecD Malaysia. Perkhidmatan siber Chubb MY | N / – / – | Kehadiran MY melalui rakan kongsi, bukan entiti tempatan |
-| **Cisco** | Pusat R&D di Israel. Pengambilalihan Israel (cth. Portshift, Lightspin) 🟡 | Ya | N / N / – | ❌ R&D "N/A" diperbetulkan. ❌ "Perkongsian rapat dengan tentera Israel" (nota kaki 45) **tanpa sumber, dibuang** |
-| **IBM** | **IBM Research Haifa**. Trusteer (2013) 🟡 | Ya | Y (hak tambahan bagi pelanggan Israel) / N / – | ❌ "Tiada kehadiran di Israel" **diperbetulkan**. ❌ "Daftar penduduk" (nota kaki 49) **tanpa sumber, dibuang** |
-
-### Tiada kaitan Israel yang ketara dikenal pasti
-
-| Vendor | Dok. undang-undang | Nota |
-| --- | --- | --- |
-| **Fortinet** | N / N / – | AS. Tiada asas penubuhan atau pengambilalihan besar di Israel dikenal pasti |
-| **Trend Micro** | N / N / – | Jepun. Eva Chen, pengasas bersama/CEO |
-| **Recorded Future** | N / N / – | AS. **Dimiliki Mastercard (Dis 2024)** |
-| **Capgemini** | N / N / – | Perancis. ❌ "Mungkin menggunakan kerjasama Israel" dan kaitan Sogeti adalah **spekulatif**. Tambah semula hanya jika ada entiti atau kontrak Israel yang bersumber |
-
-### Belum dinilai (senarai pengumpulan)
-
-- **Vendor diasaskan di Israel yang berkemungkinan hadir di MY:** Silverfort, Pentera, XM Cyber (Schwarz Group), Cyera, Axonius, Transmit Security, Island, Perimeter 81 (kini Check Point Harmony SASE), Talon (kini Prisma Access Browser).
-- **Lapisan perkakasan** (di luar skop, tetapi penting kepada KJ-3): rangkaian NVIDIA (dahulu Mellanox), Intel (R&D/kilang di Israel), silikon AWS Annapurna.
-
----
-
-## Penilaian Utama (Key Judgments)
-
-> [!important] **KJ-1: Keputusan polisi yang dijustifikasikan atas alasan bidang kuasa data** *(Keyakinan sederhana)*
-> Arahan Waze **sangat mungkin** merupakan keputusan polisi (H1) yang dijustifikasikan atas **alasan keselamatan data dari sudut bidang kuasa** (H2), dengan promosi platform tempatan sebagai pendorong sekunder (H5). **Tiada penemuan teknikal khusus tentang Waze diterbitkan** (keyakinan tinggi), dan pengecualian Google Maps menjadikan penemuan berasaskan telemetri (H3) **tidak mungkin**.
-
-> [!important] **KJ-2: Waze berada di anak tangga akses yang rendah** *(Keyakinan tinggi)*
-> Produk keselamatan Tahap 1–2 dalam kegunaan kerajaan dan CNII memegang **kelayakan pentadbir, ejen tahap kernel, kedudukan inline dan saluran kemas kini automatik**, dan sering menghantar telemetri kepada pasukan R&D di Israel. Jika matlamat polisi ialah memastikan data Malaysia di luar bidang kuasa Israel, **Waze hampir pasti bukan tempat yang paling berimpak untuk dimulakan**.
-
-> [!important] **KJ-3: Ujian aliran data boleh dilaksanakan, ujian kewarganegaraan tidak** *(Keyakinan tinggi)*
-> Ujian berdasarkan pengasas atau pemilikan tidak dapat digunakan secara konsisten. Setiap penyedia hiperskala Rangka Kerja Awan dan kebanyakan vendor keselamatan utama AS memenuhi sekurang-kurangnya satu tahap. Ujian yang **dinyatakan** oleh kerajaan, iaitu bidang kuasa Israel ke atas data Malaysia, *boleh* dilaksanakan: ia boleh disemak melalui **DPA, senarai sub-pemproses, komitmen residensi data dan pemantauan trafik keluar**. Sebarang perluasan polisi **sangat mungkin** bertingkat dan berasaskan aliran data.
-
-> [!important] **KJ-4: Peluang hampir sama untuk langkah susulan** *(Keyakinan rendah)*
-> Terdapat **peluang hampir sama** bahawa JKSN atau NACSA akan mengeluarkan panduan susulan yang meluaskan penelitian melangkaui Waze dalam tempoh **6–12 bulan**.
-> - **Menyokong:** kerangka kedaulatan data oleh PM secara terbuka, agenda MyDigital ID dalam mesyuarat yang sama, dan duluan serantau (Iraq).
-> - **Menentang:** hanya Waze dinamakan, dan menggantikan rangkaian keselamatan adalah mahal.
-
-> [!important] **KJ-5: Tindakan berperingkat dan disahkan lebih baik daripada penggantian mendadak** *(Keyakinan tinggi)*
-> Penyingkiran EDR, firewall atau PAM tanpa perancangan menyebabkan **jurang liputan, salah konfigurasi dan kelayakan bertaburan**, dan kos penggantian jatuh di pertengahan kontrak. Pelaku ancaman kerap mengeksploitasi tempoh peralihan (lihat [[my-threat-landscape/breaches/2026-06-fortibleed|FortiBleed]]). Laluan **polisi → sahkan → migrasi semasa pembaharuan** mengurangkan pendedahan tanpa mencetuskan insiden baharu.
-
----
-
-## Apa maksudnya untuk Malaysia? 🇲🇾
-
-**Pendirian:** sedar sekarang, masukkan ke dalam polisi, sahkan jaminan vendor, dan migrasi **hanya jika jaminan gagal, semasa pembaharuan kontrak**.
+Membuang alat keselamatan di pertengahan kontrak adalah mahal, meninggalkan jurang yang digemari penyerang, dan boleh mencetuskan insiden yang cuba dielakkan (ingat [[my-threat-landscape/breaches/2026-06-fortibleed|FortiBleed]]). Lakukannya mengikut fasa:
 
 ```mermaid
 flowchart LR
-    A["<b>1. Sedar</b><br/>0–3 bulan<br/>Inventori & tahap"] --> B["<b>2. Polisi</b><br/>3–6 bulan<br/>Peraturan bidang kuasa data<br/>dalam perolehan"]
-    B --> C["<b>3. Sahkan</b><br/>6–12 bulan<br/>Jaminan bertulis<br/>+ semakan teknikal"]
-    C --> D{"Jaminan diberi<br/>& disahkan?"}
-    D -- Ya --> E["<b>Pantau</b><br/>Pengesahan semula tahunan"]
-    D -- Tidak --> F["<b>4. Migrasi</b><br/>Semasa pembaharuan / EOL<br/>Operasi selari"]
+    A["<b>1. Sedar</b><br/>0–3 bulan"] --> B["<b>2. Polisi</b><br/>3–6 bulan"]
+    B --> C["<b>3. Sahkan</b><br/>6–12 bulan"]
+    C --> D{"Jaminan vendor<br/>kukuh?"}
+    D -- Ya --> E["<b>Kekal & pantau</b><br/>pengesahan semula tahunan"]
+    D -- Tidak --> F["<b>4. Migrasi</b><br/>semasa pembaharuan / EOL"]
     style A fill:#284b63,color:#fff
     style B fill:#284b63,color:#fff
     style C fill:#7a6a00,color:#fff
     style F fill:#8b0000,color:#fff
 ```
 
-### Fasa 1: Sedar (0–3 bulan)
-- **Bina daftar kaitan vendor.** Bagi setiap produk, rekodkan:
-  - pemilik semasa dan ibu pejabat
-  - lokasi pembangunan dan sokongan
-  - destinasi telemetri dan saluran kemas kini
-  - tarikh tamat kontrak
-- Gunakan pengkelasan tahap di atas, dan ambil perhatian perubahan pemilikan 2025–26 (CyberArk, Wiz, Cybereason, Armis).
-- **Susun mengikut tahap akses:**
-  1. Alat inline dan istimewa (SASE, firewall, PAM, EDR, sensor OT)
-  2. SaaS yang menyimpan data kerajaan
-  3. Aplikasi pada peranti pegawai
-- **Peranti pegawai:** kuatkuasakan arahan Waze melalui senarai sekatan aplikasi MDM. Kenakan **kawalan sejarah lokasi ke atas semua aplikasi navigasi**, bukan Waze sahaja.
+**1. Sedar (0–3 bulan)**
+- [ ] Senaraikan setiap produk keselamatan dan SaaS bersama **pemilik semasa**, **lokasi pembangunan dan sokongan**, **destinasi telemetri** dan **tarikh tamat kontrak**.
+- [ ] Susun mengikut tahap akses, berpandukan jadual di atas.
+- [ ] Sekat Waze pada peranti rasmi melalui MDM, dan kenakan kawalan sejarah lokasi ke atas **semua** aplikasi navigasi.
 
-### Fasa 2: Polisi (3–6 bulan)
-- Masukkan **klausa bidang kuasa data** dalam templat perolehan dan pembaharuan. Data dan telemetri Malaysia tidak boleh disimpan, diproses atau dicapai di bidang kuasa yang disekat.
-- Selaraskan dengan kewajipan **Akta Keselamatan Siber 2024 (Akta 854)** bagi entiti NCII, panduan NACSA, dan peruntukan **pemindahan data rentas sempadan PDPA**.
-- Jadikan **pembelian baharu** produk Tahap 1–2 bagi peranan istimewa tertakluk kepada pengecualian yang didokumenkan.
+**2. Polisi (3–6 bulan)**
+- [ ] Masukkan **klausa bidang kuasa data** dalam templat perolehan dan pembaharuan: tiada penyimpanan, pemprosesan atau akses data Malaysia di bidang kuasa yang disekat.
+- [ ] Selaraskan dengan **Akta 854** (kewajipan NCII), panduan NACSA dan peraturan pemindahan rentas sempadan PDPA.
 
-### Fasa 3: Sahkan (6–12 bulan)
-Minta **pengesahan bertulis** daripada setiap vendor dalam skop, merangkumi:
-- **Residensi data:** rantau penyimpanan dan pemprosesan bagi data pelanggan, telemetri, log, crash dump dan sampel risikan ancaman.
-- **Tiada akses dari Israel:** termasuk R&D, sokongan "follow-the-sun", penganalisis SOC/MDR dan sub-pemproses.
-- **Senarai sub-pemproses**, dengan **notis awal perubahan** dan hak untuk membantah.
-- **Hak audit:** laporan SOC 2 / ISO 27001 yang meliputi rantau yang dinyatakan.
-- **Integriti kemas kini:** tandatangan kod, dan lokasi binaan dihasilkan.
-- **Bantuan keluar:** pemulangan dan pemadaman data, serta tempoh peralihan.
+**3. Sahkan (6–12 bulan)**
+- [ ] Dapatkan **jaminan bertulis** daripada setiap vendor yang merangkumi:
+  - rantau data dan telemetri
+  - **tiada akses dari Israel** (R&D, sokongan, penganalisis SOC, sub-pemproses)
+  - senarai sub-pemproses dengan notis perubahan
+  - laporan audit
+  - bantuan keluar
+- [ ] **Semak sendiri:** pantau ke mana ejen dan perkakas sebenarnya menghantar trafik, dan matikan ciri "perkongsian awan" pilihan.
+- [ ] Beri **pemberat lebih rendah** kepada jaminan vendor beribu pejabat di Israel, kerana kontrak tidak boleh mengatasi undang-undang negara asal mereka.
 
-**Kemudian sahkan secara teknikal.** Jangan bergantung pada kertas sahaja:
-- Pantau **destinasi trafik keluar** ejen dan perkakas (domain, geolokasi IP).
-- Matikan ciri perkongsian awan pilihan (cth. penghantaran sampel, telemetri "komuniti") jika polisi memerlukan.
-
-> [!tip] Timbang jaminan mengikut bidang kuasa
-> Pengesahan daripada vendor **beribu pejabat di Israel (Tahap 1)** tidak boleh mengatasi undang-undang akses paksa di negara asalnya, jadi anggap ia sebagai **kepastian lebih rendah** (Andaian A5). Vendor Tahap 2–3 yang boleh **mengasingkan data dan sokongan** di luar Israel secara kontrak memberikan jaminan yang lebih kukuh.
-
-### Fasa 4: Migrasi (semasa pembaharuan atau tamat hayat)
-- Jika jaminan **tidak dapat diberi atau tidak terbukti**, rancang penggantian **pada titik pembaharuan kontrak** untuk mengelakkan kos tenggelam.
-- **Jalankan sistem lama dan baharu secara selari**, tukar semua kelayakan yang dipegang alat lama, batalkan akses sokongan jarak jauh vendor, dan sahkan liputan pengesanan sebelum peralihan.
-- **Nilai alternatif tempatan** seperti TuJu melalui semakan privasi dan keselamatan yang sama sebelum mewajibkannya.
+**4. Migrasi (semasa pembaharuan atau tamat hayat)**
+- [ ] Ganti **hanya** jika jaminan gagal. Selaraskan dengan tarikh pembaharuan untuk mengelak kos tenggelam.
+- [ ] Jalankan sistem lama dan baharu secara selari, tukar semua kelayakan yang dipegang alat lama, dan buang akses jarak jauh vendor.
+- [ ] Nilai alternatif tempatan, termasuk TuJu, melalui semakan keselamatan yang sama.
 
 ---
 
-## Penunjuk & Amaran
+## Penilaian utama
 
-| Penunjuk | Menyokong |
-| --- | --- |
-| Teks pekeliling diterbitkan, atau pekeliling kedua menamakan produk atau vendor lain | H4 / KJ-4 ↑ |
-| Panduan NACSA atau kod amalan Akta 854 menyentuh bidang kuasa data atau asal vendor | H4 / KJ-3 ✓ |
-| Pekeliling MOF/perolehan berkenaan lokasi data pembekal | H4 ↑ |
-| Kenyataan teknikal tentang aliran data Waze (cth. analisis NACSA) | H3 ↑ (KJ-1 ↓) |
-| Google Maps atau aplikasi navigasi bukan Israel turut disekat | H2 meluas / H1 ↓ |
-| Vendor menerbitkan komitmen residensi data khusus Malaysia | KJ-3 ✓ |
-| Arahan kekal terhad kepada Waze tanpa perluasan | H1 ✓ / KJ-4 ↓ |
-
----
-
-## Jurang risikan
-
-- Teks penuh pekeliling dan **skop peranti** (rasmi atau peribadi).
-- **Penggunaan sebenar** vendor-vendor ini dalam rangkaian kerajaan Malaysia. Bukti Malaysia di atas bermaksud *kehadiran pasaran*, bukan penggunaan kerajaan yang disahkan.
-- Terma sub-pemproses dan residensi data **semasa**. Semakan dokumen undang-undang kami mendahului versi ini.
-- Latar belakang tentera beberapa eksekutif (Chelouche, Weingarten, Gruner) masih **belum disahkan**.
-- Sama ada wujud penilaian teknikal ke atas Waze di sebalik keputusan JKSN.
-
----
-
-## Garis masa
-
-| Tarikh | Peristiwa | Pautan |
+| | Penilaian | Keyakinan |
 | --- | --- | --- |
-| 2013-06 | Google mengambil alih Waze (~US$1.15b) | [FMT](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) |
-| 2015-11-26 | Ahli Parlimen Umno memberitahu Parlimen bahawa Waze dan Google Maps mendedahkan Malaysia kepada ancaman AS/Israel | [Malay Mail](https://www.malaymail.com/news/malaysia/2015/11/26/umno-mp-waze-google-maps-expose-malaysia-to-possible-us-israel-threats/1012269) |
-| 2021-02 | Kerajaan memberi kelulusan bersyarat kepada Microsoft, Google, Amazon, TM sebagai penyedia awan sektor awam | [NST](https://www.nst.com.my/news/nation/2021/02/666988/four-csps-build-manage-hyper-scale-data-centres-cloud-services) |
-| 2022-05 | Perjanjian Rangka Kerja Awan ditandatangani (MAMPU) | [Business Today](https://www.businesstoday.com.my/2022/05/09/public-sector-data-centre-upgraded-to-mygovcloud/) |
-| 2023-12 | Malaysia melarang kapal milik/berbendera Israel dan ZIM | [CNN](https://www.cnn.com/2023/12/20/asia/malaysia-israel-shipping-ban-palestine-support-intl-hnk) |
-| 2025-09 | Microsoft menyahaktifkan langganan Azure IMOD tertentu | [NBC News](https://www.nbcnews.com/tech/tech-news/microsoft-ends-israel-military-units-access-cloud-service-rcna233723) |
-| 2025-11-25 | LevelBlue melengkapkan pengambilalihan Cybereason | [Cybereason](https://www.cybereason.com/press/levelblue-acquires-cybereason) |
-| 2026-02-11 | Palo Alto Networks melengkapkan pengambilalihan CyberArk | [SEC 8-K](https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626dex991.htm) |
-| 2026-03-11 | Google melengkapkan pengambilalihan Wiz | [Cleary Gottlieb](https://www.clearygottlieb.com/news-and-insights/news-listing/google-completes-32-billion-acquisition-of-wiz) |
-| 2026-04-20 | ServiceNow melengkapkan pengambilalihan Armis | [Verdict](https://www.verdict.co.uk/servicenow-completes-armis-deal/) |
-| 2026-09-15 | PM: Malaysia tidak akan menjadi laluan kargo yang membantu ketenteraan Israel | [FMT](https://www.freemalaysiatoday.com/category/nation/2026/09/15/malaysia-won-t-allow-cargo-aiding-israel-s-military-says-anwar) |
-| **2026-10-20** | **JKSN 3/2026 → pemberitahuan KSN melarang penjawat awam menggunakan Waze. PM menasihati orang awam menggunakan TuJu** | [Utusan](https://www.utusan.com.my/nasional/2026/10/penjawat-awam-dilarang-guna-aplikasi-waze/) · [FMT](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) · [Malay Mail](https://www.malaymail.com/news/malaysia/2026/10/20/from-waze-to-tuju-anwar-backs-local-app-over-data-security-concerns/239923) |
-| 2026-10-21 | Kandungan pekeliling dilaporkan | [SoyaCincau](https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/) |
+| **KJ-1** | Larangan ini **very likely** keputusan polisi yang dijustifikasikan atas alasan bidang kuasa data. **Tiada penemuan teknikal tentang Waze diterbitkan.** | Sederhana |
+| **KJ-2** | Waze **almost certainly not** tempat paling berimpak untuk menggunakan ujian kerajaan sendiri. Alat keselamatan lebih utama. | Tinggi |
+| **KJ-3** | Peraturan berasaskan kewarganegaraan pengasas tidak boleh dilaksanakan secara konsisten. **Peraturan aliran data boleh**, dan sebarang polisi yang lebih luas **very likely** berbentuk demikian. | Tinggi |
+| **KJ-4** | Terdapat **roughly even chance** untuk panduan susulan melangkaui Waze dalam 6–12 bulan. | Rendah |
+| **KJ-5** | Tindakan berperingkat dan disahkan mengurangkan pendedahan. **Penggantian mendadak mencetuskan risiko baharu.** | Tinggi |
 
 ---
 
-## Rujukan & penggredan sumber
+## Mengapa Waze, dan mengapa sekarang?
 
-| Sumber | Digunakan untuk | Gred |
-| --- | --- | --- |
-| [Utusan Malaysia, Okt 2026](https://www.utusan.com.my/nasional/2026/10/penjawat-awam-dilarang-guna-aplikasi-waze/) | Pekeliling, skop, penyelaras | B2 |
-| [SoyaCincau, 21 Okt 2026](https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/) | Butiran pekeliling | B2 |
-| [FMT, 20 Okt 2026](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) | Rasional dan petikan PM, Iraq/Iran, bilangan pengguna | B2 |
-| [Malay Mail, 20 Okt 2026](https://www.malaymail.com/news/malaysia/2026/10/20/from-waze-to-tuju-anwar-backs-local-app-over-data-security-concerns/239923) | Nasihat awam TuJu | B2 |
-| [Malay Mail, 26 Nov 2015](https://www.malaymail.com/news/malaysia/2015/11/26/umno-mp-waze-google-maps-expose-malaysia-to-possible-us-israel-threats/1012269) | Duluan Parlimen | B2 |
-| [Palo Alto Networks 8-K](https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626dex991.htm) | Pengambilalihan CyberArk, penyenaraian TASE | A1 |
-| [Cleary Gottlieb](https://www.clearygottlieb.com/news-and-insights/news-listing/google-completes-32-billion-acquisition-of-wiz) | Pengambilalihan Wiz | A1 |
-| [NBC News](https://www.nbcnews.com/tech/tech-news/microsoft-ends-israel-military-units-access-cloud-service-rcna233723) | Microsoft / IMOD | A2 |
-| [Cybereason press](https://www.cybereason.com/press/levelblue-acquires-cybereason) | Pengambilalihan LevelBlue | A1 |
-| [Verdict](https://www.verdict.co.uk/servicenow-completes-armis-deal/) | Pengambilalihan Armis | B2 |
-| [CyberArk: bio Amnon Shoshani](https://www.cyberark.com/?p=124456) | Pembetulan (CyberArk, bukan Check Point) | A1 |
-| [Kepimpinan Check Point](https://www.checkpoint.com/about-us/leadership/) | Zafrir CEO, Shwed Pengerusi Eksekutif | A1 |
-| [Fortune, 2016](https://fortune.com/2016/09/13/israeli-security-software-cato) | Kramer, Unit 8200 | B2 |
-| [Globes: Snyk](https://en.globes.co.il/en/article-open-source-security-platform-snyk-raises-70m-1001300189) | Pengasas Snyk, Unit 8200 | B2 |
-| [Wikipedia: Udi Mokady](https://en.wikipedia.org/wiki/Udi_Mokady) / [SC Magazine](https://www.scmagazine.com/feature/influencer-udi-mokady) | Mokady, risikan tentera | C2 / B3 |
-| [Calcalist: Wiz](https://www.calcalistech.com/ctechnews/article/sjltwsk2kg) | Pengasas Wiz, Unit 8200 | B2 |
-| [Globes: CrowdStrike / Adaptive Shield](https://en.globes.co.il/en/article-1001493338) · [Flow](https://en.globes.co.il/en/article-1001467832) | R&D CrowdStrike di Israel | B2 |
-| [Globes: Zscaler / Trustdome](https://en.globes.co.il/en/article-1001367956) · [Ynet: Avalor](https://ynetnews.com/business/article/sjapmefaa) | R&D Zscaler di Israel | B2 |
-| [Wikipedia: Cynet](https://en.wikipedia.org/wiki/Cynet_(company)) | Penubuhan dan ibu pejabat Cynet | C2 |
-| [Wikipedia: SentinelOne](https://en.wikipedia.org/wiki/SentinelOne) | Pengasas | C2 |
-| [Wikipedia: Cellebrite](https://en.wikipedia.org/wiki/Cellebrite) | Ibu pejabat, pemilikan | C2 |
-| [Citizen Lab, Hide and Seek (2018)](https://citizenlab.ca/2018/09/hide-and-seek-tracking-nso-groups-pegasus-spyware-to-operations-in-45-countries/) | NSO: **Malaysia tiada dalam senarai 45 negara** | A1 |
-| [Papan pemuka IoT Shadowserver (MY)](https://dashboard.shadowserver.org/statistics/iot-devices/map/?date_range=1&vendor=check+point&geo=MY&data_set=count&scale=log&auto_update=on) | Pendedahan MY agregat (Check Point, Cato, Palo Alto) | A2 |
-| [Globes: Waze / penggabungan iklan Google](https://en.globes.co.il/en/article-google-cuts-jobs-at-waze-due-to-ads-merger-1001450663) | Integrasi Waze ke dalam Google | B2 |
-| [Lowyat: pelancaran TuJu](https://forum.lowyat.net/topic/5547580) | Latar belakang TuJu | C3 |
-| Semakan dokumen undang-undang vendor oleh Rectifyq (2026) | Sebutan dalam Dasar Privasi / T&C / DPA | B3 (dalaman, belum disemak semula) |
+Bukti paling sepadan dengan **keputusan polisi yang dijustifikasikan atas alasan keselamatan data**:
+- Pekeliling menyebut Waze berpangkalan di Israel.
+- PM menyebut undang-undang Israel serta data dan pergerakan rakyat Malaysia.
+- Ia dipromosikan bersama alternatif tempatan.
+- Ia menyusuli rampasan kargo ke Israel pada 2026 dan larangan perkapalan Israel pada 2023.
 
-*Admiralty: A–F kebolehpercayaan sumber, 1–6 kredibiliti maklumat.*
+Yang menentang motif teknikal semata-mata ialah **Google Maps**, daripada syarikat induk yang sama dan jenis data yang sama, tidak disentuh. Iraq telah mengumumkan larangan Waze yang serupa, dan Iran pernah menyekat aplikasi ini. Penaakulan penuh ada di [[#Lampiran|Lampiran C]].
 
-> [!warning] **Skop & nota penggunaan wajar**
-> Kaitan dengan Israel **bukan** bukti bahawa sesuatu produk berniat jahat, mempunyai pintu belakang atau menyalahi undang-undang, dan tiada apa-apa di sini mendakwa salah laku oleh mana-mana vendor atau individu. Penilaian ini memetakan **pendedahan struktur** bagi membantu organisasi Malaysia bertindak balas terhadap polisi kerajaan yang dinyatakan. Vendor dan pembaca boleh menghantar pembetulan melalui [[tanya-rectifyq/index|Tanya Rectifyq]]. Pembetulan diterbitkan secara telus ([[methodology|Metodologi]] peraturan 7).
+> [!warning] **Nota penggunaan wajar**
+> Kaitan dengan Israel **bukan** bukti bahawa sesuatu produk berniat jahat atau mempunyai pintu belakang, dan tiada apa-apa di sini mendakwa salah laku oleh mana-mana vendor atau individu. Penilaian ini memetakan **pendedahan struktur** supaya organisasi Malaysia dapat bertindak balas terhadap polisi kerajaan yang dinyatakan. Pembetulan dialu-alukan melalui [[tanya-rectifyq/index|Tanya Rectifyq]] dan diterbitkan secara telus ([[methodology|Metodologi]]).
 
-*Kemas kini akan ditambah apabila status berubah.*
+---
+
+## Lampiran
+
+> [!info]- **A. Arahan: apa yang diketahui**
+> | Perkara | Butiran | Status |
+> | --- | --- | --- |
+> | Pengeluar | KSN Tan Sri Shamsul Azri Abu Bakar, pemberitahuan rasmi kepada perkhidmatan awam | ✅ Utusan, SoyaCincau |
+> | Asas | Mesyuarat JKSN Bil. 3/2026, dipengerusikan PM Anwar Ibrahim | ✅ |
+> | Skop | Semua anggota perkhidmatan awam, berkuat kuasa serta-merta. KSU dan Ketua Jabatan perlu memaklumkan ke bawah | ✅ |
+> | Peranti | Rasmi atau peribadi **tidak dinyatakan** | ⚪ |
+> | Penyelaras | NACSA, MKN, JPM | ✅ |
+> | Nasihat awam | PM menasihati semua rakyat Malaysia menggunakan **TuJu** (Lembaga Lebuhraya Malaysia bersama Prosignal Consortium) | ✅ FMT, Malay Mail |
+> | Rasional PM | Data peribadi dan maklumat pergerakan. Waze "tertakluk kepada undang-undang kerajaan Israel". *"Kerajaan tidak boleh berkompromi dalam soal keselamatan data dan identiti rakyat Malaysia"* (terjemahan) | ✅ FMT |
+> | Mesyuarat sama | Keselamatan MyDigital ID, risiko AI autonomi | ✅ FMT |
+> | Teks pekeliling | Tidak diterbitkan | ⚪ |
+>
+> **Latar belakang:**
+> - Waze diasaskan di Israel pada 2008 dan dibeli Google pada 2013 (~US$1.15b). Ia digabungkan ke dalam pasukan Geo Google Maps mulai 2022, dan masih mempunyai pusat pembangunan di Israel.
+> - Kira-kira **6 juta** rakyat Malaysia menggunakannya setiap bulan (anggaran 2017, FMT).
+> - Seorang Ahli Parlimen Umno membangkitkan Waze dan Google Maps sebagai risiko keselamatan AS/Israel di Parlimen pada **2015**.
+
+> [!example]- **B. Matriks vendor**
+> **Bukti:** ✅ disahkan (sumber di Lampiran I) · 🟡 dilaporkan (bio vendor atau satu sumber) · ⚪ belum dinilai.
+> **Dokumen vendor:** apa yang dinyatakan dalam **notis privasi (NP)** dan **senarai sub-pemproses (SP)** vendor sendiri tentang Israel, disemak pada **21 Okt 2026**. "Tiada sebutan" dalam notis privasi **tidak** bermaksud tiada data ke Israel. Senarai sub-pemproses dan lokasi sokongan lebih penting.
+>
+> **Tahap 1: Ibu pejabat di Israel**
+>
+> | Vendor | Kaitan | Pimpinan | Kehadiran di Malaysia | Dokumen vendor (Israel) |
+> | --- | --- | --- | --- | --- |
+> | **Check Point** | Ibu pejabat Tel Aviv ✅. Memiliki Perimeter 81 | CEO **Nadav Zafrir** (bekas komander Unit 8200) ✅. Pengerusi Eksekutif **Gil Shwed** (Unit 8200) ✅. Pengarah bebas utama Yoav Chelouche (Kor Risikan IDF) 🟡 | Pengedar JM Eastern, Ingram Micro. Peranti terdedah di Shadowserver | NP: menyebut Israel sebagai destinasi pemindahan ✅. SP: **sokongan utama diberikan dari Israel** ✅ |
+> | **Cato Networks** | Ibu pejabat Tel Aviv ✅ | CEO **Shlomo Kramer** (Unit 8200) ✅ | **Gamuda**: 77 lokasi, 2,000+ pengguna jarak jauh menggunakan Cato SASE (Sep 2024) ✅. Shadowserver | ⚪ Halaman tidak dapat dibaca secara automatik |
+> | **Radware** | Ibu pejabat Tel Aviv 🟡 | ⚪ | ⚪ | ⚪ Halaman menyekat akses automatik |
+> | **Cymulate** | Israel ✅ | ⚪ | ⚪ | NP: **tertakluk kepada undang-undang Negara Israel** ✅ |
+> | **Cybersixgill** | Israel ✅. Kini sebahagian BitSight | ⚪ | Melalui BitSight | Laman dialihkan ke BitSight |
+> | **Ionix** | Israel/AS 🟡 | ⚪ | ⚪ | NP: merujuk Undang-undang Perlindungan Privasi Israel ✅ |
+> | **Cellebrite** | Ibu pejabat Petah Tikva ✅ | ⚪ | Tiada bukti awam penggunaan di MY ✅ | ⚪ |
+>
+> **Tahap 2: Diasaskan di Israel, ibu pejabat di luar, R&D di Israel**
+>
+> | Vendor | Kaitan | Pimpinan | Kehadiran di Malaysia | Dokumen vendor (Israel) |
+> | --- | --- | --- | --- | --- |
+> | **CyberArk (kini Idira)** | Diasaskan di Israel ✅. **Milik Palo Alto Networks sejak Feb 2026, dijenamakan semula Idira pada Mei 2026** ✅ | Pengasas **Udi Mokady** (risikan tentera IDF) ✅ | ⚪ | Laman kini dialihkan ke Palo Alto Networks. NP: tiada sebutan |
+> | **SentinelOne** | Diasaskan di Israel ✅. **Mengambil alih Prompt Security (Israel), Sep 2025** ✅ | CEO Tomer Weingarten: berkhidmat dalam IDF, *bukan* dalam unit teknologi atau risikan (temu bual beliau) ✅ | ⚪ | NP: tiada sebutan. SP: **Sentinel Labs Israel Ltd (Tel Aviv)** dan Monday.com Ltd (Israel) ✅ |
+> | **Snyk** | Diasaskan di London/Tel Aviv ✅ | Pengasas Podjarny, Hefetz, Grander (Unit 8200) ✅. CEO Peter McKay | ⚪ | NP: tiada sebutan. SP: **Snyk Israel Limited, sokongan teknikal** ✅ |
+> | **Wiz** | Diasaskan di Israel ✅. **Milik Google sejak Mac 2026** ✅ | CEO **Assaf Rappaport**: Talpiot, Unit 81, kapten dalam Unit 8200 ✅. Pengasas bersama juga Unit 8200 ✅ | ⚪ | NP (Google): **Wiz Cloud Ltd ialah pengawal data bagi data dari Israel** ✅ |
+> | **Cybereason** | Diasaskan di Israel ✅. **Milik LevelBlue sejak Nov 2025** ✅ | Pengasas (Unit 8200) 🟡 | Penjual semula: Adellence | NP: tiada sebutan |
+> | **Claroty** | Diasaskan di Israel, ibu pejabat New York 🟡 | Pengasas bersama Amir Zilberstein (unit siber IDF) 🟡 | Hantaran pengedar tentang sektor awam (Ishan Tech) | NP: data **boleh dipindahkan ke AS dan/atau Israel** ✅ |
+> | **Cynet** | Diasaskan di Tel Aviv, ibu pejabat Boston ✅ | ⚪ | ⚪ | NP: merujuk undang-undang privasi Israel ✅ |
+> | **Varonis** | Pengasas Israel, R&D Herzliya 🟡 | ⚪ | ⚪ | NP: data **dipindahkan, disimpan dan diproses** di negara termasuk Israel ✅ |
+> | **Orca Security** | Diasaskan di Israel 🟡 | ⚪ | ⚪ | NP: **data peribadi dicapai dari Israel** ✅ |
+> | **Aqua Security** | Ibu pejabat Ramat Gan. **Pusat R&D di Hyderabad, India** ✅ | ⚪ | Iklan jawatan majikan MY | NP: penyedia perkhidmatan di AS, Eropah, **Israel** ✅ |
+> | **Intezer** | Diasaskan di Israel 🟡 | CEO Itai Tevet (bekas ketua IDF CERT) 🟡 | ⚪ | NP: data disimpan di AS, Eropah dan Israel 🟡 |
+> | **Morphisec** | Israel 🟡 | ⚪ | ⚪ | NP: **akses dari Israel** ✅ |
+> | **Coro** | Diasaskan di Israel 🟡 | ⚪ | ⚪ | NP: memproses data di AS, UK, EU, **Israel** ✅ |
+> | **Forter** | Diasaskan di Israel (pencegahan penipuan) 🟡 | ⚪ | ⚪ | NP: Forter Ltd, Tel Aviv ✅ |
+> | **Imperva** | Diasaskan di Israel. Milik Thales sejak 2023 | Pengasas bersama Kramer (Unit 8200) ✅ | ⚪ | NP: tiada sebutan |
+> | **Armis** | Diasaskan di Israel. **Milik ServiceNow sejak Apr 2026** ✅ | ⚪ | ⚪ | NP: tiada sebutan |
+> | **Guardicore** | Diasaskan di Israel. Milik Akamai sejak 2021 | ⚪ | ⚪ | ⚪ |
+>
+> **Tahap 3: Bukan Israel, dengan pengambilalihan atau R&D di Israel**
+>
+> | Vendor | Kaitan | Kehadiran di Malaysia | Dokumen vendor (Israel) |
+> | --- | --- | --- | --- |
+> | **Palo Alto Networks** | Pengasas/CTO **Nir Zuk** (Unit 8200) ✅. Pengambilalihan Israel termasuk Cyvera (Cortex XDR), Twistlock, Talon, Dig, **CyberArk** ✅ | Ya. Shadowserver | NP: tiada sebutan |
+> | **Google** | **Waze**, Siemplify, **Wiz** ✅. R&D di Israel. Project Nimbus ✅ | Penyedia Rangka Kerja Awan kerajaan ✅ | NP: tiada sebutan (bagi Wiz, lihat di atas) |
+> | **Microsoft** | R&D di Israel. Adallom, Aorato, Hexadite, CyberX. Memutuskan sebahagian perkhidmatan Azure IMOD, Sep 2025 ✅ | Penyedia Rangka Kerja Awan kerajaan ✅ | NP: tiada sebutan |
+> | **AWS** | Annapurna Labs (reka bentuk cip Israel). Project Nimbus ✅ | Penyedia Rangka Kerja Awan kerajaan ✅ | ⚪ |
+> | **CrowdStrike** | Pusat R&D di Israel (Ramat Gan). Preempt, Bionic, Flow, Adaptive Shield, **Seraphic (diumumkan Jan 2026)** ✅ | ⚪ | NP: syarikat sekutu **CrowdStrike Israel Ltd** dan **Flow Security Ltd (Israel)** ✅ |
+> | **Zscaler** | R&D di Israel. Canonic, Trustdome, Avalor ✅ | ⚪ | SP: **sokongan diberikan dari Israel** antara negara lain ✅ |
+> | **Rapid7** | Alcide, IntSights (2021), Minerva Labs (2023) ✅ | ⚪ | NP: tiada sebutan |
+> | **Tenable** | Indegy (2019, Tenable OT), Ermetic (2023) ✅ | ⚪ | NP: tiada sebutan |
+> | **Okta** | Spera (2023), Axiom (2025). Pusat R&D di Israel ✅ | ⚪ | NP: tiada sebutan |
+> | **BitSight** | Cybersixgill (2024) ✅ | Pengedar TecD. Rakan kongsi Chubb MY | NP: tiada sebutan |
+> | **Cisco** | R&D di Israel. Portshift (2020), Lightspin (2023) ✅ | Ya | NP: tiada sebutan |
+> | **IBM** | IBM Research Haifa. Trusteer 🟡 | Ya | NP: tiada sebutan |
+>
+> **Tiada kaitan Israel yang ketara dikenal pasti:** Fortinet, Trend Micro, Recorded Future (Mastercard), Capgemini. Notis privasi mereka tidak menyebut Israel.
+
+> [!question]- **C. Mengapa Waze? Hipotesis bersaing**
+> | Bukti | H1 Isyarat polisi | H2 Bidang kuasa data | H3 Penemuan teknikal | H4 Semakan lebih luas | H5 Promosi aplikasi tempatan |
+> | --- | --- | --- | --- | --- | --- |
+> | Pekeliling menyebut "berpangkalan di Israel", tiada penemuan teknikal | K | K | T | N | N |
+> | PM: "tertakluk kepada undang-undang kerajaan Israel", data dan pergerakan | N | K | N | N | N |
+> | Diputuskan di JKSN, diselaraskan oleh NACSA | N | K | K | K | N |
+> | Google Maps (syarikat induk sama) tidak disentuh | K | N | **T** | N | N |
+> | Rampasan kargo 2026, larangan perkapalan 2023 | K | N | N | K | N |
+> | Hanya Waze dinamakan | K | N | N | T | N |
+> | TuJu dipromosikan pada hari yang sama | K | N | N | N | K |
+> | MyDigital ID dalam agenda yang sama | N | K | N | K | N |
+> | Duluan Iraq dan Iran | K | K | N | N | N |
+> | **Ketidakselarasan** | **0** | **0** | **2** | **1** | **0** |
+>
+> *K = konsisten · T = tidak konsisten · N = neutral.*
+>
+> **Peguam syaitan:** jika bidang kuasa data benar-benar pendorongnya, undang-undang AS (cth. CLOUD Act) ke atas Google Maps dan penyedia awan kerajaan juga sepatutnya termasuk. Sikap selektif ini menunjukkan hujah bidang kuasa menjustifikasikan pilihan polisi, bukan hasil audit aliran data. Kedua-duanya mungkin benar, dan bagi pasukan pertahanan yang berguna ialah **ujian ini kini terbuka dan boleh digunakan ke atas pembekal**.
+
+> [!note]- **D. Semakan andaian utama**
+> | Andaian | Kukuh? | Sebab |
+> | --- | --- | --- |
+> | "Berkait dengan Israel" = risiko yang boleh diukur | ⚠️ Sebahagian | Bidang kuasa data boleh diukur. Kaitan semata-mata bukan bukti niat jahat |
+> | Perkhidmatan pengasas dalam Unit 8200 ialah isyarat kuat | ❌ | Kerahan tentera hampir menyeluruh. Konteks sahaja |
+> | Membuang vendor beribu pejabat Israel membuang kod Israel | ❌ | Kebanyakannya kini milik AS |
+> | Tiada sebutan Israel dalam dasar privasi = tiada data di sana | ❌ | Semak sub-pemproses DPA dan akses sokongan. SentinelOne dan Snyk menunjukkan jurangnya |
+> | Jaminan vendor sudah memadai | ⚠️ | Lebih lemah bagi vendor beribu pejabat Israel, kerana kontrak tidak boleh mengatasi undang-undang negara asal |
+> | Alternatif tempatan lebih selamat | ⚠️ | Belum dinilai. "Tempatan" ≠ "disemak" |
+
+> [!note]- **E. Tahap kaitan**
+> | Tahap | Definisi | Contoh |
+> | --- | --- | --- |
+> | 1 | Ibu pejabat atau kawalan di Israel | Check Point, Cato, Radware, Cellebrite |
+> | 2 | Diasaskan di Israel, ibu pejabat di luar, R&D teras di Israel | SentinelOne, Snyk, Claroty, Varonis |
+> | 3 | Firma bukan Israel dengan pengambilalihan atau R&D Israel | Palo Alto, Google, CrowdStrike, Zscaler |
+> | 4 | Kontrak dengan kerajaan atau tentera Israel | Google & AWS (Nimbus), Microsoft (IMOD) |
+>
+> **Risiko ≈ tahap × tahap akses × destinasi data.**
+
+> [!note]- **F. Penunjuk untuk dipantau**
+> | Jika kita lihat… | Maksudnya |
+> | --- | --- |
+> | Teks pekeliling diterbitkan, atau pekeliling kedua menamakan produk lain | Semakan lebih luas sedang berjalan (KJ-4 ↑) |
+> | Panduan NACSA / Akta 854 tentang bidang kuasa data atau asal vendor | Peraturan aliran data sedang dibentuk (KJ-3 ✓) |
+> | Pekeliling perolehan tentang lokasi data pembekal | Semakan lebih luas (KJ-4 ↑) |
+> | Kenyataan teknikal tentang aliran data Waze | Motif keselamatan (KJ-1 ↓) |
+> | Google Maps atau aplikasi lain turut disekat | Ujian bidang kuasa lebih luas |
+> | Vendor menerbitkan komitmen residensi data Malaysia | Pasaran menyesuaikan diri (KJ-3 ✓) |
+> | Tiada langkah melangkaui Waze dalam 6–12 bulan | Isyarat sahaja (KJ-4 ↓) |
+>
+> **Masih belum diketahui:** teks tepat dan skop peranti pekeliling, dan penggunaan sebenar vendor di atas dalam kerajaan. Kehadiran di Malaysia bermaksud kehadiran pasaran, bukan penggunaan kerajaan yang disahkan.
+
+> [!note]- **G. Kaedah & bahasa anggaran**
+> **Teknik digunakan:**
+> - Semakan Andaian Utama
+> - Analisis Hipotesis Bersaing
+> - Pengkelasan tahap kaitan berstruktur
+> - Penggredan sumber Admiralty
+> - Peguam Syaitan
+> - Penunjuk & Amaran
+>
+> **Kebarangkalian (ICD 203, istilah asal Bahasa Inggeris):** almost no chance (01–05%) · very unlikely (05–20%) · unlikely (20–45%) · roughly even chance (45–55%) · likely (55–80%) · very likely (80–95%) · almost certainly (95–99%). **Keyakinan** mencerminkan kualiti sumber, bukan kebarangkalian.
+
+> [!note]- **H. Garis masa**
+> | Tarikh | Peristiwa | Pautan |
+> | --- | --- | --- |
+> | 2013-06 | Google mengambil alih Waze | [FMT](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) |
+> | 2015-11-26 | Ahli Parlimen Umno membangkitkan Waze dan Google Maps sebagai ancaman AS/Israel di Parlimen | [Malay Mail](https://www.malaymail.com/news/malaysia/2015/11/26/umno-mp-waze-google-maps-expose-malaysia-to-possible-us-israel-threats/1012269) |
+> | 2021-02 | Microsoft, Google, Amazon, TM diluluskan sebagai penyedia awan sektor awam | [NST](https://www.nst.com.my/news/nation/2021/02/666988/four-csps-build-manage-hyper-scale-data-centres-cloud-services) |
+> | 2022-05 | Perjanjian Rangka Kerja Awan ditandatangani (MAMPU) | [Business Today](https://www.businesstoday.com.my/2022/05/09/public-sector-data-centre-upgraded-to-mygovcloud/) |
+> | 2023-12 | Larangan kapal milik/berbendera Israel dan ZIM | [CNN](https://www.cnn.com/2023/12/20/asia/malaysia-israel-shipping-ban-palestine-support-intl-hnk) |
+> | 2025-09 | Microsoft menyahaktifkan perkhidmatan Azure IMOD tertentu | [NBC News](https://www.nbcnews.com/tech/tech-news/microsoft-ends-israel-military-units-access-cloud-service-rcna233723) |
+> | 2025-11-25 | LevelBlue melengkapkan pengambilalihan Cybereason | [Cybereason](https://www.cybereason.com/press/levelblue-acquires-cybereason) |
+> | 2026-02-11 | Palo Alto Networks melengkapkan pengambilalihan CyberArk | [SEC 8-K](https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626dex991.htm) |
+> | 2026-03-11 | Google melengkapkan pengambilalihan Wiz | [Cleary Gottlieb](https://www.clearygottlieb.com/news-and-insights/news-listing/google-completes-32-billion-acquisition-of-wiz) |
+> | 2026-04-20 | ServiceNow melengkapkan pengambilalihan Armis | [Verdict](https://www.verdict.co.uk/servicenow-completes-armis-deal/) |
+> | 2026-09-15 | PM: tiada kargo yang membantu ketenteraan Israel melalui Malaysia | [FMT](https://www.freemalaysiatoday.com/category/nation/2026/09/15/malaysia-won-t-allow-cargo-aiding-israel-s-military-says-anwar) |
+> | **2026-10-20** | **Waze dilarang untuk penjawat awam. PM mempromosikan TuJu** | [Utusan](https://www.utusan.com.my/nasional/2026/10/penjawat-awam-dilarang-guna-aplikasi-waze/) · [FMT](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) · [Malay Mail](https://www.malaymail.com/news/malaysia/2026/10/20/from-waze-to-tuju-anwar-backs-local-app-over-data-security-concerns/239923) · [SoyaCincau](https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/) |
+
+> [!quote]- **I. Rujukan & penggredan sumber**
+> | Sumber | Digunakan untuk | Gred |
+> | --- | --- | --- |
+> | [Utusan Malaysia](https://www.utusan.com.my/nasional/2026/10/penjawat-awam-dilarang-guna-aplikasi-waze/) | Pekeliling, skop | B2 |
+> | [SoyaCincau](https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/) | Butiran pekeliling | B2 |
+> | [FMT](https://www.freemalaysiatoday.com/category/nation/2026/10/20/anwar-advises-against-using-waze-over-israel-linked-security-concerns) | Rasional PM, Iraq/Iran, bilangan pengguna | B2 |
+> | [Malay Mail](https://www.malaymail.com/news/malaysia/2026/10/20/from-waze-to-tuju-anwar-backs-local-app-over-data-security-concerns/239923) | Nasihat TuJu | B2 |
+> | [Palo Alto Networks 8-K](https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626dex991.htm) | CyberArk | A1 |
+> | [24/7 Wall St](https://247wallst.com/investing/2026/05/15/oppenheimer-hikes-palo-alto-networks-price-target-to-275-cyberark-becomes-idira-identity-security-just-got-real/) | CyberArk → Idira | B2 |
+> | [Cleary Gottlieb](https://www.clearygottlieb.com/news-and-insights/news-listing/google-completes-32-billion-acquisition-of-wiz) | Wiz | A1 |
+> | [NBC News](https://www.nbcnews.com/tech/tech-news/microsoft-ends-israel-military-units-access-cloud-service-rcna233723) | Microsoft / IMOD | A2 |
+> | [Cybereason](https://www.cybereason.com/press/levelblue-acquires-cybereason) | LevelBlue | A1 |
+> | [Verdict](https://www.verdict.co.uk/servicenow-completes-armis-deal/) | Armis | B2 |
+> | [Cato Networks: Gamuda](https://www.catonetworks.com/news/gamuda-transforms-it-operations-with-cato/) · [IT Security Guru](https://www.itsecurityguru.org/2024/09/24/gamuda-transforms-it-operations-with-cato-networks/) | Penggunaan Gamuda | B2 (vendor) |
+> | [Kepimpinan Check Point](https://www.checkpoint.com/about-us/leadership/) | Zafrir, Shwed, Chelouche | A1 |
+> | [Wikipedia: Yoav Chelouche](https://en.wikipedia.org/wiki/Yoav_Chelouche) | Kor Risikan | C2 |
+> | [Fortune](https://fortune.com/2016/09/13/israeli-security-software-cato) | Kramer | B2 |
+> | [Globes: Snyk](https://en.globes.co.il/en/article-open-source-security-platform-snyk-raises-70m-1001300189) | Pengasas Snyk | B2 |
+> | [Wikipedia: Udi Mokady](https://en.wikipedia.org/wiki/Udi_Mokady) | Mokady | C2 |
+> | [Wikipedia: Assaf Rappaport](https://en.wikipedia.org/wiki/Assaf_Rappaport) · [Calcalist: Wiz](https://www.calcalistech.com/ctechnews/article/sjltwsk2kg) | Rappaport, pengasas Wiz | B2 |
+> | [Calcalist: temu bual Weingarten](https://www.calcalistech.com/ctech/articles/0,7340,L-3917654,00.html) | Perkhidmatan Weingarten | B2 |
+> | [SentinelOne 10-Q](https://www.sec.gov/Archives/edgar/data/1583708/000158370825000159/s-20251031.htm) | Pengambilalihan Prompt Security | A1 |
+> | [Halaman hubungan Aqua Security](https://www.aquasec.com/about-us/contact-us/) | R&D Hyderabad | A1 |
+> | [Globes: CrowdStrike](https://en.globes.co.il/en/article-1001493338) · [Flow](https://en.globes.co.il/en/article-1001467832) · [SecurityWeek: Seraphic](https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/) | CrowdStrike Israel | B2 |
+> | [Globes: Zscaler](https://en.globes.co.il/en/article-1001367956) · [Ynet: Avalor](https://ynetnews.com/business/article/sjapmefaa) | Zscaler Israel | B2 |
+> | [Calcalist: Lightspin](https://calcalistech.com/ctechnews/article/sk11dn511113) | Cisco | B2 |
+> | [Globes: Axiom](https://en.globes.co.il/en/article-1001519918) · [SecurityWeek: Spera](https://www.securityweek.com/okta-to-acquire-israeli-startup-spera-security/) | Okta | B2 |
+> | [Globes: Indegy](https://en.globes.co.il/en/article-1001309487) · [Globes: Ermetic](https://en.globes.co.il/en/article-tenable-confirms-acquisition-of-israeli-cloud-security-co-ermetic-1001457403) | Tenable | B2 |
+> | [Boston Globe: IntSights](https://www.bostonglobe.com/2021/07/19/business/rapid7-acquires-israel-founded-cybersecurity-firm-335-million) · [Calcalist: Rapid7](https://www.calcalistech.com/tags/Rapid_7) | Rapid7 | B2 |
+> | [Wikipedia: Cynet](https://en.wikipedia.org/wiki/Cynet_(company)) · [SentinelOne](https://en.wikipedia.org/wiki/SentinelOne) · [Cellebrite](https://en.wikipedia.org/wiki/Cellebrite) | Latar belakang syarikat | C2 |
+> | Notis privasi vendor: [Check Point](https://www.checkpoint.com/privacy/) · [Cymulate](https://cymulate.com/privacy-policy/) · [Ionix](https://www.ionix.io/privacy-policy/) · [Claroty](https://claroty.com/privacy-policy) · [Cynet](https://www.cynet.com/privacy-policy/) · [Varonis](https://www.varonis.com/privacy-policy) · [Orca](https://orca.security/privacy-policy/) · [Aqua](https://www.aquasec.com/privacy/) · [Morphisec](https://www.morphisec.com/privacy-policy) · [Coro](https://www.coro.net/privacy-policy) · [Forter](https://www.forter.com/privacy-policy/) · [CrowdStrike](https://www.crowdstrike.com/en-us/legal/privacy-notice/) · [Google (Wiz)](https://cloud.google.com/terms/cloud-acquisitions-privacy-notice) | Sebutan Israel, disemak 21 Okt 2026 | A1 |
+> | Senarai sub-pemproses: [Check Point](https://www.checkpoint.com/sub-processors-list/) · [SentinelOne](https://www.sentinelone.com/legal/sentinelone-sub-processors/) · [Snyk](https://snyk.io/policies/subprocessors/) · [Zscaler](https://www.zscaler.com/privacy-compliance/subprocessors) | Entiti dan sokongan Israel | A1 |
+> | [Citizen Lab (2018)](https://citizenlab.ca/2018/09/hide-and-seek-tracking-nso-groups-pegasus-spyware-to-operations-in-45-countries/) | NSO: Malaysia tiada dalam 45 negara | A1 |
+> | [Shadowserver (MY)](https://dashboard.shadowserver.org/statistics/iot-devices/map/?date_range=1&vendor=check+point&geo=MY&data_set=count&scale=log&auto_update=on) | Pendedahan MY agregat | A2 |
+> | [Globes: Waze](https://en.globes.co.il/en/article-google-cuts-jobs-at-waze-due-to-ads-merger-1001450663) | Waze dalam Google | B2 |
+>
+> *Admiralty: A–F kebolehpercayaan sumber, 1–6 kredibiliti maklumat.*
