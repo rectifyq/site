@@ -15,6 +15,7 @@ Reviewed annually; changelog at the bottom. Every published entry carries a `pir
 | PIR-04 | Which phishing and scam campaigns are targeting the Malaysian public (APK scams, banking lures)? | Public, awareness teams | <!-- n --> |
 | PIR-05 | Which ICS/OT threats touch equipment and protocols common in Malaysian CNII? | CNII operators, OT engineers | <!-- n --> |
 | PIR-06 | Which ransomware/extortion groups are claiming Malaysian victims, and what are their entry paths? | CISO, management | <!-- n --> |
+| PIR-07 | Which technology suppliers in Malaysian government, GLC and CNII environments carry foreign ownership or jurisdiction exposure, where does Malaysian data flow, and how is national policy (JKSN, NACSA, Act 854) changing in response? | Gov/GLC/CNII CISO, procurement, policy | <!-- n --> |
 
 <!-- ADJUST: align with your internal PIR set if it differs; update counts quarterly (manual, or via n8n later) -->
 
@@ -27,6 +28,7 @@ mindmap
     PIR-04 Public phishing/scams
     PIR-05 ICS/OT threats
     PIR-06 Ransomware/extortion
+    PIR-07 Supply chain & tech sovereignty
 ```
 
 ## How to use this page
@@ -38,3 +40,4 @@ Map these against your own organization's PIRs. Where they overlap, our tags (`p
 | Date | Change |
 | --- | --- |
 | 2026-01 | PIR set published; PIR-05 (ICS/OT) elevated to match MISP-ICS-OT feed depth |
+| 2026-10 | PIR-07 (supply chain & tech sovereignty) added after the JKSN 3/2026 Waze directive |
